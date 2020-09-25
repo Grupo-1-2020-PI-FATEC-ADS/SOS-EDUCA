@@ -20,7 +20,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com:
 * Relatório de Vendas
 
 ## Layout do Site
-(link)
+[Figma](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width)
 
 ## Sprints
 SPRINT 0 - [Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
