@@ -8,7 +8,7 @@
 
 
 ## O Projeto
-(texto)
+O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos e disponibilizar o melhor conteúdo didático a um clique de distância.
 
 ## Proposta
 (texto)
