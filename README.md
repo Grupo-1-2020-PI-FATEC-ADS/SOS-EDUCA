@@ -1,3 +1,10 @@
-# SOS-EDUCA
+# Projeto Integrador (PI) - 1º ADS - A
 
--Teste
+#  Equipe
+* Bryan
+
+# O Projeto
+
+# Proposta
+
+# Sprints
