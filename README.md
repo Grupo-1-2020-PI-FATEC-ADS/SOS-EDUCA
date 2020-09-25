@@ -11,7 +11,13 @@
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos e disponibilizar o melhor conteúdo didático a um clique de distância.
 
 ## Proposta
-(texto)
+Desenvolver um Site de Vendas de Materiais Didáticos com:
+* Materiais do tipo texto, vídeo e jogo
+* Conteúdos de: Português, Matemática, Inglês, Arquitetura e Organização de Computadores, Algoritmo e Lógica de Programação, Laboratório de Hardware
+* Aba de Vendas com os materiais
+* Cadastro de Clientes
+* Saldo de Créditos
+* Relatório de Vendas
 
 ## Layout do Site
 (link)
