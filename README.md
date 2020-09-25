@@ -7,7 +7,7 @@
 * Beatriz Nonato
 * Raphael Lisboa
 * Jefferson Reis
-* Jeferson Henrique [@Linkedin] (https://www.linkedin.com/in/jeferson-silva-249884149/)
+* Jeferson Henrique  
 
 # O Projeto
 
