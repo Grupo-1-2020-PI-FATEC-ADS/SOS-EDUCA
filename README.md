@@ -7,12 +7,12 @@
 
 
 #  Equipe
-**Scrum Master:** Beatriz Nonato
-* Nayara Lopes
-* Bryan Ribeiro [@Linkedin](https://www.linkedin.com/in/bryanrribeiro/)
-* Raphael Lisboa
-* Jefferson Reis
-* Jeferson Henrique  
+* **Scrum Master:** Beatriz Nonato
+* **Desenvolvedor 1:** Nayara Lopes
+* **Desenvolvedor 2:** Bryan Ribeiro [@Linkedin](https://www.linkedin.com/in/bryanrribeiro/)
+* **Desenvolvedor 3:** Raphael Lisboa
+* **Desenvolvedor 4:** Jefferson Reis
+* **Desenvolvedor 5:** Jeferson Henrique  
 
 # O Projeto
 
