@@ -2,7 +2,7 @@
 
 
 #  Equipe
-* Bryan Ribeiro
+* Bryan Ribeiro [@Linkedin](https://www.linkedin.com/in/bryanrribeiro/)
 * Nayara Lopes
 * Beatriz Nonato
 * Raphael Lisboa
