@@ -28,7 +28,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com:
 * Estratégias de Marketing
 * Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.
 
-SPRINT 0 - [Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
+> SPRINT 0 - [Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
 
 
 ##  Equipe
