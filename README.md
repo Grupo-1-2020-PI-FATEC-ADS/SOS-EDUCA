@@ -7,9 +7,9 @@
 
 
 #  Equipe
-* Bryan Ribeiro [@Linkedin](https://www.linkedin.com/in/bryanrribeiro/)
+**Scrum Master: Beatriz Nonato
 * Nayara Lopes
-* Beatriz Nonato
+* Bryan Ribeiro [@Linkedin](https://www.linkedin.com/in/bryanrribeiro/)
 * Raphael Lisboa
 * Jefferson Reis
 * Jeferson Henrique  
