@@ -31,7 +31,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com:
 > SPRINT 0 - [Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
 
 
-##  Equipe
+## Equipe
 * **Scrum Master:** Beatriz Nonato [@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)
 * **Desenvolvedor 1:** Nayara Lopes [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)
 * **Desenvolvedor 2:** Bryan Ribeiro [@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)
