@@ -25,7 +25,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 * Saldo de Créditos;
 * Relatório de Vendas;
 
-## Entrega 1 - Sprint 0
+## Entrega 1 - [SPRINT 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
 * Definição do grupo / Divisão das Tarefas
 * Elaboração do Layout do site no PowerPoint
 * Adaptação do site para o Figma
