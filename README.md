@@ -23,7 +23,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 **Requisitos:**
 * Materiais do tipo texto, vídeo e jogo;
 * Login/Cadastro de usuário;
-* Área do Administrador para envio dos conteúdos;
+* Área do Administrador;
 * Carrinho de Compras;
 * Saldo de Créditos;
 * Relatório de Vendas;
