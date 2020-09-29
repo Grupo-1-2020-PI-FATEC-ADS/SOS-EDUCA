@@ -11,14 +11,22 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
 
 ## Proposta
-Desenvolver um Site de Vendas de Materiais Didáticos com:
-* Materiais do tipo texto, vídeo e jogo
-* Conteúdos de: Português, Matemática, Inglês, Arquitetura e Organização de Computadores, Algoritmo e Lógica de Programação, Laboratório de Hardware
-* Aba de Vendas com os materiais
-* Cadastro de Clientes
-* Saldo de Créditos
-* Relatório de Vendas
+Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
+* Português (Concordância e Pontuação)
+* Matemática (Gráficos e Lógica)
+* Inglês
+* Lógica de Programação
+* Laboratório de Hardware
+* Arquitetura e Organização de Computadores
+
+###### Requisitos:
+* Materiais do tipo texto, vídeo e jogo;
+* Login/Cadastro de usuário;
+* Área do Administrador para envio dos conteúdos;
+* Carrinho de Compras;
+* Saldo de Créditos;
+* Relatório de Vendas;
 
 ## Entrega 1 - Sprint 0
 * Definição do grupo / Divisão das Tarefas
