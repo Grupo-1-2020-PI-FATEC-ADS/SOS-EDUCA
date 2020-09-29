@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{background-color: green}
+	</style>
+</head>
+<body>
+
+
+<h2>Bem Vindo ao Angular JS</h1>
+<p>Click na Notícia desejada!!!</p>
+<a class="record"
+   ng-href="#!/profile/{{ record.id }}"
+   ng-animate-ref="{{ record.id }}"
+   ng-repeat="record in records">
+  {{ record.title }}
+</a></body>
+</html>>
