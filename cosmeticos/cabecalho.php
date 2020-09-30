@@ -43,7 +43,7 @@ Lenne cosmetics</title>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home</a></li>
+        <li class="active"><a href="index.php">Início</a></li>
         <li><a href="cadastro_cliente.php">Cadastre-se</a></li>
        
         <li><a href="login_area_restrita.php">Login Usuário</a></li>
