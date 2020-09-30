@@ -46,7 +46,7 @@ Lenne cosmetics</title>
         <li class="active"><a href="index.php">Home</a></li>
         <li><a href="cadastro_cliente.php">Cadastre-se</a></li>
        
-        <li><a href="login_area_restrita.php">ÁREA RESTRITA</a></li>
+        <li><a href="login_area_restrita.php">Login Usuário</a></li>
         <li><a href="contatos.php">Contatos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-left">
