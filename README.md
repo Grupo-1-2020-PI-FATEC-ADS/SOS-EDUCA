@@ -32,7 +32,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
 <img src = "/Sprint_0/Planejamento.png" width="650" height="400" />
 
-- [x] ([Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0))
+- [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0)
 - [ ] Sprint 1
 - [ ] Sprint 2
 - [ ] Sprint 3
