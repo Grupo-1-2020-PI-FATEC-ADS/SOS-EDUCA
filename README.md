@@ -31,7 +31,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## Proposta
 
-Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:
+Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:<br><br>
 
  > Conteúdos
 
@@ -40,7 +40,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
  - [x] Inglês
  - [x] Lógica de Programação
  - [x] Laboratório de Hardware
- - [x] Arquitetura e Organização de Computadores
+ - [x] Arquitetura e Organização de Computadores <br><br>
 
  > Requisitos
 
@@ -49,7 +49,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
  - [x]  Área do Administrador;
  - [x]  Carrinho de Compras;
  - [x]  Saldo de Créditos;
- - [x]  Relatório de Vendas;
+ - [x]  Relatório de Vendas;<br><br>
 
 ## Entregas Previstas
 
@@ -62,12 +62,12 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 ## Entrega 1 - SPRINT 0
 
-:one: Definição do grupo / Divisão das Tarefas <br>
-:two: Elaboração do Layout do site no PowerPoint <br>
-:three: Adaptação do site para o Figma <br>
-:four: Layout validado por possíveis consumidores <br>
-:five: Estratégias de Marketing <br>
-:six: Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
+- [x] Definição do grupo / Divisão das Tarefas <br>
+- [x] Elaboração do Layout do site no PowerPoint <br>
+- [x]  Adaptação do site para o Figma <br>
+- [x]  Layout validado por possíveis consumidores <br>
+- [x]  Estratégias de Marketing <br>
+- [x]  Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
 
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
