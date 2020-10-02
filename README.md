@@ -18,12 +18,12 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 * Arquitetura e Organização de Computadores
 
 **Requisitos:**
-* Materiais do tipo texto, vídeo e jogo;
-* Login/Cadastro de usuário;
-* Área do Administrador;
-* Carrinho de Compras;
-* Saldo de Créditos;
-* Relatório de Vendas;
+- [x] Materiais do tipo texto, vídeo e jogo;
+- [x]  Login/Cadastro de usuário;
+- [x]  Área do Administrador;
+- [x]  Carrinho de Compras;
+- [x]  Saldo de Créditos;
+- [x]  Relatório de Vendas;
 
 ## Entregas Previstas
 
