@@ -1,7 +1,7 @@
-<h4 align="center"> Projeto Integrador (PI) - 1º ADS - A </h4>
+<h1 align="center"> <img src = "/Sprint_0/<Imagens/S.O.S%20(21).png" width="300" height="300"> </h1>
 
+<h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
 
-<h1 align="center"> SOS Educa  🆘📚 </h1>
 
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
@@ -11,7 +11,7 @@
   <a href ="#equipe"> Time </a> 
 </p>
 
-<h1 align="center"> <img src = "/Sprint_0/<Imagens/sos.png" width="550" height="350"> </h1>
+
 
 
 
