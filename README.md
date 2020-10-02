@@ -11,8 +11,8 @@
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#entregas-previstas"> Planejamento </a>  • 
-  <a href ="#entrega-1---sprint-0"> Entregas </a>  • 
-  <a href ="#equipe"> Equipe </a> 
+  <a href ="#entrega-1---sprint-0"> Sprint 0 </a>  • 
+  <a href ="#equipe"> Time </a> 
 </p>
 
 
@@ -78,8 +78,8 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 | -------- |-------- |-------- |-------- |-------- |
 |**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/<Imagens/Beatriz.png" width="30" height="30"/>|
 |**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/<Imagens/Nayara.png" width="30" height="30"/>|
-|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/<Imagens/Raphael.png" width="30" height="30" />|
-|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/<Imagens/jefferson.png" width="30" height="30" />|
+|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/Sprint_0/<Imagens/Raphael.png" width="30" height="30" />|
+|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Sprint_0/<Imagens/jefferson.png" width="30" height="30" />|
 |**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/<Imagens/Jeferson.png" width="30" height="30" />|
 |**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Sprint_0/<Imagens/Bryan.png" width="30" height="30" />|
 
