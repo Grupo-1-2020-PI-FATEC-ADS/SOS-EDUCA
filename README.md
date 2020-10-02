@@ -4,10 +4,10 @@
 <h1 align="center"> SOS Educa  🆘📚 </h1>
 
 <p align="center">
-  <a href ="#o-projeto"> Projeto </a>  | 
-  <a href ="#proposta"> Proposta </a>  | 
-  <a href ="#entregas-previstas"> Planejamento </a>  | 
-  <a href ="#entrega-1---sprint-0"> Sprint 0 </a>  | 
+  <a href ="#o-projeto"> Projeto </a>  • 
+  <a href ="#proposta"> Proposta </a>  • 
+  <a href ="#entregas-previstas"> Planejamento </a>  • 
+  <a href ="#entrega-1---sprint-0"> Sprint 0 </a>  • 
   <a href ="#equipe"> Time </a> 
 </p>
 
