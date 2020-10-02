@@ -25,6 +25,10 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 * Saldo de Créditos;
 * Relatório de Vendas;
 
+## Entregas
+
+<img src=”SOS-EDUCA/Sprint_0/Planejamento.png”>
+
 ## Entrega 1 - SPRINT 0
 * Definição do grupo / Divisão das Tarefas
 * Elaboração do Layout do site no PowerPoint
@@ -37,7 +41,6 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
 
 > SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0))
-
 
 ## Equipe
 * **Scrum Master:** Beatriz Nonato [@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)
