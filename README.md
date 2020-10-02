@@ -57,8 +57,8 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 | -------- |-------- |-------- |-------- |-------- |
 |Beatriz Nonato|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|GitHub|<img src = "/Sprint_0/Beatriz.png" width="25" height="25" />|
 |Nayara Lopes|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|GitHub|<img src = "/Sprint_0/Nayara.png" width="25" height="25" />|
-|Bryan Ribeiro|Desenvolvedor 2|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|GitHub|<img src = "/Sprint_0/Bryan.png" width="25" height="25" />|
-|Raphael Lisboa|Desenvolvedor 3| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|GitHub|<img src = "/Sprint_0/Raphael.png" width="25" height="25" />|
-|Jefferson Reis|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|GitHub|<img src = "/Sprint_0/jefferson.png" width="25" height="25" />|
-|Jeferson Henrique|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|GitHub|<img src = "/Sprint_0/Jeferson.png" width="25" height="25" />|
+|Raphael Lisboa|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|GitHub|<img src = "/Sprint_0/Raphael.png" width="25" height="25" />|
+|Jefferson Reis|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|GitHub|<img src = "/Sprint_0/jefferson.png" width="25" height="25" />|
+|Jeferson Henrique|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|GitHub|<img src = "/Sprint_0/Jeferson.png" width="25" height="25" />|
+|Bryan Ribeiro|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|GitHub|<img src = "/Sprint_0/Bryan.png" width="25" height="25" />|
 
