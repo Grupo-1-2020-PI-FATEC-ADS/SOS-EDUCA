@@ -27,7 +27,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
 ## Entregas Previstas
 
-<img src = "/Sprint_0/Planejamento.png" width="500" height="500" />
+<img src = "/Sprint_0/Planejamento.png" width="650" height="500" />
 
 ## Entrega 1 - SPRINT 0
 * Definição do grupo / Divisão das Tarefas
