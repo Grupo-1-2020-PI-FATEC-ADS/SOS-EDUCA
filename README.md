@@ -25,9 +25,9 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 * Saldo de Créditos;
 * Relatório de Vendas;
 
-## Entregas
+## Entregas Previstas
 
-<img src=”SOS-EDUCA/Sprint_0/Planejamento.png”>
+<img src = "SOS-EDUCA/Sprint_0/Planejamento.png">
 
 ## Entrega 1 - SPRINT 0
 * Definição do grupo / Divisão das Tarefas
