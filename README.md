@@ -1,7 +1,11 @@
-<h1 align="center"> <img src = "/Sprint_0/<Imagens/S.O.S%20(21).png" width="300" height="300"> </h1>
 
-<h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
+<p align="center">
+      <img src="/Sprint_0/<Imagens/S.O.S%20(21).png" width="300" height="300">
+      <h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
+<p align="center">
 
+
+<hr>
 
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
