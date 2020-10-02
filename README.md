@@ -53,7 +53,7 @@ Desenvolver um Site de Vendas de Materiais Did√°ticos com as seguintes caracter√
 
 ## Entregas Previstas
 
-<h1 align="center"> <img src = "/Sprint_0/<Imagens/planejamento.png" width="500" height="300" /> </h1>
+<img src = "/Sprint_0/<Imagens/planejamento.png" width="500" height="250" /> 
 
 - [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0) :heavy_check_mark:
 - [ ] Sprint 1 :warning:
