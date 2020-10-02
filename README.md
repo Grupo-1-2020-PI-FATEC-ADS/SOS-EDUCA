@@ -10,12 +10,12 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 ## Proposta
 Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
-* Português (Concordância e Pontuação)
-* Matemática (Gráficos e Lógica)
-* Inglês
-* Lógica de Programação
-* Laboratório de Hardware
-* Arquitetura e Organização de Computadores
+- [x] Português (Concordância e Pontuação)
+- [x] Matemática (Gráficos e Lógica)
+- [x] Inglês
+- [x] Lógica de Programação
+- [x] Laboratório de Hardware
+- [x] Arquitetura e Organização de Computadores
 
 **Requisitos:**
 - [x] Materiais do tipo texto, vídeo e jogo;
@@ -28,6 +28,11 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 ## Entregas Previstas
 
 <img src = "/Sprint_0/Planejamento.png" width="650" height="450" />
+
+- [x] Sprint 0
+- [ ] Sprint 1
+- [ ] Sprint 2
+- [ ] Sprint 3
 
 ## Entrega 1 - SPRINT 0
 * Definição do grupo / Divisão das Tarefas
