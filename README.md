@@ -3,7 +3,17 @@
 
 <h1 align="center"> SOS Educa  🆘📚 </h1>
 
+<p align="center">
+  <a href ="#o-projeto"> Projeto </a>  | 
+  <a href ="#proposta"> Proposta </a>  | 
+  <a href ="#entregas-previstas"> Planejamento </a>  | 
+  <a href ="#entrega-1---sprint-0"> Sprint 0 </a>  | 
+  <a href ="#equipe"> Time </a> 
+</p>
+
 <h1 align="center"> <img src = "/Sprint_0/<Imagens/sos.png" width="550" height="350"> </h1>
+
+
 
 
 
@@ -16,23 +26,26 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 > Status do Projeto : Em Andamento <img src = "/Sprint_0/<Imagens/status projeto.png" width="50" height="10" />
 
 ## Proposta
-Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
-- [x] Português (Concordância e Pontuação)
-- [x] Matemática (Gráficos e Lógica)
-- [x] Inglês
-- [x] Lógica de Programação
-- [x] Laboratório de Hardware
-- [x] Arquitetura e Organização de Computadores
+Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:
 
-## Requisitos:
+ > Conteúdos
 
-- [x]  Materiais do tipo texto, vídeo e jogo;
-- [x]  Login/Cadastro de usuário;
-- [x]  Área do Administrador;
-- [x]  Carrinho de Compras;
-- [x]  Saldo de Créditos;
-- [x]  Relatório de Vendas;
+ - [x] Português (Concordância e Pontuação)
+ - [x] Matemática (Gráficos e Lógica)
+ - [x] Inglês
+ - [x] Lógica de Programação
+ - [x] Laboratório de Hardware
+ - [x] Arquitetura e Organização de Computadores
+
+ > Requisitos
+
+ - [x]  Materiais do tipo texto, vídeo e jogo;
+ - [x]  Login/Cadastro de usuário;
+ - [x]  Área do Administrador;
+ - [x]  Carrinho de Compras;
+ - [x]  Saldo de Créditos;
+ - [x]  Relatório de Vendas;
 
 ## Entregas Previstas
 
