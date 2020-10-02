@@ -17,7 +17,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 - [x] Laboratório de Hardware
 - [x] Arquitetura e Organização de Computadores
 
-> ##Requisitos:
+>### Requisitos:
 
 - [x]  Materiais do tipo texto, vídeo e jogo;
 - [x]  Login/Cadastro de usuário;
