@@ -17,7 +17,8 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 - [x] Laboratório de Hardware
 - [x] Arquitetura e Organização de Computadores
 
->**Requisitos:**
+> ##Requisitos:
+
 - [x]  Materiais do tipo texto, vídeo e jogo;
 - [x]  Login/Cadastro de usuário;
 - [x]  Área do Administrador;
@@ -35,6 +36,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 - [ ] Sprint 3
 
 >### Entrega 1 - SPRINT 0
+
 1. Definição do grupo / Divisão das Tarefas
 2. Elaboração do Layout do site no PowerPoint
 3. Adaptação do site para o Figma
