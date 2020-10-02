@@ -53,7 +53,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 ## Entregas Previstas
 
-<img src = "/Sprint_0/<Imagens/planejamento.png" width="500" height="250" /> 
+<h1 align="center"> <img src = "/Sprint_0/<Imagens/planejamento.png" width="650" height="350" /></h1>
 
 - [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0) :heavy_check_mark:
 - [ ] Sprint 1 :warning:
@@ -62,12 +62,12 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 ## Entrega 1 - SPRINT 0
 
-1. Definição do grupo / Divisão das Tarefas
-2. Elaboração do Layout do site no PowerPoint
-3. Adaptação do site para o Figma
-4. Layout validado por possíveis consumidores
-5. Estratégias de Marketing
-6. Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.
+:one: Definição do grupo / Divisão das Tarefas <br>
+:two: Elaboração do Layout do site no PowerPoint <br>
+:three: Adaptação do site para o Figma <br>
+:four: Layout validado por possíveis consumidores <br>
+:five: Estratégias de Marketing <br>
+:six: Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
 
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
