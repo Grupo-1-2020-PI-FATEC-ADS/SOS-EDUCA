@@ -16,18 +16,10 @@
 </p>
 
 
-
-
-
-
-
-
-
-
 ## O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
-> Status do Projeto : Em Andamento <img src = "/Sprint_0/<Imagens/status projeto.png" width="50" height="10" />
+> Status do Projeto : Em Andamento <img src = "/Sprint_0/<Imagens/status projeto.png" width="50" height="10" /><br><br>
 
 ## Proposta
 
@@ -58,7 +50,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 - [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0) :heavy_check_mark:
 - [ ] Sprint 1 :warning:
 - [ ] Sprint 2
-- [ ] Sprint 3
+- [ ] Sprint 3<br><br>
 
 ## Entrega 1 - SPRINT 0
 
@@ -70,7 +62,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 - [x]  Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
 
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
-> [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
+> [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)<br><br>
 
 ## Equipe
 
