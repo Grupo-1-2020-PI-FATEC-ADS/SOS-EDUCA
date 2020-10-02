@@ -22,6 +22,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 > Status do Projeto : Em Andamento <img src = "/Sprint_0/<Imagens/status projeto.png" width="50" height="10" />
 
 <br>
+
 ## Proposta
 
 Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:<br><br>
@@ -66,6 +67,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
 
 <br>
+
 ## Equipe
 
 |Nome|Função|Linkedin|GitHub|Avatar|
