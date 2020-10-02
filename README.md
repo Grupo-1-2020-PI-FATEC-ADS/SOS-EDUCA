@@ -11,8 +11,8 @@
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#entregas-previstas"> Planejamento </a>  • 
-  <a href ="#entrega-1---sprint-0"> Sprint 0 </a>  • 
-  <a href ="#equipe"> Time </a> 
+  <a href ="#entrega-1---sprint-0"> Entregas </a>  • 
+  <a href ="#equipe"> Equipe </a> 
 </p>
 
 
