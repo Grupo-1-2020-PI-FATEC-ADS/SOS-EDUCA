@@ -1,7 +1,13 @@
-# Projeto Integrador (PI) - 1º ADS - A
+<h4 align="center"> Projeto Integrador (PI) - 1º ADS - A </h4>
 
 
 <h1 align="center"> SOS Educa  🆘📚 </h1>
+
+<h1 align="center"> <img src = "/Sprint_0/sos.png" width="550" height="350"> </h1>
+
+
+
+
 
 
 ## O Projeto
@@ -30,7 +36,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
 ## Entregas Previstas
 
-<img src = "/Sprint_0/Planejamento.png" width="650" height="350" />
+<h1 align="center"> <img src = "/Sprint_0/Planejamento.png" width="650" height="350" /> </h1>
 
 - [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0) :heavy_check_mark:
 - [ ] Sprint 1 :warning:
@@ -53,8 +59,8 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
-|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/Beatriz.png" width="30" height="30" />|
-|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/Nayara.png" width="30" height="30" />|
+|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/Beatriz.png" width="30" height="30"/>|
+|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/Nayara.png" width="30" height="30"/>|
 |**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/Raphael.png" width="30" height="30" />|
 |**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/jefferson.png" width="30" height="30" />|
 |**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/Jeferson.png" width="30" height="30" />|
