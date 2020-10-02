@@ -1,6 +1,6 @@
 
 <p align="center">
-      <img src="/Sprint_0/<Imagens/S.O.S%20(21).png" width="300" height="300">
+      <img src="/Sprint_0/<Imagens/logo.png" width="200" height="150">
       <h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
 <p align="center">
 
