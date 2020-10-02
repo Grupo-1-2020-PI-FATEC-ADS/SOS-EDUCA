@@ -18,7 +18,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 - [x] Arquitetura e Organização de Computadores
 
 **Requisitos:**
-- [x] Materiais do tipo texto, vídeo e jogo;
+- [x]  Materiais do tipo texto, vídeo e jogo;
 - [x]  Login/Cadastro de usuário;
 - [x]  Área do Administrador;
 - [x]  Carrinho de Compras;
@@ -27,7 +27,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com conteúdos de:
 
 ## Entregas Previstas
 
-<img src = "/Sprint_0/Planejamento.png" width="650" height="450" />
+<img src = "/Sprint_0/Planejamento.png" width="650" height="400" />
 
 - [x] Sprint 0
 - [ ] Sprint 1
