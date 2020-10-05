@@ -2,7 +2,7 @@
 include('cabecalho.php');
 $conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); ?>
 <section class="newsletter container bg-black">
- <h2 class="alert-info">Alterar Informações dos Produtos! </h2>
+ <h2 class="alert-info">Alterar Informações dos Produtos </h2>
 <form  class="form-horizontal" name="form_alterar" method="POST" action="alterar_2.php">
 <?php
   $idAlt=$_GET['id'];
