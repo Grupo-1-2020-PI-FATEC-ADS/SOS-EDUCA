@@ -1,6 +1,6 @@
 
 <p align="center">
-      <img src="/Sprint_0/<Imagens/logo.png" width="200" height="150">
+      <img src="/Sprint_0/_Imagens/logo.png" width="200" height="150">
       <h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
 <p align="center">
 
@@ -19,7 +19,7 @@
 ## O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
-> Status do Projeto : Em Andamento <img src = "/Sprint_0/<Imagens/status projeto.png" width="50" height="10" />
+> Status do Projeto : Em Andamento <img src = "/Sprint_0/_Imagens/status projeto.png" width="50" height="10" />
 
 <br>
 
@@ -72,10 +72,10 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
-|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/<Imagens/Beatriz.png" width="50" height="50"/>|
-|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/<Imagens/Nayara.png" width="50" height="50"/>|
-|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/Sprint_0/<Imagens/Raphael.png" width="50" height="50" />|
-|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Sprint_0/<Imagens/jefferson.png" width="50" height="50" />|
-|**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/<Imagens/Jeferson.png" width="50" height="50" />|
-|**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Sprint_0/<Imagens/Bryan.png" width="50" height="50" />|
+|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/_Imagens/Beatriz.png" width="50" height="50"/>|
+|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/_Imagens/Nayara.png" width="50" height="50"/>|
+|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/Sprint_0/_Imagens/Raphael.png" width="50" height="50" />|
+|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Sprint_0/_Imagens/jefferson.png" width="50" height="50" />|
+|**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/_Imagens/Jeferson.png" width="50" height="50" />|
+|**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Sprint_0/_Imagens/Bryan.png" width="50" height="50" />|
 
