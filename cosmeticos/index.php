@@ -15,7 +15,7 @@ Lenne cosmetics</title>
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Ofertas</div>
-        <div class="panel-body"><img src="imagens/elseve.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-body"><img src="imagens/S.O.S (21).jpg" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Eleve <p class="text-danger">Preço: <s>15,99 R$</s>12,99 R$</p></div>
       </div>
     </div>
