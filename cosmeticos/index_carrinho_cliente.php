@@ -11,7 +11,7 @@
     <head>
      <meta charset="utf-8">
      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Carrinho</title>
+    <title>SOS Educa - Carrinho</title>
     <style type="text/css" media="screen">
   
     </style>
