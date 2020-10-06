@@ -48,7 +48,7 @@
     <?php
   $conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); ?>
 
-<h3>Fitros de Pesquisa</h3>
+<h3 style="margin-top: 60px;">Fitros de Pesquisa</h3>
     <form name="cons" method="post" action="index_carrinho_cliente.php">
   <h3>Escolha uma categoria</h3>
 <select name='sel_cat'>
