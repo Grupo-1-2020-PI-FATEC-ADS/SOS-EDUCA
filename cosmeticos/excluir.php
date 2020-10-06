@@ -1,6 +1,6 @@
 <?php
 
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); 
+$conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); 
 include('cabecalho.php');
 $id = $_GET['id'];
 mysqli_query($conexao, ("DELETE FROM produtos WHERE id_produtos ='$id' "));

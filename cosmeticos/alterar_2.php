@@ -1,5 +1,5 @@
 <?php
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); 
+$conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); 
 $id=$_POST['id_produtos'];
 $nome=$_POST['nome_prod'];
 $preco=$_POST['preco'];
