@@ -83,7 +83,7 @@ tela_impressao.window.close();
    <body>
       <div id="print" class="conteudo">
           <div class="container text-center">
-      <text><img  src="imagens/logo_lennecosmeticos.fw_ - logotipo.png" alt="placeholder+image" height="40px" width="80px">
+      <text><img  src="imagens/logo6.png" alt="placeholder+image" height="40px" width="80px">
      <h4>
 <table class="table-responsive"  >
          
