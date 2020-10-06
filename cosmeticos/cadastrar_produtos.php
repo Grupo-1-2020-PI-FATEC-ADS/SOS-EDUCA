@@ -1,5 +1,5 @@
 <?php 
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die (mysql_error()); 
+$conexao=mysqli_connect("localhost", "root", "","sos_educa") or die (mysql_error()); 
 ?>
 <?php
 
@@ -13,7 +13,7 @@ $_arq['pasta'] = 'imagens/';
 
 $_arq['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1000; // 2Mb
 
-$_arq['extensoes'] = array('jpg', 'png', 'gif' ,'txt','docx','xlsx','mp3','mp4');
+$_arq['extensoes'] = array('jpg', 'png', 'gif' ,'txt','docx','xlsx','mp3','mp4','pdf');
 
 $_arq['renomeia'] = false;
 

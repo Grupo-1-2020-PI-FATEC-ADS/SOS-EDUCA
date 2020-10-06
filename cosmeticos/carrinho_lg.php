@@ -22,7 +22,7 @@ if(@$_POST['compra']=="Finalizar Compra"){
 
 unset($_SESSION['quantidade'.@$_GET['nome']]);
 
-$con= mysqli_connect("localhost","root","","cosmeticos");
+$con= mysqli_connect("localhost","root","","sos_educa");
 $query= mysqli_query($con,"select estoque from produtos");
 if(empty($_POST['atualizar'])){
 while($linha= mysqli_fetch_array($query)){

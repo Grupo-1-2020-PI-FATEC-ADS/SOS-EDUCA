@@ -11,7 +11,7 @@
 	</script>
 
 <?php
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); 
+$conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); 
 
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];

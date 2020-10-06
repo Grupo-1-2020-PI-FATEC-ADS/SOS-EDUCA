@@ -11,7 +11,7 @@
 	</script>
 
 <?php
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos")
+$conexao=mysqli_connect("localhost", "root", "","sos_educa")
 or die(mysql_error()); 
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];

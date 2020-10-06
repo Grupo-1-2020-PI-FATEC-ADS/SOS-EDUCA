@@ -73,7 +73,7 @@ $(document).ready(function() {
 	 
 	
 <?php include('conexao.php');
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); 
+$conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); 
 ?>
 
 </head>

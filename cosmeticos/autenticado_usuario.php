@@ -14,7 +14,7 @@ include("conexao.php");
 	</script>
 	
 	<?php include('cabecalho.php');
-$conexao=mysqli_connect("localhost", "root", "","cosmeticos")
+$conexao=mysqli_connect("localhost", "root", "","sos_educa")
 or die(mysql_error()); 
 	?>
 </head>

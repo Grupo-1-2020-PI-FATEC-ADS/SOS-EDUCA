@@ -116,7 +116,7 @@ if(!isset($_SESSION['carrinho_cliente'])){
 </tr >
 ';
                          }else{
-                  $conexao=mysqli_connect("localhost", "root", "","cosmeticos");
+                  $conexao=mysqli_connect("localhost", "root", "","sos_educa");
                              $total = 0;
                             foreach($_SESSION['carrinho_cliente'] as $id => $qtd){
                                   $sql   = "SELECT * FROM produtos WHERE id_produtos='$id' ";

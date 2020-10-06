@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	  <title>
-Lenne cosmetics</title>
+	  <title>SOS Educa</title>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +39,7 @@ Lenne cosmetics</title>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><img  src="imagens/S.O.S (22).png" alt="placeholder+image" height="80px" width="80px"></a>
+      <a class="navbar-brand" href="#"><img  src="imagens/logo6.png" alt="placeholder+image" height="80px" width="80px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">

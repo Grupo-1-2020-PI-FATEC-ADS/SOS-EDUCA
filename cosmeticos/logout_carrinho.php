@@ -83,7 +83,7 @@ tela_impressao.window.close();
    <body>
       <div id="print" class="conteudo">
           <div class="container text-center">
-      <text><img  src="imagens/logo_lennecosmeticos.fw_ - logotipo.png" alt="placeholder+image" height="40px" width="80px">
+      <text><img  src="imagens/logo6.png" alt="placeholder+image" height="40px" width="80px">
      <h4>
 <table class="table-responsive"  >
          
@@ -124,8 +124,8 @@ tela_impressao.window.close();
 	   $hora=date("H:i:s");
 @$nome_cli=$_POST['nome_cli'];
 	    
-	   echo "<b>"." CNPJ "."</b>"."07.999.289/8771-24"."<br>";
-	   echo "<b>"."Endereço: "."</b>"."Rua: Pedro Ferreira"." - " ."Nº "."175"." - "."Passaré"."<br>";
+	   echo "<b>"." CNPJ "."</b>"."00.000.000/0000-00"."<br>";
+	   echo "<b>"."Endereço: "."</b>"."Avenida Cesare Monsueto Giulio Lattes"." - " ."Nº "."1350"." - "."Eugênio de Melo"."<br>";
 	    echo "Data: " .$data;
 	   echo "  Hora: ".$hora."<br>";
 	echo   "<div class='container'>
@@ -156,7 +156,7 @@ tela_impressao.window.close();
  
 ';
                          }else{
-                  $conexao=mysqli_connect("localhost", "root", "","cosmeticos");
+                  $conexao=mysqli_connect("localhost", "root", "","sos_educa");
                              $total = 0;
                             foreach($_SESSION['carrinho_cliente'] as $id => $qtd){
                             

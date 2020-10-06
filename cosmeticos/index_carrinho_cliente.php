@@ -11,7 +11,7 @@
     <head>
      <meta charset="utf-8">
      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Carrinho</title>
+    <title>SOS Educa - Carrinho</title>
     <style type="text/css" media="screen">
   
     </style>
@@ -46,7 +46,7 @@
 
 </div><h1>
     <?php
-  $conexao=mysqli_connect("localhost", "root", "","cosmeticos") or die(mysql_error()); ?>
+  $conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); ?>
 
 <h3>Fitros de Pesquisa</h3>
     <form name="cons" method="post" action="index_carrinho_cliente.php">
