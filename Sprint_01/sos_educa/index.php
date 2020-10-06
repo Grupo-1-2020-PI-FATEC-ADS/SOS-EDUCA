@@ -15,7 +15,7 @@
     <div class="col-sm-4">
       <div class="panel panel-primary">
         <div class="panel-heading">Ofertas</div>
-        <div class="panel-body"><img src="imagens/Português.png" class="img-responsive" style="width:75%" alt="Image"></div>
+        <div class="panel-body"><img src="imagens/Português.png" class="img-responsive" class="rounded mx-auto d-block" style="width:75%" alt="Image"></div>
         <div class="panel-footer">Resumo de Português <p class="text-danger">Preço: <s>15,99 R$</s>12,99 R$</p></div>
       </div>
     </div>
@@ -29,7 +29,7 @@
     <div class="col-sm-4"> 
       <div class="panel panel-success">
         <div class="panel-heading">Ofertas</div>
-        <div class="panel-body"><img src="imagens/AOC (2).png" class="img-responsive" style="width:75%" alt="Image"></div>
+        <div class="panel-body"><img src="imagens/AOC (2).png" class="img-responsive" class="rounded mx-auto d-block" style="width:75%" alt="Image"></div>
         <div class="panel-footer">Resumo de AOC  <p class="text-danger">Preço: <s>45,99 R$</s>39,99 R$</p></div>
       </div>
     </div>
