@@ -52,7 +52,9 @@ Desenvolver um Site de Vendas de Materiais Did√°ticos com as seguintes caracter√
 
 ## As Sprints
 
-SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%200)) 
+SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%200)) :heavy_check_mark:
+
+SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%201/_sos_educa))
 
 
 
