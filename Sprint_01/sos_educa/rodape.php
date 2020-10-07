@@ -15,7 +15,7 @@
 <div class="alert-danger">
 <footer class="container-fluid text-center">
 	
-  <p>Loja online<p><p> Copyright@Todos os direitos reservados</p>  
+  <p>SOS EDUCA <p><p> Copyright@Todos os direitos reservados</p>  
   
 
 

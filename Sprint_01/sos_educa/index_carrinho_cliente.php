@@ -5,63 +5,40 @@
      function loginfailed() {
             setTimeout("window.location='login_clientes.php'",5000);
      }
-  </script>  
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-     <meta charset="utf-8">
-     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>SOS Educa - Carrinho</title>
-    <style type="text/css" media="screen">
-  
-    </style>
+</script>  
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOS Educa - Carrinho</title>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <?php include("cabecalho.php");?>
+</head>
+<body>
+    <?php $conexao=mysqli_connect("localhost", "root", "","sos_educa"); ?>
     
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    
-    <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
-    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
-    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <?php include("cabecalho.php");?>
-    
-
-    </head>
- 
-    <body>
-     
-    <div id="topo">
-  
-
-</div><h1>
-    <?php
-  $conexao=mysqli_connect("localhost", "root", "","sos_educa") or die(mysql_error()); ?>
-
-<h3 style="margin-top: 60px;">Fitros de Pesquisa</h3>
+    <h3 style="margin-top: 60px;">Fitros de Pesquisa</h3>
     <form name="cons" method="post" action="index_carrinho_cliente.php">
-  <h3>Escolha uma categoria</h3>
-<select name='sel_cat'>
-  <?php
-       $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
-    while($linha=mysqli_fetch_assoc($resultado)){
-  ?>
-  <option value="<?php echo $linha['id_cat']; ?>">
-  <?php echo utf8_encode($linha['nome_cat']);?></option>
-  <?php }?>
-  </select> 
-  <input type="submit" value="Consultar">
-</form>
+    <h3>Escolha uma categoria</h3>
+      <select name='sel_cat'>
+        <?php 
+          $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
+            while($linha=mysqli_fetch_assoc($resultado)){?>
+              <option value="<?php echo $linha['id_cat']; ?>">
+              <?php echo utf8_encode($linha['nome_cat']);?></option>
+              <?php 
+            }
+          ?>
+      </select> 
+      <input type="submit" value="Consultar">
+    </form>
   <?php
 @$idcat=$_POST['sel_cat'];
 $sql="SELECT * FROM produtos WHERE id_categoria='$idcat' ";
@@ -76,7 +53,7 @@ while($linha=mysqli_fetch_array($querysql)){
                <th>Imagem</th>
               <th>Produto</th>
               <th>Preço</th>
-            <th>Adcionar</th>
+              <th>Adcionar</th>
               </tr>
               </thead>
               <tbody>
@@ -144,7 +121,7 @@ while($linha=mysqli_fetch_object($sql)){
               <article class="servico bg-white radius">
               <thead>
               <tr>
-          <th>Imagem</th>
+              <th>Imagem</th>
               <th>Produto</th>
               <th>Preço</th>
               <th>Adcionar</th>

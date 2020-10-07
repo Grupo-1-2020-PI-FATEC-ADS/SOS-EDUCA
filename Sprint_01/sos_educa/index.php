@@ -9,8 +9,8 @@
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
    <?php include('cabecalho.php');?>
 </head>
-<body>
-<div class="container">    
+<body style="background-color: green;">
+<div  style="margin-top: 60px;" class="container">    
   <div class="row">
     <div class="col-sm-4">
       <div class="panel panel-primary">
@@ -37,10 +37,22 @@
 </div><br>
 
 <br><br>
+<div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <script src="https://kit.fontawesome.com/2d0cb69b50.js" crossorigin="anonymous"></script>
 <div class="alert-danger">
-<footer class="container-fluid text-center">
+<footer style="background-color: #fdbe00;" class="container-fluid text-center">
 	
-  <p>Loja online<p><p> Copyright@Todos os direitos reversados</p>  
+  <p>SOS EDUCA<p><p> Copyright@Todos os direitos reversados</p>  
   
 
 

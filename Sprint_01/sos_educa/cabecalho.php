@@ -31,7 +31,7 @@
 <body>
 
 
-<nav class="navbar navbar-inverse">
+<nav style="background-color: #2F528F; color:#fff; " >
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -43,15 +43,15 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Início</a></li>
-        <li><a href="cadastro_cliente.php">Cadastre-se</a></li>
+        <li class="active"><a style="color:#fff" href="index.php">Início</a></li>
+        <li><a style="color:#fff" href="cadastro_cliente.php">Cadastre-se</a></li>
        
-        <li><a href="login_area_restrita.php">Login Usuário</a></li>
-        <li><a href="contatos.php">Contatos</a></li>
+        <li><a style="color:#fff" href="login_area_restrita.php">Login Usuário</a></li>
+        <li><a style="color:#fff" href="contatos.php">Contatos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-left">
       
-        <li><a href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a></li>
+        <li><a  style="color:#fff"href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a></li>
       </ul>
     </div>
   </div>
