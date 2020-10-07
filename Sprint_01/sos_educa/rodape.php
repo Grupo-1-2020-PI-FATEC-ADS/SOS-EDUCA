@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="alert-danger">
-<footer class="container-fluid text-center">
+<footer style="margin-top: 12%;" class="container-fluid text-center">
 	
   <p>SOS EDUCA <p><p> Copyright@Todos os direitos reservados</p>  
   

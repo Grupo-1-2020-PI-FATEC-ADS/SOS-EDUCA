@@ -3022,6 +3022,7 @@ table th[class*="col-"] {
 .table-responsive {
     min-height: .01%;
     overflow-x: auto;
+    text-align: center;
 }
 
 @media screen and (max-width: 767px) {

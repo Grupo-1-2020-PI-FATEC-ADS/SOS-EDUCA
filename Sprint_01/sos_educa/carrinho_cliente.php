@@ -64,12 +64,12 @@ if(isset($_GET['acao'])){
     <body>
   
      <h5>
-<table class="table-responsive"  >
+<table style="margin-left: 20%; " class="table-responsive"  >
          
 <caption class="text-center">Carrinho de Compras</caption>
  
  
-<thead class="table-responsive">
+<thead  class="table-responsive">
  
 <tr class="table-responsive">
                  
@@ -119,7 +119,7 @@ if(isset($_GET['acao'])){
                              $total = 0;
                             foreach($_SESSION['carrinho_cliente'] as $id => $qtd){
                                   $sql   = "SELECT * FROM produtos WHERE id_produtos='$id' ";
-                                  $qr    = mysqli_query($conexao, $sql) or die(mysqli_error($link));
+                                  $qr    = mysqli_query($conexao, $sql) or die(mysqli_error());
                                   $ln    = mysqli_fetch_assoc($qr);
                                    
                                   $nome  = utf8_encode($ln['nome_prod']);
