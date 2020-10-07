@@ -45,7 +45,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
  - [x]  Saldo de Créditos;
  - [x]  Relatório de Vendas;<br><br>
 
-## Entregas Previstas
+## Cronograma
 
 <h1 align="center"> <img src = "/SPRINT 0/_Imagens/planejamento.png" width="650" height="350" /></h1>
 
