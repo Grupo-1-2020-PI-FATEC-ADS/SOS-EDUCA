@@ -37,7 +37,7 @@
             }
           ?>
       </select> 
-      <input type="submit" value="Consultar">
+      <input style="background-color:green;color:white" type="submit" value="Consultar">
     </form>
   <?php
 @$idcat=$_POST['sel_cat'];
