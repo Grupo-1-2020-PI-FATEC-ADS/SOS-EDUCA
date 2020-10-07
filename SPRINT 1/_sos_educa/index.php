@@ -49,17 +49,11 @@
     </script>
 
     <script src="https://kit.fontawesome.com/2d0cb69b50.js" crossorigin="anonymous"></script>
-<div class="alert-danger">
-<footer style="background-color: #fdbe00;" class="container-fluid text-center">
+  <div class="alert-danger">
+    <footer style="background-color: #fdbe00;" class="container-fluid text-center">
 	
-  <p>SOS EDUCA<p><p> Copyright@Todos os direitos reversados</p>  
-  
-
-
-</footer>
-</div>
-
-
-
+      <p>SOS EDUCA<p><p> Copyright@Todos os direitos reversados</p>  
+    </footer>
+  </div>
 </body>
 </html>
