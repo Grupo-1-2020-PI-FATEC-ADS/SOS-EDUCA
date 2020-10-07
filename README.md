@@ -47,7 +47,7 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 ## Entregas Previstas
 
-<h1 align="center"> <img src = "/Sprint_0/_Imagens/planejamento.png" width="650" height="350" /></h1>
+<h1 align="center"> <img src = "/SPRINT 0/_Imagens/planejamento.png" width="650" height="350" /></h1>
 
 - [x] [Sprint 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Sprint_0) :heavy_check_mark:
 - [ ] Sprint 1 :warning:
@@ -72,10 +72,10 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
-|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Sprint_0/_Imagens/Beatriz.png" width="50" height="50"/>|
-|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Sprint_0/_Imagens/Nayara.png" width="50" height="50"/>|
-|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/Sprint_0/_Imagens/Raphael.png" width="50" height="50" />|
-|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Sprint_0/_Imagens/jefferson.png" width="50" height="50" />|
-|**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Sprint_0/_Imagens/Jeferson.png" width="50" height="50" />|
-|**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Sprint_0/_Imagens/Bryan.png" width="50" height="50" />|
+|**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/SPRINT 0/_Imagens/Beatriz.png" width="50" height="50"/>|
+|**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/SPRINT 0/_Imagens/Nayara.png" width="50" height="50"/>|
+|**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/SPRINT 0/_Imagens/Raphael.png" width="50" height="50" />|
+|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/SPRINT 0/_Imagens/jefferson.png" width="50" height="50" />|
+|**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/SPRINT 0/_Imagens/Jeferson.png" width="50" height="50" />|
+|**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/SPRINT 0/_Imagens/Bryan.png" width="50" height="50" />|
 
