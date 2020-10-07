@@ -56,12 +56,12 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
 
 ## Entrega 1 - SPRINT 0
 
-- [x] Definição do grupo / Divisão das Tarefas <br>
-- [x] Elaboração do Layout do site no PowerPoint <br>
-- [x]  Adaptação do site para o Figma <br>
-- [x]  Layout validado por possíveis consumidores <br>
-- [x]  Estratégias de Marketing <br>
-- [x]  Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
+* Definição do grupo / Divisão das Tarefas <br>
+* Elaboração do Layout do site no PowerPoint <br>
+* Adaptação do site para o Figma <br>
+* Layout validado por possíveis consumidores <br>
+* Estratégias de Marketing <br>
+* Definição do Logo, Slogan, Missão, Visão, Valores e Paleta de Cores.<br>
 
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
