@@ -28,7 +28,7 @@ if (isset($_GET['acao'])) {
             }
         }
     }
-   }
+    }
 
 }
 
@@ -38,7 +38,7 @@ if (isset($_GET['acao'])) {
 <html lang="pt-br">
    <head>
    <meta charset="UTF-8">
-   
+
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title></title>
    <style>
@@ -59,7 +59,7 @@ if (isset($_GET['acao'])) {
          }
       }
    </style>
-      
+
    <script>
    	function printBy(selector){
          var $print = $(selector)
@@ -74,15 +74,15 @@ if (isset($_GET['acao'])) {
          $print.remove();
       }
    </script>
-   
+
    <script>
-      function cont(){
+     /* function cont(){
          var conteudo = document.getElementById('print').innerHTML,
          tela_impressao = window.open('about:blank');
          tela_impressao.document.write(conteudo);
          tela_impressao.window.print();
          tela_impressao.window.close();
-      }
+      }*/
    </script>
    </head>
    <body>
@@ -107,8 +107,8 @@ if (isset($_GET['acao'])) {
                   <h1 class="text-info">Seu Arquivo</h1>
                </tr>
             </tfoot>
-<?php 
-   if (!isset($_SESSION["login"]) && !isset($_SESSION["senha"])) {
+<?php
+if (!isset($_SESSION["login"]) && !isset($_SESSION["senha"])) {
 }?>
 <?php
 $data = date("d/m/Y");
@@ -155,7 +155,8 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
         $qr = mysqli_query($conexao, $sql) or die(mysqli_error($link));
         $ln = mysqli_fetch_assoc($qr);
 
-        $nome = utf8_encode($ln['imagem']);
+        //$nome = utf8_encode($ln['imagem']);
+        $nome = $ln['imagem'];
         $i = $ln['id_categoria'];
         $preco = number_format($ln['preco'], 2, ',', '.');
         $sub = number_format($ln['preco'] * $qtd, 2, ',', '.');
@@ -166,7 +167,10 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
         echo '
          <center>
          <tr class="text-center">
-            <td class="alert-info">' . $nome . '</td>
+            <td class="alert-info"> 
+            
+               <a href="/Sprint_1/SPRINT 1/_sos_educa/imagens/' . $nome . '">' . $nome . '</a>
+            </td>
             <td class="alert-warning"><input type="text" readonly="true" class="form-control"  name="prod[' . $id . ']" value="' . $qtd . '" /></td>
             <td class="alert-warning">R$ ' . $preco . '</td>
             <td class="text-success">R$ ' . $sub . '</td>
