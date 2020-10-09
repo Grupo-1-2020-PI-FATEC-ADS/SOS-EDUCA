@@ -45,16 +45,17 @@ Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes caracter�
  - [x]  Saldo de Créditos;
  - [x]  Relatório de Vendas;<br><br>
 
-## Cronograma
-
-<h1 align="center"> <img src = "/SPRINT 0/_Imagens/planejamento.png" width="650" height="350" /></h1>
-
 
 ## As Sprints
 
 SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%200))   Concluído :heavy_check_mark:
 
 SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%201/_sos_educa))    Em Andamento :clock8:
+
+
+## Cronograma
+
+<h1 align="center"> <img src = "/SPRINT 0/_Imagens/planejamento.png" width="650" height="350" /></h1>
 
 
 
