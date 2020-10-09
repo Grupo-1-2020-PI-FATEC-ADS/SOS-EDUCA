@@ -32,7 +32,7 @@
           $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
             while($linha=mysqli_fetch_assoc($resultado)){?>
               <option value="<?php echo $linha['id_cat']; ?>">
-              <?php echo utf8_encode($linha['nome_cat']);?></option>
+              <?php echo ($linha['nome_cat']);?></option>
               <?php 
             }
           ?>
@@ -59,7 +59,7 @@ while($linha=mysqli_fetch_array($querysql)){
               <tbody>
                  <p class="text-center"><td class="table-responsive"><img class="img-responsive" src="imagens/<?php echo $linha['imagem'];?>"  width="100px"/></td>
                  <div class="inner">
-    <td><?php echo '<h4>'.utf8_encode($linha['nome_prod']).'</h4>'?><br></td>
+    <td><?php echo '<h4>'.($linha['nome_prod']).'</h4>'?><br></td>
   
       <td><?php echo'<h2>Preço: '. number_format($linha['preco'], 2, ',', '.').'</h2>'?></td>
                 <td> <a href="carrinho_cliente.php?acao=add&id='.$linha['id_produtos'].'"> <br>
@@ -132,7 +132,7 @@ while($linha=mysqli_fetch_object($sql)){
                 <tr>
           <p class="text-center"><td class="table-responsive"><img src="imagens/<?php echo $linha->imagem;?>"  width="100px"/><?php echo "<br>"."Descrição"."<h4 class='text-info'>".$linha->descricao."</h1>"; ?></td></p>
           <div class="inner">
-          <td><?php echo '<h4> '.utf8_encode($linha->nome_prod);'</h4>'?><br></td>
+          <td><?php echo '<h4> '.($linha->nome_prod);'</h4>'?><br></td>
           <td><?php echo'<h2>Preço: '. number_format($linha->preco, 2, ',', '.').'</h2>'?></td>
                 <td class="table-responsive"> <a href="carrinho_cliente.php?acao=add&id='.$linha->id_produtos.'"> <br> <img src="imagens/icone_carrinho.jpg"  /><?php echo '<a href="carrinho_cliente.php?acao=add&id='.$linha->id_produtos.'"><br><h4><b><i>Comprar</i></b></h4></a>';?></br></a> </td>
 

@@ -76,13 +76,13 @@ if (isset($_GET['acao'])) {
    </script>
 
    <script>
-     /* function cont(){
+      function cont(){
          var conteudo = document.getElementById('print').innerHTML,
          tela_impressao = window.open('about:blank');
          tela_impressao.document.write(conteudo);
          tela_impressao.window.print();
          tela_impressao.window.close();
-      }*/
+      }
    </script>
    </head>
    <body>
@@ -169,7 +169,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
          <tr class="text-center">
             <td class="alert-info"> 
             
-               <a href="/Sprint_1/SPRINT 1/_sos_educa/imagens/' . $nome . '">' . $nome . '</a>
+               <a href="/Projeto_PI/SPRINT 1/_sos_educa/imagens/' . $nome . '"target="_blank">' . $nome . '</a>
             </td>
             <td class="alert-warning"><input type="text" readonly="true" class="form-control"  name="prod[' . $id . ']" value="' . $qtd . '" /></td>
             <td class="alert-warning">R$ ' . $preco . '</td>
