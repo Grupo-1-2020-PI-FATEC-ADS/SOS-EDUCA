@@ -21,6 +21,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 > Status do Projeto : Em Andamento <img src = "/SPRINT 0/_Imagens/status projeto.png" width="50" height="10" />
 
+<br>
 
 ## Proposta
 
