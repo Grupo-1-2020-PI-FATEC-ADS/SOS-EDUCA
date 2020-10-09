@@ -52,6 +52,8 @@ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%201))    Em Andamento :clock8:
 
+<br>
+
 ## Tecnologias Utilizadas
 
 * (texto)
