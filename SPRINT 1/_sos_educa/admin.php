@@ -5,7 +5,7 @@
       header("location:login_area_restrita.php");
       exit;          
     }else{
-      echo "<center><h2 class='alert-success'>Bem Vindo ".utf8_encode($_SESSION['nome_func'])."</h2></center><br><br>";
+      echo "<center><h2 class='alert-success'>Bem Vindo ".($_SESSION['nome_func'])."</h2></center><br><br>";
     }
   ?>
 </div>
@@ -83,7 +83,7 @@
           while($linha=mysqli_fetch_assoc($resultado)){
         ?>
         <option value="<?php echo $linha['id_cat']; ?>">
-          <?php echo utf8_encode($linha['nome_cat']);?>
+          <?php echo ($linha['nome_cat']);?>
         </option>
         <?php 
       }
@@ -115,7 +115,7 @@
             <tbody>
                 <tr>
                   <td>
-                    <?php echo "<p></p>".utf8_encode($row['nome_prod']);?>
+                    <?php echo "<p></p>".($row['nome_prod']);?>
                   </td>
                   <td>
                     <?php echo $row['estoque'];?>

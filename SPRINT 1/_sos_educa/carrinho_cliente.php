@@ -122,7 +122,7 @@ if(isset($_GET['acao'])){
                                   $qr    = mysqli_query($conexao, $sql) or die(mysqli_error());
                                   $ln    = mysqli_fetch_assoc($qr);
                                    
-                                  $nome  = utf8_encode($ln['nome_prod']);
+                                  $nome  = ($ln['nome_prod']);
                                       $i  = $ln['id_categoria'];
                                   $preco = number_format($ln['preco'], 2, ',', '.');
                                   $sub   = number_format($ln['preco'] * $qtd, 2, ',', '.');
