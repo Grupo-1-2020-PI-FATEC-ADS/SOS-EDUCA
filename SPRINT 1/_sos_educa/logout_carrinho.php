@@ -104,7 +104,7 @@ if (isset($_GET['acao'])) {
             <tfoot class="table-responsive">
                <div class="container">
                <tr class="table-responsive">
-                  <h1 class="text-info">Nota Fiscal de Venda</h1>
+                  <h1 class="text-info">Seu Arquivo</h1>
                </tr>
             </tfoot>
 <?php 
@@ -155,7 +155,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
         $qr = mysqli_query($conexao, $sql) or die(mysqli_error($link));
         $ln = mysqli_fetch_assoc($qr);
 
-        $nome = utf8_encode($ln['nome_prod']);
+        $nome = utf8_encode($ln['imagem']);
         $i = $ln['id_categoria'];
         $preco = number_format($ln['preco'], 2, ',', '.');
         $sub = number_format($ln['preco'] * $qtd, 2, ',', '.');

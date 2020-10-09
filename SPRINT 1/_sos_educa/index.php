@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
    <?php include('cabecalho.php');?>
 </head>
-<body style="background-color: green;">
+<body class="btn-success">
 <div  style="margin-top: 60px;" class="container">    
   <div class="row">
     <div class="col-sm-4">

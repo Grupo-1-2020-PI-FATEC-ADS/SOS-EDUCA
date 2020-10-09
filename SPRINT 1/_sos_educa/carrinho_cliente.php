@@ -141,7 +141,7 @@ echo "<script language='javascript' type='text/javascript'>
 
 $SqlInserirItens =mysqli_query($conexao, "insert into itens_venda(id_venda,id,id_prod,nome_prod,qtd,id_cat,data_compra)VALUES('$idVenda' ,'','$id','$nome','$qtd','$i','$data') ");*/
 echo "<script language='javascript' type='text/javascript'>
-    alert('Para Comfimar dados da Compra!');window.location.href='decisao.php';
+    alert('Para Confimar dados da Compra!');window.location.href='decisao.php';
   </script>";
 
 }}
