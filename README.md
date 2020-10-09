@@ -32,7 +32,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 **Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:**<br><br>
 
- > Conteúdos
+ > **Conteúdos**
 
  - [x] Português (Concordância e Pontuação)
  - [x] Matemática (Gráficos e Lógica)
@@ -41,7 +41,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  - [x] Laboratório de Hardware
  - [x] Arquitetura e Organização de Computadores <br><br>
 
- > Requisitos
+ > **Requisitos**
 
  - [x]  Materiais do tipo texto, vídeo e jogo;
  - [x]  Login/Cadastro de usuário;
