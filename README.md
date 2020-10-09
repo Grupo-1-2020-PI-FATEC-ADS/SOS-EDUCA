@@ -60,12 +60,6 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 <br>
 
-# Backlog do Produto
-
-<h1 align="center"> <img src = "https://raw.githubusercontent.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/master/SPRINT%201/Imagens/backlog.png" width="8500" height="600" /></h1>
-
-<br>
-
 ## Equipe
 
 |Nome|Função|Linkedin|GitHub|Avatar|
