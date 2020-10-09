@@ -60,9 +60,9 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 ## Tecnologias Utilizadas
 
-* (texto)
-* (texto)
-* (texto)
+* Banco de Dados: MySQL
+* Backend: JavaScript e PhP
+* Frontend: HTML, CSS e Bootstrap
 
 <br>
 
