@@ -8,8 +8,9 @@ $preco=$_POST['preco'];
 $estoque=$_POST['estoque'];
 $idcat=$_POST['sel_cat'];
 $desc=$_POST['desc'];
+$arq=$_POST['arquivo'];
 
-$_arq['pasta'] = 'imagens/';
+$_arq['pasta'] = 'arquivos/';
 
 $_arq['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1000; // 2Mb
 
@@ -41,19 +42,19 @@ if (@$_arq['tamanho'] < @$_FILES['arquivo']['size']) {
 
 if ($_arq['renomeia'] == true) {
   
-  $nome_final = time().'.jpg';
+  $arq = time().'.pdf';
 } else {
  
-  $nome_final = $_FILES['arquivo']['name'];
+  $arq = $_FILES['arquivo']['name'];
 }
   
-if ((move_uploaded_file(@$_FILES['arquivo']['tmp_name'], $_arq['pasta'] . $nome_final)) && (isset($_POST['nome_prod']))){
+if ((move_uploaded_file(@$_FILES['arquivo']['tmp_name'], $_arq['pasta'] . $arq)) && (isset($_POST['nome_prod']))){
 	
 
 //Enviar uma query
 
 
-$cadastraimg=mysqli_query($conexao,"INSERT INTO produtos (id_produtos,nome_prod,preco,estoque,imagem,descricao,id_categoria)  VALUES ('','$fild_nome','$preco','$estoque','$nome_final','$desc','$idcat')");
+$cadastraimg=mysqli_query($conexao,"INSERT INTO produtos (id_produtos,nome_prod,preco,estoque,imagem,descricao,id_categoria,arquivo)  VALUES ('','$fild_nome','$preco','$estoque','$nome_final','$desc','$idcat','$arq')");
 
 mysqli_close($conexao);
 

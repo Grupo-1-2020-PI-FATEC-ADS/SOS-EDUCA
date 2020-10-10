@@ -14,9 +14,11 @@
                <h2 class="text-primary">ÁREA RESTRITA</h2>
                   <h3 class="text-danger">  Login </h3>
                      <form class="form-inline" action="autenticado_usuario.php" method="POST" >
-                        <input class="form-control" type="email" name="email" placeholder="Login" value="<?php echo @$_SESSION['email']?>" ><br>
-                        <input class="form-control" type="password" name="senha" placeholder="Sua senha" value="<?php echo @$_SESSION['senha']?>" ><br>
-                        <button class="btn-success"> Entrar </button>
+                        <input class="form-control" type="email" name="email" style="min-width:100%;" placeholder="Login" value="<?php echo @$_SESSION['email']?>" ><br>
+                        <br/>
+                        <input class="form-control" type="password" name="senha" style="min-width:100%;" placeholder="Sua senha" value="<?php echo @$_SESSION['senha']?>" ><br>
+                        <br/>
+                        <button class="btn-success btn-block btn-lg"> Entrar </button>
                      </form>
             </section>
 	      <br>

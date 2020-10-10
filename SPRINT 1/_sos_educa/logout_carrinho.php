@@ -156,7 +156,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
         $ln = mysqli_fetch_assoc($qr);
 
         //$nome = utf8_encode($ln['imagem']);
-        $nome = $ln['imagem'];
+        $nome = $ln['arquivo'];
         $i = $ln['id_categoria'];
         $preco = number_format($ln['preco'], 2, ',', '.');
         $sub = number_format($ln['preco'] * $qtd, 2, ',', '.');
@@ -169,7 +169,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
          <tr class="text-center">
             <td class="alert-info"> 
             
-               <a href="/Projeto_PI/SOS-EDUCA/SPRINT 1/_sos_educa/imagens/' . $nome . '"target="_blank">' . $nome . '</a>
+               <a href="/Projeto_PI/SOS-EDUCA/SPRINT 1/_sos_educa/arquivos/' . $nome . '"target="_blank">' . $nome . '</a>
             </td>
             <td class="alert-warning"><input type="text" readonly="true" class="form-control"  name="prod[' . $id . ']" value="' . $qtd . '" /></td>
             <td class="alert-warning">R$ ' . $preco . '</td>

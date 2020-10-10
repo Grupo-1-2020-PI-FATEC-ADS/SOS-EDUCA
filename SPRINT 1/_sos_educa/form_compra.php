@@ -142,12 +142,9 @@ function SomenteNumero(e){
 						<input type="text" name="bairro" v-model="resultado.bairro" id="bairro" class="form-control" value="<?php echo @$_SESSION['bairro']?>"  required><br>
 
               <label>Contato</label>
-              <input type="text" name="tel" class="form-control" maxlength="14" onKeypress="Mascara(this); return SomenteNumero(event);" placeholder="(xx)xxxxx-xxxx" value="<?php echo @$_SESSION['tel']?>" required><br>
-
-              
-          
+              <input type="text" name="tel" class="form-control" maxlength="14" onKeypress="Mascara(this); return SomenteNumero(event);" placeholder="(xx)xxxxx-xxxx" value="<?php echo @$_SESSION['tel']?>" required><br>         
 			</div>
-<p class="text-center"><input type="submit" class="btn-close btn" value="Enviar"></p></div>
+<p class="text-center"><input type="submit" class="btn-close btn btn-success btn-lg" value="Enviar"></p></div>
      <?php include('rodape.php');?>
 </body>
 </html>
