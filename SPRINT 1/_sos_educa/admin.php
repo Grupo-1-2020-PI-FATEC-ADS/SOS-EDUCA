@@ -75,25 +75,67 @@
      <section class="newsletter container bg-black">
           <h2 class="alert-info">Cadastro de Produtos da Loja</h2>
       <form action="cadastrar_produtos.php" class="form-group" method="post" enctype="multipart/form-data" name="upload_insere">
-        <span class="glyphicon glyphicon-paperclip"> </span>
-          <input type="file" name="arquivo">
-        <h4>Selecione a Categoria do Produto</h4><select name="sel_cat">
-        <?php
-            $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
-          while($linha=mysqli_fetch_assoc($resultado)){
-        ?>
-        <option value="<?php echo $linha['id_cat']; ?>">
-          <?php echo ($linha['nome_cat']);?>
-        </option>
-        <?php 
-      }
-        ?>
-        </select> <br><br>
-        <input class="input-group" type="text" name="nome_prod" placeholder="nome"><br>
-        <input class="input-group" type="text" name="preco" placeholder="preço"><br>
-        <input class="input-group" type="number" name="estoque" placeholder="Estoque"><br>
-        <textarea name="desc" placeholder="descrição"></textarea>
-        <button class="btn-info"> Cadastrar </button>
+      
+        <div class="col-md-12">
+          <label class="col-md-12">Selecione o arquivo conteúdo para Upload</label>
+            <div class="input-group col-md-6">
+              <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+              <input type="file" name="arquivo" class="form-control" aria-describedby="sizing-addon2">
+            </div>
+        </div>
+
+        <div class="col-md-12">
+          <label class="col-md-12">Selecione a imagem para Upload</label>
+            <div class="input-group col-md-6">
+              <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+              <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2">
+            </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <h4>Selecione a Categoria do Produto</h4>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-6">
+              <select name="sel_cat" class="form-control">
+                  <?php
+                      $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
+                    while($linha=mysqli_fetch_assoc($resultado)){
+                  ?>
+                  <option value="<?php echo $linha['id_cat']; ?>">
+                    <?php echo ($linha['nome_cat']);?>
+                  </option>
+                  <?php }?>
+              </select> 
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <input class="input-group form-control" type="text" name="nome_prod" placeholder="nome">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <input class="input-group form-control" type="text" name="preco" placeholder="preço">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <input class="input-group form-control" type="number" name="estoque" placeholder="Estoque">
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+              <textarea name="desc" class="form-control" placeholder="descrição"></textarea>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-6">
+              <button class="btn btn-info "> Cadastrar </button>
+          </div>
+        </div>
       </form>
     </section>
 <div id="tabs-2" class="text-center">

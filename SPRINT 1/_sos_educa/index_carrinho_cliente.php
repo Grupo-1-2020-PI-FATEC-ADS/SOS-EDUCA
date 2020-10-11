@@ -120,29 +120,42 @@
     //Exibimos os query dos produtos e seus repectivos valores
     while($linha=mysqli_fetch_object($sql)){
     ?>
+
+    <div class="col-md-12">
     <table  class="table table-striped table-bordered table-condensed table-hover" >
       <tr>
         <main class="servicos container">
           <article class="servico bg-white radius">
-            <thead>
-              <tr>
-                <th>Imagem</th>
+            <thead >
+              <tr >
+                <th>Imagems</th>
                 <th>Produto</th>
                 <th>Preço</th>
                 <th>Adicionar</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody >
               <tr>
-                <p class="text-center"><td class="table-responsive"><img src="imagens/<?php echo $linha->imagem;?>" width="150px;"/><?php echo "<br>"."Descrição"."<h4 class='text-info'>".$linha->descricao."</h1>"; ?></td></p>
-                <div class="inner" >
-                <td>
+                <td class="col-md-4">
+                  <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-6">
+                        <img src="imagens/<?php echo $linha->imagem;?>" width="150px;"/>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="text-center">
+                        <?php echo "<br>"."Descrição"."<h5 class='text-info'>".$linha->descricao."</h5>"; ?>
+                      </div>
+                    </div>
+                  </div>
+                 </td>
+                <td class="col-md-2">
                   <?php echo '<h4> '.($linha->nome_prod);'</h4>'?><br>
                 </td>
-                <td>
+                <td class="col-md-3">
                   <?php echo'<h2>Preço: '. number_format($linha->preco, 2, ',', '.').'</h2>'?>
                 </td>
-                <td class="table-responsive"> 
+                <td class="table-responsive col-md-3"> 
                   <a href="carrinho_cliente.php?acao=add&id='.$linha->id_produtos.'"> <br> 
                   <img style="width:100px; margin-left:190px" src="imagens/icone_carrinho.png"  />
                   <?php echo '<a href="carrinho_cliente.php?acao=add&id='.$linha->id_produtos.'"><br><h4 style="text-align: center;"><b><i>Comprar</i></b></h4></a>';?></br>
@@ -155,6 +168,7 @@
         </main>
       </tr>
     </table>
+    </div>
   <?php 
   }//Fim do loço ?>
   <?php
