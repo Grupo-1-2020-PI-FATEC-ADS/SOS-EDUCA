@@ -1,4 +1,6 @@
-<h4 align="center"> Projeto Integrador - Fatec São José dos Campos </h4>
+<h5 align="left"> <img src = "https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT%200/_Imagens/fatec.png" height="20" align ="middle" /> Projeto Integrador - Fatec São José dos Campos </h5>
+
+
 
 <br>
 
@@ -70,9 +72,11 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 <h1 align="center"> <img src = "/SPRINT 0/_Imagens/planejamento.png" width="650" height="350" /></h1>
 
+<br>
+
 ## Backlog do Produto
 
-<h1 align="center"> <img src = "https://raw.githubusercontent.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/master/SPRINT%201/Imagens/backlog.png" width="8500" height="600" /></h1>
+<h1 align="center"> <img src = "https://raw.githubusercontent.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/master/SPRINT%201/Imagens/backlog.png" width="8500" height="450" /></h1>
 
 <br>
 
