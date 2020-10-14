@@ -54,9 +54,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## As Sprints
 
-SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%200))   Concluído :heavy_check_mark:
+SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%200)): Concluído :heavy_check_mark:
 
-SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%201))    Em Andamento :clock8:
+SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT%201)): Em Andamento :clock8:
 
 <br>
 
@@ -65,6 +65,12 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 * **Banco de Dados:** MySQL
 * **Backend:** JavaScript e PhP
 * **Frontend:** HTML, CSS e Bootstrap
+
+<br>
+
+## Metodologia Utilizada
+
+* **Metodologia Ágil:** Framework Scrum
 
 <br>
 
@@ -82,6 +88,7 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 ## Equipe
 
+
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
 |**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/SPRINT 0/_Imagens/Beatriz.png" width="50" height="50"/>|
@@ -90,6 +97,7 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 |**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/SPRINT 0/_Imagens/jefferson.png" width="50" height="50" />|
 |**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/SPRINT 0/_Imagens/Jeferson.png" width="50" height="50" />|
 |**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/SPRINT 0/_Imagens/Bryan.png" width="50" height="50" />|
+   
 
 <br>
 
