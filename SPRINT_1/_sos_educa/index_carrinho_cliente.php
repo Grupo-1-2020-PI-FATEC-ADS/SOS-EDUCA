@@ -128,7 +128,7 @@
           <article class="servico bg-white radius">
             <thead >
               <tr >
-                <th>Imagems</th>
+                <th>Imagem</th>
                 <th>Produto</th>
                 <th>Preço</th>
                 <th>Adicionar</th>
