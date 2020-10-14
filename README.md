@@ -25,7 +25,7 @@
 ## O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
-> Status do Projeto : Em Andamento <img src = "/SPRINT 0/_Imagens/status projeto.png" width="50" height="10" />
+> Status do Projeto : Em Andamento <img src = "/Imagens Geral/status projeto.png" width="50" height="10" />
 
 <br>
 
