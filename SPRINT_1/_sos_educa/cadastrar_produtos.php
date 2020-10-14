@@ -104,14 +104,15 @@
 
   //Enviar uma query
 
-    $cadastraimg=mysqli_query($conexao,"INSERT INTO produtos (id_produtos,nome_prod,preco,estoque,imagem,descricao,id_categoria,arquivo)  VALUES ('','$fild_nome','$preco','$estoque','$img','$desc','$idcat','$arq')");
+    $cadastraimg=mysqli_query($conexao,"INSERT INTO produtos (id_produtos,nome_prod,preco,estoque,imagem,descricao,id_categoria,arquivo)  VALUES (null ,'$fild_nome','$preco','$estoque','$img','$desc','$idcat','$arq')");
 
       mysqli_close($conexao);
 
       echo "<script language='javascript' type='text/javascript'>
           alert('PRODUTO CADASTRADO COM SUCESSO');window.location.href='admin.php';
         </script>"; 
-        
+
+      
       echo "Cadastro efetuado com sucesso!";
 
   } else {

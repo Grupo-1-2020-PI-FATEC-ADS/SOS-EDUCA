@@ -128,7 +128,7 @@
           <article class="servico bg-white radius">
             <thead >
               <tr >
-                <th>Imagens</th>
+                <th>Imagems</th>
                 <th>Produto</th>
                 <th>Preço</th>
                 <th>Adicionar</th>
@@ -182,7 +182,7 @@
       echo "<br />";
         //Exibição de página
         if($menos > 0){
-          echo "<a href='" . $_SERVER['PHP_SELF'] . "?pagina=".$menos."'>anterior</a>";
+          echo  "<a href=" . $_SERVER['PHP_SELF'] . "?pagina=$menos>anterior</a>";
         }//Listando as páginas
         for ($i=1; $i <=$pgs ; $i++) { 
           if($i != $pagina){
@@ -191,7 +191,7 @@
             echo "<strong> " .$i . "</strong>|";
           }//Fim For
           if($mais <= $pgs){
-            echo "<a href='". $_SERVER['PHP_SELF'] . "?pagina=".$mais."'>próximo</a>";
+            echo "<a href=". $_SERVER['PHP_SELF'] . "?pagina=$mais>próximo</a>";
           }               
         }
     }    
