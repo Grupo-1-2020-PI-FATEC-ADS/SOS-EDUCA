@@ -15,4 +15,4 @@
 
 ## Cronograma
 
-<h1 align="center"> <img src = "/Imagens Geral/planejamento.png" width="650" height="350" /></h1>
+<h1 align="center"> <img src = "/Imagens Geral/planejamento.png" width="8500" height="600" /></h1>
