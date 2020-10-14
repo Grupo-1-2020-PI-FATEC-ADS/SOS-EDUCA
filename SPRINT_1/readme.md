@@ -7,4 +7,4 @@
 
 ## Backlog do Produto
 
-<h1 align="center"> <img src = "https://raw.githubusercontent.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/master/SPRINT%201/Imagens/backlog.png" width="8500" height="600" /></h1>
+<h1 align="center"> <img src = "/Imagens Geral/planejamento.png" width="8500" height="600" /></h1>
