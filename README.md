@@ -101,4 +101,4 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 <br>
 
- <h1 align="center"> <img src = "https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT%200/_Imagens/logo%20fatec.png" height="90" /></h1>
+ <h1 align="center"> <img src = "/Imagens Geral/logo fatec.png" height="90" /></h1>
