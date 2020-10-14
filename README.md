@@ -50,6 +50,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  - [x]  Carrinho de Compras;
  - [x]  Saldo de Créditos;
  - [x]  Relatório de Vendas;<br><br>
+ 
+**Clique no link abaixo para visualizar o modelo do site no Figma.**  
+> [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
 
 
 ## As Sprints
