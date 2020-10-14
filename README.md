@@ -1,4 +1,4 @@
-<h5 align="left"> <img src = "https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT%200/_Imagens/fatec.png" height="20" align ="middle" /> Projeto Integrador - Fatec São José dos Campos </h5>
+<h5 align="left"> <img src = "https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/Imagens%20Geral/fatec.png" /> Projeto Integrador - Fatec São José dos Campos </h5>
 
 
 
