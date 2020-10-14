@@ -171,31 +171,37 @@
     </div>
   <?php 
   }//Fim do loço ?>
+  
   <?php
+   
     //Fim do CONTEÚDO
     ####################################
     $menos=$pagina - 1;
     $mais=$pagina + 1;
     $pgs=ceil($total / $maximo);
-    
+   
     if($pgs > 1){
+     
       echo "<br />";
         //Exibição de página
+        
         if($menos > 0){
           echo  "<a href=" . $_SERVER['PHP_SELF'] . "?pagina=$menos>anterior</a>";
         }//Listando as páginas
         for ($i=1; $i <=$pgs ; $i++) { 
           if($i != $pagina){
-            echo "<a href=".$_SERVER['PHP_SELF']. "?pagina=" . ($i) .">$i</a>|";
+            echo "<a href=".$_SERVER['PHP_SELF']. "?pagina=" . ($i) .">$i</a> |  ";
           }else{
-            echo "<strong> " .$i . "</strong>|";
+            echo "<strong><div style='text-align:center; '> " .$i . "</strong> |  ";
           }//Fim For
           if($mais <= $pgs){
             echo "<a href=". $_SERVER['PHP_SELF'] . "?pagina=$mais>próximo</a>";
           }               
         }
-    }    
+    }
+     
   ?>
+  </div>
     </article>
   </main>
   <?php include("rodape.php");?>
