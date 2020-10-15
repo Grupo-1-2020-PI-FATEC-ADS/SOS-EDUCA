@@ -16,7 +16,7 @@
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
-  <a href ="#backlog-do-produto"> Planejamento </a>  • 
+  <a href ="#planejamento"> Planejamento </a>  • 
   <a href ="#entregas"> Sprints </a>  • 
   <a href ="#equipe"> Equipe </a> 
 </p>
