@@ -1,0 +1,57 @@
+body{
+	margin: 0px auto;
+	color:black;
+	background-color:#e9e9e9;
+	padding:0px;
+}
+#d{
+	margin:100px 50px 25px 50px;
+}
+label{
+	width:190px;
+	display:block;
+	float:left;
+}
+fieldset{
+	height:300px;
+	border:3px solid #ccc;
+    padding:15px;
+}
+legend{
+	font-weight:bold;
+	border:3px solid #cccccc;
+	padding:1px 4px;
+	background-color:#cccccc;
+}label.cab{
+	font-weight:bold;
+	margin:0;
+
+}
+form div{
+	margin:15px 0 0 0 ;
+}
+.form_cont, .cab{
+	width:100%;
+	overflow:auto;
+	font-weight:bold;
+}
+.form_cont{
+	height:340px;
+	background:#cccccc;
+	width: 500px;
+	margin-left: 350px;
+	margin-top: -10px;
+	border-radius: 35px;
+	
+}
+.cab{
+	background:#999966;
+	padding:10px 0; 
+	font-size:25px; 
+}
+#button{
+	margin-left:330px;
+	 bottom:11.0em;
+	 margin-top: -60px;
+	 
+}
