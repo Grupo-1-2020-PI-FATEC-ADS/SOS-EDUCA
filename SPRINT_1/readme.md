@@ -17,7 +17,7 @@ Na primeira sprint, decidimos juntamente com a necessidade da empresa cliente, a
 
 - [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
 
-- [Xammp](https://www.apachefriends.org/pt_br/index.html)
+- [Xampp](https://www.apachefriends.org/pt_br/index.html)
 
 
 Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência.
