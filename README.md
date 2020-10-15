@@ -1,4 +1,4 @@
-<h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="30" height="30" /> Projeto Integrador - Fatec São José dos Campos </h5>
+<h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="10" height="10" /> Projeto Integrador - Fatec São José dos Campos </h5>
 
 
 
