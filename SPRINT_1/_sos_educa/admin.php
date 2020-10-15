@@ -73,6 +73,8 @@
   <body>
     <?php include('cabecalho.php');?>
       <section class="newsletter container bg-black">
+      <br>
+      <br>
             <h2 class="alert-info">Cadastro de Produtos da Loja</h2>
         <form action="cadastrar_produtos.php" class="form-group" method="post" enctype="multipart/form-data" name="upload_insere">
         
@@ -113,12 +115,12 @@
           </div>
           <div class="col-md-12">
             <div class="col-md-6">
-              <input class="input-group form-control" type="text" name="nome_prod" placeholder="nome">
+              <input class="input-group form-control" type="text" name="nome_prod" placeholder="Nome do Material">
             </div>
           </div>
           <div class="col-md-12">
             <div class="col-md-6">
-              <input class="input-group form-control" type="text" name="preco" placeholder="preço">
+              <input class="input-group form-control" type="text" name="preco" placeholder="Preço">
             </div>
           </div>
           <div class="col-md-12">
@@ -128,7 +130,7 @@
           </div>
           <div class="col-md-12">
             <div class="col-md-6">
-                <textarea name="desc" class="form-control" placeholder="descrição"></textarea>
+                <textarea name="desc" class="form-control" placeholder="Descrição do"></textarea>
             </div>
           </div>
           <div class="col-md-12">
@@ -138,7 +140,7 @@
           </div>
         </form>
       </section>
-    <div id="tabs-2" class="text-center">
+    <div style="display:none" id="tabs-2" class="text-center">
       <h1 class="alert-warning">Controlador de produtos e estoque</h1>
       <table class="table table-striped table-bordered table-condensed table-hover" >
           <thead>
@@ -179,12 +181,10 @@
     </div>
       <div id="dialog" title="Janela de Dialogo">
         <p align="center">
-          <button id="opener" class="bg-white radius""> <a href="logout_area_restrita.php">Sair</a></button>
+          <button id="opener" class="btn btn-lg btn-danger"> <a style="color:#FFF"   href="logout_area_restrita.php">Sair</a></button>
         </p>
       </div>
       <br>
-    <footer class="container-fluid text-center">
-      <p>Online Store Copyright</p>  
-    </footer>
+      <?php include("rodape.php");?>
   </body>
 </html>
