@@ -12,19 +12,18 @@ Na primeira sprint, decidimos juntamente com a necessidade da empresa cliente, a
 
 **Instalação:**
 
-* Instalar servidor web de sua preferência
+* Instalar servidor web de sua preferência.
 
 **Sugestões:**
 
-* [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
 
-* [Xammp](https://www.apachefriends.org/pt_br/index.html)
-
-
-Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência
+- [Xammp](https://www.apachefriends.org/pt_br/index.html)
 
 
-* [git clone](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA)
+Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência.
+
+> $[git clone](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA)
 
 #### Acessar a pasta do Projeto no terminal/cmd
 
