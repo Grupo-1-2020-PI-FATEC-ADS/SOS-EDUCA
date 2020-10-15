@@ -13,6 +13,6 @@
 
 <br>
 
-## Cronograma
+## Planejamento das Entregas
 
-<h1 align="center"> <img src = "/Imagens Geral/planejamento.png" width="8500" height="600" /></h1>
+<h1 align="center"> <img src = "/Imagens Geral/planejamento_novo.png" width="710" height="420" /></h1>
