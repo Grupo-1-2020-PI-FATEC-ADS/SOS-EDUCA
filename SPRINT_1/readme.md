@@ -8,7 +8,6 @@ Na primeira sprint, decidimos juntamente com a necessidade da empresa cliente, a
 
 ## Requisitos necessários para acessar o site
 
-## Como executar o Projeto?
 
 **Instalação:**
 
