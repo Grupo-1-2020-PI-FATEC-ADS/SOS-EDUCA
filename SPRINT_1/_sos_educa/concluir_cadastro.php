@@ -77,10 +77,10 @@ if ($accept_terms !== 'on') {
     ?> <script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script> <?php
 } else if (in_array($email, $results["email"])) {
          echo "<center><h1><i>Email já cadastrado</i></h1></center>";
-  ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script><?php
+  ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'login_clientes'?>.php'",2000);</script><?php
 } else if (in_array($cpf, $results["cpf"])) {
    echo "<center><h1><i>CPF já cadastrado</i></h1></center>";
- ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script><?php
+ ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'login_clientes'?>.php'",2000);</script><?php
 
 
 }else{
@@ -105,7 +105,7 @@ if (mysqli_query($conexao,$insert) or die(mysqli_error($conexao))) {
   );
   
   echo "<center><h1><i>Cadastrado com sucesso</i></h1></center>";
-  ?><script>setTimeout("window.location='<?= $_POST['goto'] === 'payment' ? 'forma_pagamento' : 'index' ?>.php'",2000);</script><?php
+  ?><script>setTimeout("window.location='<?= isset($_POST['goto']) && $_POST['goto'] === 'payment' ? 'forma_pagamento' : 'index ?>.php',2000);</script> <?php
  }
 }
 ?>  

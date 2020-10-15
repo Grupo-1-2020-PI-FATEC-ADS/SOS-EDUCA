@@ -81,7 +81,7 @@
 		
 		<div class="container">
 			<div class="row col-md-12">
-			<h2 class="col-sm-offset-5">Formulario de Cadastro</h2><br>
+			<h2 class="col-sm-offset-5">Formulário de Cadastro</h2><br>
 				<form class="form-group" action="concluir_cadastro.php" method="post">
 
 					<label >Nome</label>
