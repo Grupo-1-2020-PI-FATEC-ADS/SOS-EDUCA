@@ -2,13 +2,16 @@
 <head><title>Efetuando Cadastro</title>
 <?php session_start() ?>
 <script type="text/javascript">
-	    function loginsuccessfully(){
-	    	setTimeout("window.location='index.php'",2000);
-	    }
-	   function loginfailed() {
-            setTimeout("window.location='cadastro_cliente.php'",2000);
-	   }
-	</script>
+  function loginRedirect(destination) {
+    if (!destination) {
+      destination = 'index'
+    }
+    
+    setTimeout(function() {
+      window.location.href = destination + ".php";
+    })
+  }
+</script>
 
 </head>
 <body>
@@ -66,21 +69,21 @@ foreach ($data as $value) {
 
 if ($accept_terms !== 'on') {
         echo "<center><h1><b>Você precisa aceitar os termos de uso para continuar.</b></h1></center>";
-   ?> <script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script> <?php
+   ?> <script>loginRedirect("<?php echo isset($_POST['goback']) ? $_POST['goback'] : 'cadastro_cliente'?>");</script> <?php
 } else if ($rua == "" || $bairro == "" || $cidade == "") {
          echo "<center><h1><b>Digite o seu  CEP</b></h1></center>";
-    ?> <script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script> <?php
+    ?> <script>loginRedirect("<?php echo isset($_POST['goback']) ? $_POST['goback'] : 'cadastro_cliente'?>");</script> <?php
 
 } else if ($cpf == "000.000.000-00") {
 
     echo "<center><h1><i>CPF inválido</i></h1></center>";
-    ?> <script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script> <?php
+    ?> <script>loginRedirect("<?php echo isset($_POST['goback']) ? $_POST['goback'] : 'cadastro_cliente'?>");</script> <?php
 } else if (in_array($email, $results["email"])) {
          echo "<center><h1><i>Email já cadastrado</i></h1></center>";
-  ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'login_clientes'?>.php'",2000);</script><?php
+  ?><script>loginRedirect("<?php echo isset($_POST['goback']) ? $_POST['goback'] : 'login_clientes'?>");</script><?php
 } else if (in_array($cpf, $results["cpf"])) {
    echo "<center><h1><i>CPF já cadastrado</i></h1></center>";
- ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'login_clientes'?>.php'",2000);</script><?php
+ ?><script>loginRedirect("<?php echo isset($_POST['goback']) ? $_POST['goback'] : 'login_clientes'?>");</script><?php
 
 
 }else{
@@ -103,9 +106,13 @@ if (mysqli_query($conexao,$insert) or die(mysqli_error($conexao))) {
     $_SESSION['telefone'],
     $_SESSION['email']
   );
-  
+
   echo "<center><h1><i>Cadastrado com sucesso</i></h1></center>";
-  ?><script>setTimeout("window.location='<?= isset($_POST['goto']) && $_POST['goto'] === 'payment' ? 'forma_pagamento' : 'index ?>.php',2000);</script> <?php
+  ?>
+    <script>
+      loginRedirect("<?php echo (isset($_POST['goto']) && $_POST['goto'] === 'payment') ? 'forma_pagamento' : 'index' ?>");
+    </script>
+  <?php
  }
 }
 ?>  

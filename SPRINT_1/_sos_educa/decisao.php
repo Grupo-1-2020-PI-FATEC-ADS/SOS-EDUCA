@@ -14,7 +14,7 @@
 
 	</div>
 	<div class="text-center">
-<p class="col-sm-12"><a href="form_compra.php"><button type="buttom" class="btn-lg"><span class="glyphicon glyphicon-shopping-cart">Confirmar compra sem logar</span></button></a></p>
+<p class="col-sm-12"><a href="form_compra.php"><button type="buttom" class="btn-lg"><span class="glyphicon glyphicon-shopping-cart">Cadastrar</span></button></a></p>
 	</div>
 	</div><br><br><br><br><br>
 	<?php include('rodape.php');?>

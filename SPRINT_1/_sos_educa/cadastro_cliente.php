@@ -67,6 +67,10 @@
 		
 		<script>
 			function SomenteNumero(e){
+				// // Tenta assim
+				// var value = e.target.value.replace(/\D+/, "");
+				// e.target.value = value;
+
 				var tecla_digitada=(window.event)?event.keyCode:e.which;   
 				if ((tecla_digitada>47 && tecla_digitada<58)) return true;
 				else{
@@ -83,6 +87,7 @@
 			<div class="row col-md-12">
 			<h2 class="col-sm-offset-5">Formulário de Cadastro</h2><br>
 				<form class="form-group" action="concluir_cadastro.php" method="post">
+					<input type="hidden" name="goto" value="index">
 
 					<label >Nome</label>
 					<input type="text" name="nome" id="dica" class="form-control" placeholder="Digite seu nome" value="<?php echo @$_SESSION['nome']?>" required><span>Digite apenas letras</span><br>
