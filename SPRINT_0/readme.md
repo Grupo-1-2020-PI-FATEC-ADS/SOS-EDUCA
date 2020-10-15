@@ -1,7 +1,3 @@
-<h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="20" height="20" /> Projeto Integrador - Fatec São José dos Campos </h5>
-
-<br>
-
 ## Entrega 1 - SPRINT 0
 
 * Definição do grupo / Divisão das Tarefas 
