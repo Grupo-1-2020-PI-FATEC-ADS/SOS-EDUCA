@@ -91,7 +91,7 @@ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA
 
 <br>
 
-## Cronograma
+## Planejamento
 
 <h1 align="center"> <img src = "/Imagens Geral/planejamento_novo.png" width="710" height="420" /></h1>
 
