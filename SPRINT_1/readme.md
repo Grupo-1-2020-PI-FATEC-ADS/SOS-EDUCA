@@ -22,7 +22,7 @@ Na primeira sprint, decidimos juntamente com a necessidade da empresa cliente, a
 
 Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência.
 
-> $[git clone](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA)
+> $ [git clone](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA)
 
 #### Acessar a pasta do Projeto no terminal/cmd
 
