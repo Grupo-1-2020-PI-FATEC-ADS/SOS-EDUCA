@@ -73,10 +73,10 @@ if ($accept_terms !== 'on') {
 
 } else if ($cpf == "000.000.000-00") {
 
-    echo "<center><h1><i>CPF invalido</i></h1></center>";
+    echo "<center><h1><i>CPF já cadastrado</i></h1></center>";
     ?> <script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script> <?php
 } else if (in_array($email, $results["email"])) {
-         echo "<center><h1><i>Email invalido</i></h1></center>";
+         echo "<center><h1><i>Email já cadastrado</i></h1></center>";
   ?><script>setTimeout("window.location='<?= $_POST['goback'] ?: 'cadastro_cliente'?>.php'",2000);</script><?php
 } else if (in_array($cpf, $results["cpf"])) {
    echo "<center><h1><i>CPF invalido</i></h1></center>";
