@@ -9,7 +9,7 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 
 ## Burndown da Equipe
 
-<h1 align="center"> <img src = "/Imagens Geral/burndown_2.png" width="710" height="420" /></h1>
+<img src = "/Imagens Geral/burndown_3.png" width="2000" height="430" /></h1>
 
 <br>
 
