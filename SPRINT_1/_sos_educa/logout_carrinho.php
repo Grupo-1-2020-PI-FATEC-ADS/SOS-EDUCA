@@ -11,27 +11,33 @@ if (!isset($_SESSION['carrinho_cliente'])) {
     $_SESSION['carrinho_cliente'] = array();
 }
 if (isset($_GET['acao'])) {
-    if ($_GET['acao'] == 'add') {
-        $id = intval($_GET['id']);
-        if (!isset($_SESSION['carrinho_cliente'][$id])) {
-            $_SESSION['carrinho_cliente'][$id] = 1;
-        } else { $_SESSION['carrinho_cliente'][$id] += 1;}}
-    if ($_GET['acao'] == 'del') {$id = intval($_GET['id']);
-        if (isset($_SESSION['carrinho_cliente'][$id])) {
-            unset($_SESSION['carrinho_cliente'][$id]);}}
-    if ($_GET['acao'] == 'up_c') {if (is_array(@$_POST['prod'])) {
-        foreach ($_POST['prod'] as $id => $qtd) {
+   if ($_GET['acao'] == 'add') {
+      $id = intval($_GET['id']);
+      if (!isset($_SESSION['carrinho_cliente'][$id])) {
+         $_SESSION['carrinho_cliente'][$id] = 1;
+      } 
+      else { $_SESSION['carrinho_cliente'][$id] += 1;
+      }
+   }
+   if ($_GET['acao'] == 'del') {$id = intval($_GET['id']);
+      if (isset($_SESSION['carrinho_cliente'][$id])) {
+         unset($_SESSION['carrinho_cliente'][$id]);
+      }
+   }
+   if ($_GET['acao'] == 'up_c') {
+      if (is_array(@$_POST['prod'])) {
+         foreach ($_POST['prod'] as $id => $qtd) {
             $id = intval($id);
             $qtd = intval($qtd);
             if (!empty($qtd) || $qtd != 0) {
-                $_SESSION['carrinho_cliente'][$id] = $qtd;
-            } else {
-                unset($_SESSION['carrinho_cliente'][$id]);
+               $_SESSION['carrinho_cliente'][$id] = $qtd;
+            } 
+            else {
+                  unset($_SESSION['carrinho_cliente'][$id]);
             }
-        }
-    }
-    }
-
+         }
+      }
+   }
 }
 
 ?>

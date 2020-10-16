@@ -164,8 +164,6 @@
         </p>
       </div>
       <br>
-    <footer class="container-fluid text-center">
-      <p>Online Store Copyright</p>  
-    </footer>
+      <?php include('rodape.php');?>
   </body>
 </html>
