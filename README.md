@@ -103,7 +103,7 @@ SPRINT 2 : Em Andamento :clock8:
 
 ## Backlog do Produto
 
-<h1 align="center"> <img src = "/Imagens Geral/produtobacklog.png" /></h1>
+<h1 align="center"> <img src = "/Imagens Geral/backlog_novo.png" /></h1>
 
 <br>
 
