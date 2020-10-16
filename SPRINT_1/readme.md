@@ -5,7 +5,6 @@
 No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do seguinte card:
 <h1 align="center"> <img src = "/Imagens Geral/card 1.png" width="710" height="420" /></h1>
 
-<br>
 
 ## Burndown da Equipe
 
