@@ -1,4 +1,4 @@
-<h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="20" height="20" /> Projeto Integrador - Fatec São José dos Campos </h5>
+
 
 
 
@@ -16,8 +16,11 @@
 <p align="center">
   <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
-  <a href ="#backlog-do-produto"> Planejamento </a>  • 
-  <a href ="#entregas"> Sprints </a>  • 
+  <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
+  <a href ="#as-sprints"> Entregas </a>  • 
+  <a href ="#tecnologias-utilizadas"> Tecnologias </a>  • 
+  <a href ="#metodologia-utilizada"> Metodologia </a>  • 
+  <a href ="#backlog-do-produto"> Backlog </a>  •
   <a href ="#equipe"> Equipe </a> 
 </p>
 
@@ -49,7 +52,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  - [x]  Área do Administrador;
  - [x]  Carrinho de Compras;
  - [x]  Saldo de Créditos;
- - [x]  Relatório de Vendas;<br><br>
+ - [x]  Relatório de Vendas.<br><br>
 
 
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
@@ -57,7 +60,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## Entregas
+## Planejamento de Entregas
 
 - [x] [SPRINT 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0) - 07/09/2020 a 27/09/2020
 
@@ -68,6 +71,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 - [ ] SPRINT 3 - 09/11/2020 a 29/11/2020
 
 - [ ] Apresentação Final - 30/11/2020 a 06/12/2020
+
+
+<h1 align="center"> <img src = "/Imagens Geral/datas.png"/></h1>
 
 <br>
 
@@ -95,12 +101,6 @@ SPRINT 2 : Em Andamento :clock8:
 
 <br>
 
-## Planejamento
-
-<h1 align="center"> <img src = "/Imagens Geral/planejamento_novo.png" width="710" height="420" /></h1>
-
-<br>
-
 ## Backlog do Produto
 
 <h1 align="center"> <img src = "/Imagens Geral/backlog_new.png" /></h1>
@@ -123,3 +123,5 @@ SPRINT 2 : Em Andamento :clock8:
 <br>
 
  <h1 align="center"> <img src = "/Imagens Geral/logo fatec.png" height="90" /></h1>
+ 
+ <h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="20" height="20" /> Projeto Integrador - Fatec São José dos Campos </h5>
