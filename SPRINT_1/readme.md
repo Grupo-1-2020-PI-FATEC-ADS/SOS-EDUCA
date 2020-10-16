@@ -7,6 +7,12 @@ Na primeira sprint, decidimos juntamente com a necessidade do cliente, a aplica√
 
 <br>
 
+## BurnDown da Equipe
+
+<h1 align="center"> <img src = "/SPRINT_1/Imagens/burndown.png" width="710" height="420" /></h1>
+
+<br>
+
 ## Requisitos necess√°rios para acessar o site
 
 
