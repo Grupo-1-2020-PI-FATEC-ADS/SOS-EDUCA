@@ -84,8 +84,17 @@
 		<?php include("navbar.php") ?>
 		
 		<div class="container">
-			<div class="row col-md-12">
-			<h2 class="col-sm-offset-5">Formulário de Cadastro</h2><br>
+				<div class="row col-md-12">
+					<div class="page-header">
+						<div class="alert alert-info" role="alert">
+						<div style='text-align:center'>
+						<h2 class="text-primary"> <b> Formulário de Cadastro </b></h2>
+						<br>
+					</div>
+				</div>
+				<br>
+				<br>
+			
 				<form class="form-group" action="concluir_cadastro.php" method="post">
 					<input type="hidden" name="goto" value="index">
 
