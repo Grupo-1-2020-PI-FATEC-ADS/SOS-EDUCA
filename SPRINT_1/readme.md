@@ -1,8 +1,9 @@
 ## Entrega 2 - SPRINT 1
 
-Na primeira sprint, decidimos juntamente com a necessidade da empresa cliente, a aplicação do seguinte card:
+<br>
 
-(vou colocar o card da sprint aqui..)
+Na primeira sprint, decidimos juntamente com a necessidade do cliente, a aplicação do seguinte card:
+<h1 align="center"> <img src = "/Imagens Geral/card 1.png" width="710" height="420" /></h1>
 
 <br>
 

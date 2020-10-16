@@ -54,7 +54,16 @@ if(isset($_GET['acao'])){
       <h5>
          <table style="margin-left: 20%; " class="table-responsive"  >
          
-<caption class="text-center">Carrinho de Compras</caption>
+
+
+      <div class="page-header">
+            <div class="alert alert-info" role="alert">
+               <div style='text-align:center'>
+               <h2 class="text-primary"> <b> Carrinho de Compras </b></h2>
+               <br>
+               </div>
+            </div>
+      </div>
  
  
 <thead  class="table-responsive">
@@ -180,6 +189,7 @@ if(isset($_POST['enviar'])){
             </form>
 
     </table></h5> 
- <?php include("rodape.php");?>
+      
+      <?php include ("rodape.php");?>
     </body>
     </html>

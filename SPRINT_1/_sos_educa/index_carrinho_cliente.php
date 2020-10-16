@@ -10,10 +10,19 @@
     
     <?php $conexao = mysqli_connect("localhost", "root", "","sos_educa") ?>
 
-    <h3 style="margin-top: 60px">Fitros de Pesquisa</h3>
-
+    <div class="page-header">
+		<div class="alert alert-info" role="alert">
+			<div style='text-align:center'>
+			<h2 class="text-primary"> <b> Lista de Produtos </b></h2>
+			<br>
+		</div>
+		</div>
+		
     <form name="cons" method="post" action="index_carrinho_cliente.php">
-      <h4>Escolha uma categoria</h4>
+      
+      <div style='text-align:center'>
+      <h4 class="text-primary">Escolha uma matéria</h4>
+      
 
       <select name='sel_cat'>
         <?php 
@@ -28,6 +37,7 @@
 
       <button type="submit" style="background-color:green;color:white">Consultar</button>
     </form>
+    </div>
 
     <div class="container-fluid">
       <div class="row">

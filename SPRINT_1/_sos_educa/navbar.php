@@ -11,16 +11,22 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a style="color:#fff" href="index.php">Início</a></li>
+        
         <li><a style="color:#fff" href="cadastro_cliente.php">Cadastre-se</a></li>
-      
         <li><a style="color:#fff" href="login_area_restrita.php">Login ADM</a></li>
         <li><a style="color:#fff" href="contatos.php">Contatos</a></li>
+<<<<<<< HEAD
       </ul>
       <ul class="nav navbar-nav navbar-left">
       
         <li><a  style="color:#fff"href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-book"></span> Produtos</a></li>
 
         <li><a  style="color:#fff"href="carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart"></span> Compras</a></li>
+=======
+        <li><a style="color:#fff"href="index_carrinho_cliente.php"> Produtos</a></li>
+        <li><a style="color:#fff"href="carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart">Carrinho</span></a></li>
+
+>>>>>>> 535fc852e865e8b1ccbcf41586edec25e35218ee
       </ul>
     </div>
   </div>

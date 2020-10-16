@@ -7,13 +7,21 @@
 	</head>
    <body>
       <?php include('navbar.php');?>
-         <br><br>
-
-         <br>
-    
+            
             <section class="newsletter container bg-black">
-               <h2 class="text-primary">ÁREA RESTRITA</h2>
-                  <h3 class="text-danger">  Login </h3>
+           
+            <div class="page-header">
+               <div class="alert alert-info" role="alert">
+                  <div style='text-align:center'>
+                  <h2 class="text-primary"> <b> Área Restrita </b></h2>
+                  <br>
+               </div>
+            </div>
+               <br>
+               <br>
+
+               <div style='text-align:center'>
+                  <h3 class="text-success"><b> Login </b></h3>
                      <form class="form-inline" action="autenticado_usuario.php" method="POST" >
                         <input class="form-control" type="email" name="email" style="min-width:100%;" placeholder="Login" value="<?php echo @$_SESSION['email']?>" ><br>
                         <br/>
@@ -21,6 +29,7 @@
                         <br/>
                         <button class="btn-success btn-block btn-lg"> Entrar </button>
                      </form>
+               </div>
             </section>
 	      <br>
 	   <?php include('rodape.php');?>
