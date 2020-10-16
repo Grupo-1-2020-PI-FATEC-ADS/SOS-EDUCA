@@ -11,7 +11,7 @@
 	<div class="page-header">
 		<div class="alert alert-info" role="alert">
 			<div style='text-align:center'>
-			<h2 class="text-primary"> <b>Insira seu Login ou Crie uma Nova Conta </b></h2>
+			<h2 class="text-primary"> <b> Insira seu Login ou Crie uma Nova Conta </b></h2>
 			<br>
 		</div>
 		</div>
