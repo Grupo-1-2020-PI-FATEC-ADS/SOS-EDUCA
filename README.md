@@ -75,7 +75,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 - [ ] Feira de Soluções - 07/12/2020 a 13/12/2020
 
 
-<h1 align="center"> <img src = "/Imagens Geral/datas.png"/></h1>
+<h1 align="center"> <img src = "/Imagens Geral/datas_3.png"/></h1>
 
 <br>
 
