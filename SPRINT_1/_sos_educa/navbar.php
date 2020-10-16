@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-left">
         <li><a  style="color:#fff"href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-book"></span> Produtos</a></li>
         <li><a  style="color:#fff"href="carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a></li>
-        <li><a style="color:#fff"href="index_carrinho_cliente.php"> Produtos</a></li>
+       
 
       </ul>
     </div>
