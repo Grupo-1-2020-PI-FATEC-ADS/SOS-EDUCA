@@ -269,6 +269,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
                   <td><?= $produto['nome_prod'] ?></td>
                   <td><?= $carrinho[$i] ?></td>
                   <td>R$ <?= number_format($produto['preco'], 2, ',', '.') ?></td>
+                  
                </tr>
             <?php endforeach ?>
 
@@ -278,6 +279,7 @@ if (count($_SESSION['carrinho_cliente']) == 0) {
                   <td>R$ <?= number_format(array_reduce($produtos, function($val, $produto) use ($carrinho) {
                       return $produto['preco'] * $carrinho[$produto['id_produtos']] + $val;
                     }, 0), 2, ',', '.') ?></td>
+                    <td><a href="arquivos/<?= $produto['arquivo'] ?>" download="">Baixar Arquivo</a></td>
                </tr>
             </tfoot>
          </tbody>

@@ -70,9 +70,9 @@
                 ?>
                   <?php if ($produto):?>
                     <tr>
-                      <td style="text-align:right">
-                        <a href="arquivos/<?= $produto['arquivo'] ?>" download="">Baixar Arquivo</a>
-                      </td>
+                      <!--<td style="text-align:right">
+                        <a href="arquivos/" download="">Baixar Arquivo</a>
+                      </td>-->
                       <td>
                         <img src="imagens/<?= $produto['imagem'] ?>" style="width:120px;height:160px;float:left;margin-right:20px">
                         <h3 style="margin-top:0"><?= $produto['nome_prod'] ?></h3>
