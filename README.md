@@ -126,4 +126,4 @@ SPRINT 2 : Em Andamento :clock8:
 
  <h1 align="center"> <img src = "/Imagens Geral/logo fatec.png" height="90" /></h1>
  
- <h5 align="left"> <img src = "/Imagens Geral/fatec.png" width="20" height="20" /> Projeto Integrador - Fatec São José dos Campos </h5>
+ <h5 align="center"> <img src = "/Imagens Geral/fatec.png" width="20" height="20" /> Projeto Integrador - Fatec São José dos Campos </h5>
