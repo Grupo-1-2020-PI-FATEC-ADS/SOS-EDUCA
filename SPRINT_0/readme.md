@@ -9,4 +9,4 @@
 
 ## Planejamento das Entregas
 
-<h1 align="center"> <img src = "/Imagens Geral/planejamento_novo.png" width="710" height="420" /></h1>
+<h1 align="center"><img src = "/Imagens Geral/datas_3.png"/></h1>
