@@ -146,9 +146,11 @@
 					<input type="email" name="email" class="form-control" placeholder="Digite seu email" value= "<?php echo @$_SESSION['email']?>" required><br>
 					<label>Senha</label>
 					<input type="password" name="senha" maxlength="8" class="form-control" placeholder="Digite sua senha" value="<?php echo @$_SESSION['senha']?>" required><br><br>
-
+					<a href="arquivos/lei.pdf" download="">Política de Privacidade</a>
 					<div class="checkbox">
+					
 						<label>
+						
 							<input type="checkbox" name="accept_terms" required>
 								<strong>Declaro que li e aceito os termos da Lei Geral de Proteção de Dados Pessoais, Lei nº 13.709/2018</strong>
 						</label>
