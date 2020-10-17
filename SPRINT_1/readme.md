@@ -49,40 +49,39 @@ No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do se
 **Instalação:**
 
 
-Instalar servidor web de sua preferência. _Sugestão_:
+ - Instalar servidor web de sua preferência. _Sugestão_:
 
-```
-[Xampp](https://www.apachefriends.org/pt_br/index.html)
-```
+ ```
+ [Xampp](https://www.apachefriends.org/pt_br/index.html)
+ ```
 
-Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência. _Sugestão_:
+ - Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência. _Sugestão_:
 
-```
-[Visual Studio](https://visualstudio.microsoft.com/pt-br/)
-```
+ ```
+ [Visual Studio](https://visualstudio.microsoft.com/pt-br/)
+ ```
 
-No terminal, clone o projeto: 
+ - No terminal, clone o projeto: 
 
-```
-$ git clone https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA.git
-```
+ ```
+ $ git clone https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA.git
+ ```
 
 #### Acessar a pasta do Projeto no terminal/cmd
 
-```
-cd SOS-EDUCA
-cd SPRINT_1
-cd _sos_educa
-```
+ ```
+ cd SOS-EDUCA
+ cd SPRINT_1
+ cd _sos_educa
+ ```
 
-Para ter acesso ao Banco de Dados, solicitamos que faça a inserção no (Php MyAdmin, MySQL etc..) de sua preferência.
+ - Para ter acesso ao Banco de Dados, solicitamos que faça a inserção no (Php MyAdmin, MySQL etc..) de sua preferência.
 
 #### Execute a aplicação
 
-Acesse o servidor:
+ - Acesse o servidor:
 
-```
-http://localhost/Projeto_PI/SOS-EDUCA/SPRINT_1/_sos_educa/
-
-```
+ ```
+ http://localhost/Projeto_PI/SOS-EDUCA/SPRINT_1/_sos_educa/
+ ```
 
