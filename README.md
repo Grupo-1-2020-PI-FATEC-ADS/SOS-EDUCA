@@ -113,6 +113,8 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <h1 align="center"> <img src = "/Imagens Geral/backlog_new.png" /></h1>
 
+_Nota: Acessibilidade foi quebrada em Sprints, ou seja, para cada etapa esse recurso será inserido, todavia só será considerada completa no último Sprint, conforme Backlog_
+
 <br>
 
 ## Equipe 
