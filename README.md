@@ -98,8 +98,8 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 <h1 align="center"> <img src = "/Imagens Geral/tecnologia.png"/></h1>
 
 * **Banco de Dados:** MySQL
-* **Backend:** JavaScript e PhP
-* **Frontend:** HTML, CSS e Bootstrap
+* **Back-end:** JavaScript e PhP
+* **Front-end:** HTML, CSS e Bootstrap
 
 <br>
 
