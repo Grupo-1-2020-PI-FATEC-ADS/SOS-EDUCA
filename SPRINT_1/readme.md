@@ -77,7 +77,11 @@ No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do se
  cd _sos_educa
  ```
 
- - Para ter acesso ao Banco de Dados, solicitamos que faça a inserção no (Php MyAdmin, MySQL etc..) de sua preferência.
+ - Para ter acesso ao Banco de Dados, solicitamos que faça a inserção do arquivo abaixo no serviço de banco de dados (Php MyAdmin, MySQL etc..) de sua preferência.
+ 
+ ```
+ sos_educa.sql
+ ```
 
 #### Execute a aplicação
 
