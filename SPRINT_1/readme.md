@@ -18,6 +18,7 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 **Instalação:**
 
 * Instalar servidor web de sua preferência.
+* Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência.
 
 **Sugestões:**
 
@@ -25,10 +26,7 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 
 - [Xampp](https://www.apachefriends.org/pt_br/index.html)
 
-
-Instalar IDE (Ambiente de Desenvolvimento Integrado) de sua preferência.
-
-> $ [git clone](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA)
+* $ git clone https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA.git
 
 #### Acessar a pasta do Projeto no terminal/cmd
 
