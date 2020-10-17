@@ -50,5 +50,13 @@ Acesse o servidor:
 http://localhost/Projeto_PI/SOS-EDUCA/SPRINT_1/_sos_educa/
 
 #### Demonstração
-[![materiais](https://img.youtube.com/vi/HYYQKMeWJag/0.jpg)](https://www.youtube.com/watch?v=HYYQKMeWJag&feature=youtu.be) - **Materiais**
 
+**Funcionalidades**
+
+ * Login Admin (Upload de Materiais)
+ * Materiais (Todos e separados por sessões)
+ * Cadastro de Usuários
+ * Pagamento Boleto (Download de compra)
+ * Pagamento Cartão (Download de compra)
+ * Acessibilidade (Libras) <br><br>
+[![requisitos_funcionais](https://img.youtube.com/vi/HYYQKMeWJag/0.jpg)](https://www.youtube.com/watch?v=HYYQKMeWJag&feature=youtu.be)
