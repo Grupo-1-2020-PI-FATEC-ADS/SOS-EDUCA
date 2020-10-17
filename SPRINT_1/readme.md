@@ -59,4 +59,5 @@ http://localhost/Projeto_PI/SOS-EDUCA/SPRINT_1/_sos_educa/
  * Pagamento Boleto (Download de compra)
  * Pagamento Cartão (Download de compra)
  * Acessibilidade (Libras) <br><br>
-[![requisitos_funcionais](https://img.youtube.com/vi/HYYQKMeWJag/0.jpg)](https://www.youtube.com/watch?v=HYYQKMeWJag&feature=youtu.be)
+ 
+ [![requisitos_funcionais](https://img.youtube.com/vi/HYYQKMeWJag/0.jpg)](https://www.youtube.com/watch?v=HYYQKMeWJag&feature=youtu.be)
