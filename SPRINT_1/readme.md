@@ -26,7 +26,9 @@ No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do se
  * Cadastro de Usuários: Concluído :heavy_check_mark:
  * Pagamento Cartão (Download de compra): Concluído :heavy_check_mark:
  * Pagamento Boleto (Download de compra): Concluído :heavy_check_mark:
- * Acessibilidade (Libras): Concluído :heavy_check_mark: <br><br>
+ * Acessibilidade (Libras): Concluído para esse Sprint (ver nota) :heavy_check_mark: <br><br>
+ 
+ _Nota: Acessibilidade foi quebrada em Sprints, ou seja, para cada etapa esse recurso será inserido, todavia só será considerada completa no último Sprint, conforme Backlog_
  
 <br>
 
