@@ -7,6 +7,11 @@
 
 <br>
 
+**Clique no link abaixo para visualizar a Apresentação de Pitch.**  
+> [Apresentação Pitch](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/SPRINT_0/Pitch - Grupo 1 - ADS - Turma A.pdf)
+
+<br>
+
 ## Planejamento das Entregas
 
 <h1 align="center"><img src = "/Imagens Geral/datas_3.png"/></h1>
