@@ -6,6 +6,10 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 <h1 align="center"> <img src = "/Imagens Geral/card 1.png" width="710" height="420" /></h1>
 
 
+**Clique no link abaixo para visualizar os materiais didáticos do tipo texto:**  
+> [Protótipo do Site](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Materiais%20Did%C3%A1ticos/1-%20Textos)
+
+
 ## Burndown da Equipe
 
 <img src = "/Imagens Geral/burndown_3.png" width="2500" height="430" /></h1>
@@ -26,7 +30,6 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 
 - [Xampp](https://www.apachefriends.org/pt_br/index.html)
 
-**Clone este repositório**
 * $ git clone https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA.git
 
 #### Acessar a pasta do Projeto no terminal/cmd
