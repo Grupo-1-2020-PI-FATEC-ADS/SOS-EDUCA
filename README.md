@@ -25,6 +25,7 @@
 </p>
 
 
+
 ## O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
@@ -91,6 +92,8 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## Tecnologias Utilizadas
 
+<h1 align="center"> <img src = "/Imagens Geral/tecnologias.png"/></h1>
+
 * **Banco de Dados:** MySQL
 * **Backend:** JavaScript e PhP
 * **Frontend:** HTML, CSS e Bootstrap
@@ -109,7 +112,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## Equipe
+## Equipe 
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
 
 |Nome|Função|Linkedin|GitHub|Avatar|
