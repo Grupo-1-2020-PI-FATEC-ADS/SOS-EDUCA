@@ -12,6 +12,42 @@
 
 <br>
 
-## Planejamento das Entregas
+## Layout
 
-<h1 align="center"><img src = "/Imagens Geral/datas_3.png"/></h1>
+<h3 align="center">Produtos</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/materiais.gif"/></h1>
+
+<br>
+
+<h3 align="center">Carrinho</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/carrinho.gif"/></h1>
+
+<br>
+
+<h3 align="center">Notícias</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/blog.gif"/></h1>
+
+<br>
+
+<h3 align="center">Login</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/login.gif"/></h1>
+
+<br>
+
+<h3 align="center">Área ADM</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/area_adm.gif"/></h1>
+
+<br>
+
+<h3 align="center">Área Cliente</h3>
+
+<h1 align="center"> <img src = "/Imagens Geral/area_cliente.gif"/></h1>
+
+<br>
+
+
