@@ -92,7 +92,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## Tecnologias Utilizadas
 
-<h1 align="center"> <img src = "/Imagens Geral/tecnologias.png"/></h1>
+<h1 align="center"> <img src = "/Imagens Geral/tecnologia.png"/></h1>
 
 * **Banco de Dados:** MySQL
 * **Backend:** JavaScript e PhP
