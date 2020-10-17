@@ -53,11 +53,12 @@ http://localhost/Projeto_PI/SOS-EDUCA/SPRINT_1/_sos_educa/
 
 **Funcionalidades**
 
- * Login Admin (Upload de Materiais): Concluído :heavy_check_mark:
+ * Login Admin (Upload de Materiais e Controlador de Produtos): Concluído :heavy_check_mark:
  * Materiais (Todos e separados por sessões): Concluído :heavy_check_mark:
+ * Carrinho de Compras: Concluído :heavy_check_mark:
  * Cadastro de Usuários: Concluído :heavy_check_mark:
- * Pagamento Boleto (Download de compra): Concluído :heavy_check_mark:
  * Pagamento Cartão (Download de compra): Concluído :heavy_check_mark:
+ * Pagamento Boleto (Download de compra): Concluído :heavy_check_mark:
  * Acessibilidade (Libras): Concluído :heavy_check_mark: <br><br>
  
  [![requisitos_funcionais](https://img.youtube.com/vi/_IczTG48Nj8/0.jpg)](https://www.youtube.com/watch?v=_IczTG48Nj8&feature=youtu.be)
