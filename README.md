@@ -1,15 +1,9 @@
-
-
-
-
 <br>
 
 <p align="center">
       <img src="/Imagens Geral/logo.png" width="200" height="150">
       <h3 align="center"> O melhor Conteúdo Didático a um clique de distância </h3>
 <p align="center">
-
-
 
 <hr>
 
@@ -24,7 +18,16 @@
   <a href ="#equipe"> Equipe </a> 
 </p>
 
+<h4 align="center"> 
+ <img src = "https://forthebadge.com/images/badges/built-with-love.svg" />
+ <img src = "https://forthebadge.com/images/badges/powered-by-coffee.svg"/>
+ <img src = "https://forthebadge.com/images/badges/uses-css.svg"/>
+ <img src = "https://forthebadge.com/images/badges/uses-html.svg"/>
+ <img src = "https://forthebadge.com/images/badges/uses-js.svg"/>
+</h4>
 
+
+<br>
 
 ## O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
@@ -113,9 +116,6 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 <br>
 
 ## Equipe 
-
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
-
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
