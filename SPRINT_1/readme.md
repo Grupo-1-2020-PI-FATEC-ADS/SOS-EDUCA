@@ -26,6 +26,7 @@ No sprint 1, decidimos juntamente com a necessidade do cliente, a aplicação do
 
 - [Xampp](https://www.apachefriends.org/pt_br/index.html)
 
+**Clone este repositório**
 * $ git clone https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA.git
 
 #### Acessar a pasta do Projeto no terminal/cmd
