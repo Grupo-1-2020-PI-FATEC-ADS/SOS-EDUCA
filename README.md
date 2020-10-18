@@ -64,6 +64,11 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
+**Clique no link abaixo para visualizar os custos do Projeto.** 
+> [Fatura](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT_0/Fatura%20SOS%20EDUCA.pdf)
+
+<br>
+
 ## Planejamento de Entregas
 
 - [x] [SPRINT 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0) - 07/09/2020 a 27/09/2020
