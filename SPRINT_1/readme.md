@@ -32,6 +32,10 @@ No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do se
  
 <br>
 
+**Processo de Compra**
+
+<h1 align="center"> <img src = "/Imagens Geral/compra.png"/></h1>
+
 ## :notebook_with_decorative_cover: Materiais Didáticos
 
 **Clique no link abaixo para visualizar os materiais didáticos do tipo texto:**  
