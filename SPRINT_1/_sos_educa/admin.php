@@ -62,69 +62,81 @@
   </head>
   <body>
     <?php include('navbar.php');?>
-      <section class="newsletter container bg-black">
-            <h2 class="alert-info">Cadastro de Produtos da Loja</h2>
-        <form action="cadastrar_produtos.php" class="form-group" method="post" enctype="multipart/form-data" name="upload_insere">
+    <br><br><br>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item active">
+          <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Controle de Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Controle de Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Controle de Vendas</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade in active" id="home">
         
-          <div class="col-md-12">
-            <label class="col-md-12">Selecione o arquivo conteúdo para Upload</label>
-              <div class="input-group col-md-6">
-                <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
-                <input type="file" name="arquivo" class="form-control" aria-describedby="sizing-addon2">
+          <section class="newsletter container bg-black">
+            <h2 class="alert-info">Cadastro de Produtos da Loja</h2>
+            <form action="cadastrar_produtos.php" class="form-group" method="post" enctype="multipart/form-data" name="upload_insere">
+              <div class="col-md-12">
+                <label class="col-md-12">Selecione o arquivo conteúdo para Upload</label>
+                <div class="input-group col-md-6">
+                  <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+                  <input type="file" name="arquivo" class="form-control" aria-describedby="sizing-addon2">
+                </div>
               </div>
-          </div>
-
-          <div class="col-md-12">
-            <label class="col-md-12">Selecione a imagem para Upload</label>
-              <div class="input-group col-md-6">
-                <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
-                <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2">
+              <div class="col-md-12">
+                <label class="col-md-12">Selecione a imagem para Upload</label>
+                  <div class="input-group col-md-6">
+                    <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+                    <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2">
+                  </div>
               </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-6">
-              <h4>Selecione a Categoria do Produto</h4>
-            </div>
-          </div>
-
-          <div class="col-md-12">
-            <div class="col-md-6">
-                <select name="sel_cat" class="form-control">
-                    <?php
-                        $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
-                      while($linha=mysqli_fetch_assoc($resultado)){
-                    ?>
-                    <option value="<?php echo $linha['id_cat']; ?>">
-                      <?php echo ($linha['nome_cat']);?>
-                    </option>
-                      <?php }?>
-                </select> 
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-6">
-              <input class="input-group form-control" type="text" name="nome_prod" placeholder="nome">
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-6">
-              <input class="input-group form-control" type="text" name="preco" placeholder="preço">
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-6">
-                <textarea name="desc" class="form-control" placeholder="descrição"></textarea>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="col-md-6">
-                <button class="btn btn-info "> Cadastrar </button>
-            </div>
-          </div>
-        </form>
-      </section>
-    <div id="tabs-2" class="text-center">
-      <h1 class="alert-warning">Controlador de produtos</h1>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                  <h4>Selecione a Categoria do Produto</h4>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                    <select name="sel_cat" class="form-control">
+                        <?php
+                            $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
+                          while($linha=mysqli_fetch_assoc($resultado)){
+                        ?>
+                        <option value="<?php echo $linha['id_cat']; ?>">
+                          <?php echo ($linha['nome_cat']);?>
+                        </option>
+                          <?php }?>
+                    </select> 
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                  <input class="input-group form-control" type="text" name="nome_prod" placeholder="nome">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                  <input class="input-group form-control" type="text" name="preco" placeholder="preço">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                    <textarea name="desc" class="form-control" placeholder="descrição"></textarea>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-6">
+                    <button class="btn btn-info "> Cadastrar </button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <div id="tabs-2" class="text-center">
+        <h1 class="alert-warning">Controlador de produtos</h1>
       <table class="table table-striped table-bordered table-condensed table-hover" >
           <thead>
             <tr>
@@ -154,7 +166,7 @@
         <?php
             }//fim do while
           }//fim do if
-            mysqli_close($conexao);//fecha conexão
+            
         ?>
       </table>
     </div>
@@ -163,7 +175,20 @@
           <button id="opener" class="bg-white radius""> <a href="logout_area_restrita.php">Sair</a></button>
         </p>
       </div>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <?php include("admCliente.php") ?>
+        </div>
+        <div class="tab-pane fade" id="contact">
+        <?php include("admVenda.php") ?>
+        </div>
+      </div>
+   
       <br>
-      <?php include('rodape.php');?>
+      
+      <?php 
+        mysqli_close($conexao);//fecha conexão
+        include('rodape.php');
+      ?>
   </body>
 </html>
