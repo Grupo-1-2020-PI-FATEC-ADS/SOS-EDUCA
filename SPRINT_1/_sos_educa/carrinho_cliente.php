@@ -133,7 +133,7 @@ echo "<script language='javascript' type='text/javascript'>
     alert('Quantidade insuficiente para compra!');window.location.href='carrinho_cliente.php';
   </script>";  }else{
  $atualiza=mysqli_query($conexao, "update produtos set estoque=estoque - '$qtd' where id_produtos='$id' ");    
-/*$inseri_vendas=mysqli_query($conexao, "insert into vendas VALUES('','','$total','$qtd')");*/
+   $inseri_vendas=mysqli_query($conexao, "insert into vendas VALUES(null,null,'$total','$qtd')");
 /*   $idVenda= mysqli_insert_id($conexao);
 
 $SqlInserirItens =mysqli_query($conexao, "insert into itens_venda(id_venda,id,id_prod,nome_prod,qtd,id_cat,data_compra)VALUES('$idVenda' ,'','$id','$nome','$qtd','$i','$data') ");*/
@@ -173,7 +173,7 @@ $max = mysqli_fetch_array(mysqli_query($conexao,"select * from produtos where no
 
 if(isset($_POST['enviar'])){
    
-   $SqlInserirVenda= mysqli_query($conexao, "insert into vendas(id ,total) VALUES('','$total') ");
+   $SqlInserirVenda= mysqli_query($conexao, "insert into vendas(id ,total) VALUES(null,'$total') ");
    $idVenda= mysqli_insert_id($link);
    foreach($_SESSION['carrinho'] as $prod => $qtd):
            $SqlInserirItens =mysqli_query($conexao ,"insert into itens_venda(id_venda,id,id_prod,nome_prod,qtd)VALUES('$idVenda' ,'','$id'  ,'$prod','$qtd') ");

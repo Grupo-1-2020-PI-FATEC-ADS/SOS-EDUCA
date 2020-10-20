@@ -25,12 +25,24 @@
       
 
       <select name='sel_cat'>
+          <option value="0">Todos</option>
         <?php 
+            @$pagina = $_GET['pagina'];
+            @$idcat = $_POST['sel_cat'];
+        
           $resultado = mysqli_query($conexao,"SELECT * FROM categorias");
-
+          $selecionado = "";
           while($item = mysqli_fetch_assoc($resultado)): ?>
-            <option value="<?= $item['id_cat'] ?>">
-              <?= $item['nome_cat'] ?>
+            <?php 
+                if ($item['id_cat']==$idcat){
+                    $selecionado = "selected";
+                } else
+                {
+                    $selecionado = "";
+                }
+            ?>
+            <option <?php echo $selecionado ?> value="<?= $item['id_cat']?>">
+              <?= utf8_encode($item['nome_cat']) ?>
             </option>
           <?php endwhile ?>
       </select> 
