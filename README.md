@@ -116,7 +116,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## Backlog do Produto
 
-<h1 align="center"> <img src = "/Imagens Geral/backlog_new.png" /></h1>
+<h1 align="center"> <img src = "/Imagens Geral/backlog_novo.png" /></h1>
 
 <br>
 
