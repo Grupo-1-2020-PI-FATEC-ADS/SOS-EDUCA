@@ -87,6 +87,8 @@
           ?>
 
           <?php while($linha=mysqli_fetch_object($sql)): // CONTENT ?>
+          <form action="carrinho_cliente.php" method="POST">
+          
             <div class="col-md-3 col-sm-6">
               <div class="product-card">
                 <div class="product-card-image" style="background-image: url(imagens/<?= $linha->imagem ?>)">
@@ -104,12 +106,16 @@
                     <?= number_format($linha->preco, 2, ',', '.') ?>
                   </div>
 
-                  <a class="cart-button" href="carrinho_cliente.php?acao=add&id=<?= $linha->id_produtos ?>">
+                  <button type="submit" name="enviar">COMPRA</button>
+                  <input type="hidden" name="acao" value="add"/>
+                  <input type="hidden" name="id" value="<?= $linha->id_produtos ?>" />
+                  
                     <span class="glyphicon glyphicon-shopping-cart"></span>
                   </a>
                 </footer>
               </div>
             </div>
+            </form>
           <?php endwhile /* END OF CONTENT */ ?>
       </div>
     </div>
