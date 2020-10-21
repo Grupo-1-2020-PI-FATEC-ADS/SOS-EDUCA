@@ -114,10 +114,10 @@ if(isset($_POST['acao'])){
                   $conexao=mysqli_connect("localhost", "root", "","sos_educa");
                  
                      $total = 0;
-                     print_r($_SESSION);  
+                     
                         foreach($_SESSION['carrinho_cliente'] as $id => $qtd){         
                            $sql   = "SELECT * FROM produtos WHERE id_produtos='$id' ";
-                           print($sql);
+                           
                            $qr    = mysqli_query($conexao, $sql) or die(mysqli_error());
                           
                            $ln    = mysqli_fetch_assoc($qr);
