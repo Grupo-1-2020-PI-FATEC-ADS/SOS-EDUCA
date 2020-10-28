@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Validação de campos com AJAX</title>
+<script type="text/javascript" src="ajax/funcs.js"></script>
+
+<style type="text/css">
+body {
+	font-family: Calibri, Verdana, Arial;
+	font-size: 15px;
+	font-weight:bold;
+	margin: 25px;
+}
+
+input {
+	border: dotted 1px #333;
+	font-family: Calibri, Verdana, Arial;
+	font-size: 13px;
+}
+
+div {
+	padding-top: 5px;
+	font-size: 13px;
+	color: #C30;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Validação de campos com AJAX</h1>
+<form action="ajax/validacao.php" method="get" accept-charset="utf-8">
+
+Login: <br /> <input type="text" id="login" onblur="validarDados('login', document.getElementById('login').value);" />
+<div id="campo_login"> </div> <br />
+
+Email: <br /> <input type="text" id="email" onblur="validarDados('email', document.getElementById('email').value);" />
+<div id="campo_email"> </div> <br />
+
+CPF: <br /> <input type="text" id="cpf" onblur="validarDados('cpf', document.getElementById('cpf').value);" />
+<div id="campo_cpf"> </div> <br />
+
+<input type="submit" value="Enviar" />
+	
+</form>
+</body>
+</html>
