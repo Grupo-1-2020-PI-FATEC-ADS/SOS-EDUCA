@@ -1,6 +1,6 @@
 ## Entrega 3 - SPRINT 2
 
-No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
+No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
 
 (card)
 
