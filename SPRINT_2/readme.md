@@ -6,7 +6,7 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-🎬 ## Materiais Didáticos - Vídeos:
+ ## : cinema: Materiais Didáticos - Vídeos:
 
 **Clique no link abaixo para visualizar uma playlist com todos os vídeos de materiais didáticos:**  
 
