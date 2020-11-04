@@ -4,6 +4,10 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 (card)
 
-## Playlist com materiais didáticos do tipo vídeo:
+<br>
 
-> :movie_camera: [Playlist dos Vídeos](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Materiais%20Did%C3%A1ticos/2%20-%20V%C3%ADdeos)
+## Materiais Didáticos - Vídeos:
+
+**Clique no link abaixo para visualizar uma playlist com todos os vídeos de materiais didáticos:**  
+
+> :movie_camera:  [Playlist](https://www.youtube.com/watch?v=9DbPImwFvUk&list=PL94iJfytd-50M5jZ52R7rGIdA7n2RwQuC&ab_channel=soseduca)
