@@ -2,7 +2,7 @@
 <?php
   $fild_nome=$_POST['nome_prod'];
   $preco=$_POST['preco'];
-  $estoque=$_POST['estoque'];
+  //$estoque=$_POST['estoque'];
   $idcat=$_POST['sel_cat'];
   $desc=$_POST['desc'];
 
@@ -12,9 +12,9 @@
    */
 
   $_img['pasta'] = 'imagens/';
-  $_img['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1000; // 2Mb
+  $_img['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1024 * 1000; 
   $_img['extensoes'] = array('jpeg', 'jpg', 'png', 'gif');
-  $_img['renomeia'] = true;
+  $_img['renomeia'] = false;
 
   $_img['erros'][0] = 'Não houve erro';
   $_img['erros'][1] = 'A imagem no upload é maior do que o limite do PHP';
@@ -50,9 +50,9 @@
    */
 
   $_arq['pasta'] = 'arquivos/';
-  $_arq['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1000; // 2Mb
+  $_arq['tamanho'] = 1024 * 1024 * 1024 * 1024 * 1024 * 1000; 
   $_arq['extensoes'] = array('jpg', 'png', 'gif' ,'txt','docx','xlsx','mp3','mp4','pdf');
-  $_arq['renomeia'] = true;
+  $_arq['renomeia'] = false;
 
   $_arq['erros'][0] = 'Não houve erro';
   $_arq['erros'][1] = 'O arquivo no upload é maior do que o limite do PHP';
@@ -90,8 +90,9 @@
     (isset($_POST['nome_prod']))){
 
   //Enviar uma query
-
-    $cadastraimg=mysqli_query($conexao,"INSERT INTO produtos (nome_prod,preco,estoque,imagem,descricao,id_categoria,arquivo)  VALUES ('$fild_nome','$preco','$estoque','$img','$desc','$idcat','$arq')");
+    $cad = "INSERT INTO produtos (nome_prod,preco,imagem,descricao,id_categoria,arquivo)  VALUES ('$fild_nome','$preco','$img','$desc','$idcat','$arq')";
+    echo $cad;
+    $cadastraimg=mysqli_query($conexao, $cad);
     mysqli_close($conexao);
     echo "<script language='javascript' type='text/javascript'>
             alert('PRODUTO CADASTRADO COM SUCESSO');window.location.href='admin.php';
