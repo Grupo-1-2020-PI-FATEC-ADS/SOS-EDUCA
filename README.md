@@ -96,10 +96,11 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ⬜ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Em Andamento :clock8:
 
+<br>
+
 ## Cards das Sprints
 <img src="/Imagens Geral/cards0e1.png" width="1000" height="400">
 
-<br>
 
 ## Tecnologias Utilizadas
 
