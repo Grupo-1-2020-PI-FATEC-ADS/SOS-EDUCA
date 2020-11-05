@@ -13,6 +13,7 @@
         <li class="active"><a style="color:#fff" href="index.php"><span class="glyphicon glyphicon-asterisk"></span> Início</a></li>
         <li><a style="color:#fff" href="cadastro_cliente.php"><span class="glyphicon glyphicon-plus"></span> Cadastre-se</a></li>
         <li><a style="color:#fff" href="login_area_restrita.php"><span class="glyphicon glyphicon-user"></span> Login ADM</a></li>
+        <li><a style="color:#fff" href="login_cliente_geral.php"><span class="glyphicon glyphicon-plus"></span> Login Clientes</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-left">
         <li><a  style="color:#fff"href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-book"></span> Produtos</a></li>
