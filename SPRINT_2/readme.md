@@ -2,7 +2,7 @@
 
 No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
 
-(card)
+<h1 align="center"> <img src = "/Imagens Geral/card2.png" width="710" height="420" /></h1>
 
 <br>
 
