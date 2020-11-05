@@ -12,6 +12,7 @@
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
   <a href ="#as-sprints"> Sprints </a>  • 
+  <a href ="#cards-das-sprints"> Cards </a>  •
   <a href ="#tecnologias-utilizadas"> Tecnologias </a>  • 
   <a href ="#metodologia-utilizada"> Metodologia </a>  • 
   <a href ="#backlog-do-produto"> Backlog </a>  •
