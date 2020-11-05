@@ -16,12 +16,12 @@
            </div>
         </div>
       </div>    
-    <form  class="form-group" action="autenticando_clientes.php" method="POST" >
+    <form  class="form-group" action="alterar_senha.php" method="POST" >
       <input  class="input-group" type="password" name="senha" <?= @$_SESSION['senha'] ? 'autofocus' : '' ?>  maxlength="8" placeholder="Digite sua senha atual" />
       <br />
-      <input  class="input-group" type="password" name="senha" <?= @$_SESSION['senha'] ? 'autofocus' : '' ?>  maxlength="8" placeholder="Digite sua nova senha" />
+      <input  class="input-group" type="password" name="senha_nova" <?= @$_SESSION['senha'] ? 'autofocus' : '' ?>  maxlength="8" placeholder="Digite sua nova senha" />
       <br />
-      <input  class="input-group" type="password" name="senha" <?= @$_SESSION['senha'] ? 'autofocus' : '' ?>  maxlength="8" placeholder="Confirme sua nova senha" />
+      <input  class="input-group" type="password" name="confirmar_senha" <?= @$_SESSION['senha'] ? 'autofocus' : '' ?>  maxlength="8" placeholder="Confirme sua nova senha" />
       <br />
       <input type="submit" class="btn-success" value="Alterar" >
       
