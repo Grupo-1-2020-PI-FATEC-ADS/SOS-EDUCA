@@ -101,6 +101,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 ## Cards das Sprints
 <img src="/Imagens Geral/cards0e1.png" width="1100" height="500">
 
+<img src="/Imagens Geral/cards2e3.png" width="1100" height="500">
 
 ## Tecnologias Utilizadas
 
