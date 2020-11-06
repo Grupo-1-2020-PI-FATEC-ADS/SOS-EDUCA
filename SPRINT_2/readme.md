@@ -6,11 +6,11 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-## Link do site | SOS-EDUCA
+## :books: Link do site | SOS-EDUCA
 
 **Clique no link abaixo para visualizar a hospedagem do site:**
 
-> :books:  [http://soseduca.site](http://soseduca.site/)
+>  :key: [http://soseduca.site](http://soseduca.site/)
  
  
  
