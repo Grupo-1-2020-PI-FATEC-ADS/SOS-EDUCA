@@ -12,8 +12,7 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 >  :key: [http://soseduca.site](http://soseduca.site/)
  
- 
- 
+  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
  
  <br>
  
