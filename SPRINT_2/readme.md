@@ -6,9 +6,9 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-## Link do site - soseduca.site
+## Link do site | SOS-EDUCA
 
-> :movie_camera:  [Site SOSEDUCA](http://soseduca.site/)
+> :movie_camera:  [http://soseduca.site](http://soseduca.site/)
  
  
  
