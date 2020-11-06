@@ -117,7 +117,7 @@
       <div id="dialog" title="Janela de Dialogo">
         <p style="text-align:center">
           <button class="btn btn-danger"> 
-            <a href="logout_area_restrita.php">Sair</a>
+            <a href="logout_clientes.php">Sair</a>
           </button>
         </p>
         </div>
