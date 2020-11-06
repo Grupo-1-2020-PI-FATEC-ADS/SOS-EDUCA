@@ -16,6 +16,6 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 ## :chart_with_downwards_trend: Burndown da Equipe
 
-<img src = "/Imagens Geral/burndown_sprint2.png" width="3000" height="350"/></h1>
+<img src = "/Imagens Geral/burndown_sprint_2.png" width="3000" height="350"/></h1>
 
 <br>
