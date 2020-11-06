@@ -8,7 +8,9 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 ## Link do site | SOS-EDUCA
 
-> :movie_camera:  [http://soseduca.site](http://soseduca.site/)
+**Clique no link abaixo para visualizar a hospedagem do site:**
+
+> :books:  [http://soseduca.site](http://soseduca.site/)
  
  
  
