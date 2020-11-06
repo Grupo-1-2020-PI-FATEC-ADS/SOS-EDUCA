@@ -6,11 +6,14 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
+## Link do site - SOSEDUCA
+
+> :movie_camera:  [http://soseduca.site](http://soseduca.site/)
  
  
  
  
- 
+ <br>
  
  ## :cinema: Materiais Didáticos - Vídeos:
 
