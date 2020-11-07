@@ -6,7 +6,7 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-## :books: Link do site | SOS-EDUCA
+## :books: Link do site
 
 **Clique no link abaixo para visualizar a hospedagem do site:**
 
