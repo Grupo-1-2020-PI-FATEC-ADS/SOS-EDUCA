@@ -27,14 +27,13 @@
           } else {
             alert('tem cookie')
           }
-          
         });
 
-        function close() {
+        function closeModal() {
           $('#myModal').modal('hide');
         }
 
-        function accept() {
+        function acceptCookie() {
           document.cookie = "accept=true";
           close();
         }
@@ -45,15 +44,15 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" onclick="closeModal()" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title text--black" id="myModalLabel">Melhore sua experiência</h4>
           </div>
           <div class="modal-body">
             <p class="text--black">Ao navegar neste site, você aceita os cookies que usamos para melhorar a sua experiência.</P>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" onclick="accept()"data-dismiss="modal">Fechar</button>
-            <button type="button" class="btn btn-primary" onclick="accept()">Aceito</button>
+            <button type="button" class="btn btn-default" onclick="closeModal()"data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary" onclick="acceptCookie()">Aceito</button>
           </div>
         </div>
       </div>
