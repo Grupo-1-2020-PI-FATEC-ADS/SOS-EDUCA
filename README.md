@@ -59,13 +59,6 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  - [x]  Saldo de Créditos;
  - [x]  Relatório de Vendas.<br><br>
 
-**Clique no link abaixo para visualizar a hospedagem do site:**
-
->  :key: [http://soseduca.site](http://soseduca.site/)
- 
-  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
-  
-  <br>
   
 **Clique no link abaixo para visualizar o modelo do site no Figma.**  
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
@@ -74,6 +67,14 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 **Clique no link abaixo para visualizar os custos do Projeto.** 
 > [Fatura](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT_0/Fatura%20SOS%20EDUCA.pdf)
+
+<br>
+
+**Clique no link abaixo para visualizar a hospedagem do site:**
+
+>  :key: [http://soseduca.site](http://soseduca.site/)
+ 
+  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
 
 <br>
 
