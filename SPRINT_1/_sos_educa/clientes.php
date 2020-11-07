@@ -57,7 +57,7 @@
         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Alterar Senha</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="other-tab" data-toggle="tab" href="#other" role="tab" aria-controls="other" aria-selected="false">Alterar Dados Cadastrais</a>
+        <a class="nav-link" id="configuration-tab" data-toggle="tab" href="#configuration" role="tab" aria-controls="configuration" aria-selected="false">Alterar Dados Cadastrais</a>
       </li> 
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -84,11 +84,10 @@
    
                 }//fim do while
             }//fim do if
+            ?>
 
-    
-             echo 'saldo de créditos:'.$credito.' créditos';
-        ?>
-        
+
+                   
         <br>
       
 
@@ -96,8 +95,6 @@
         <?php
 
             $restante = 5 - $credito;
-
-            echo 'Faltam '.$restante.' ponto(s) para o próximo desconto';
 
             if($restante<=0){
                 $desconto = uniqid();
@@ -107,13 +104,49 @@
         
         ?>
         <br>
-        <?php
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card text-white bg-info mb-3" style="height: 18rem;">
+              <div class="card-body">
+                <?php
+ 
+                  echo "<center><h4 class='card-title'><br><br> saldo de créditos: </h4></center><br>";
+                  echo "<center><h2 class='card-text'>".$credito." créditos </h2></center><br><br>";
+                
+                ?>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card text-white bg-warning mb-3" style="height: 18rem;">
+              <div class="card-body">
+                <?php
 
-                echo 'Cupom de desconto: '.$desconto;
+                  echo "<center><h4 class='card-title'><br><br> Faltam: </h4></center>";
+                  echo "<center><h2 class='card-text'>".$restante." </h2></center>";
+                  echo "<center><h4 class='card-text'> ponto(s) para o próximo desconto </h4></center><br><br>";
 
-        ?>
-            
-      
+                ?>
+              </div>
+            </div>
+          </div> 
+          <div class="col-sm-4">
+            <div class="card text-white bg-success mb-3" style="height: 18rem;">
+              <div class="card-body">
+                <?php
+
+                  echo "<center><h4 class='card-title'><br><br> Cupom de desconto: </h4></center><br>";
+                  echo "<center><h2 class='card-text'>".$desconto." </h2></center><br><br>";
+
+                ?>
+              </div>
+            </div>
+          </div>
+        </div> 
+         <br>
+         <br>
+         <br>
+         <br>
       <div id="dialog" title="Janela de Dialogo">
         <p style="text-align:center">
           <button class="btn btn-danger"> 
@@ -128,11 +161,14 @@
     <div class="tab-pane fade" id="contact">
       <?php include("cliente_senha.php") ?>
     </div> 
+    <div class="tab-pane fade" id="configuration">
+      <?php include("cliente_cadastro_mudanca.php") ?>
+    </div> 
     <br />
         </section>
       
     <?php 
-      mysqli_close($conexao);//fecha conexão
+      
       include('rodape.php');
     ?>
 </body>
