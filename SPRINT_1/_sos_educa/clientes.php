@@ -110,7 +110,7 @@
               <div class="card-body">
                 <?php
  
-                  echo "<center><h4 class='card-title'><br><br> saldo de créditos: </h4></center><br>";
+                  echo "<center><h4 class='card-title'><br><br> Saldo de créditos: </h4></center><br>";
                   echo "<center><h2 class='card-text'>".$credito." créditos </h2></center><br><br>";
                 
                 ?>
