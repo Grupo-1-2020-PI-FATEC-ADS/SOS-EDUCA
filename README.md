@@ -95,12 +95,14 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ✅ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1)): Concluído :heavy_check_mark:
 
-⬜ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Em Andamento :clock8:
+✅ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
+
+⬜ SPRINT 3 : Em Andamento :clock8:
 
 <br>
 
 ## Cards das Sprints
-<img src="/Imagens Geral/cardjuntos.png" width="1500" height="550">
+<img src="/Imagens Geral/cardjuntos.png" width="1500" height="450">
 
 <br>
 
@@ -133,9 +135,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 |**Beatriz Nonato**|Scrum Master|[@LinkedIn](https://www.linkedin.com/in/beatriz-nonato-aa11017a/)|[@GitHub](https://github.com/BeaNonato)|<img src = "/Imagens Geral/Beatriz.png" width="50" height="50"/>|
 |**Nayara Lopes**|Desenvolvedor 1| [@LinkedIn](https://www.linkedin.com/in/nayara-suelen-382420137/)|[@GitHub](https://github.com/NayDev)|<img src = "/Imagens Geral/Nayara.png" width="50" height="50"/>|
 |**Raphael Lisboa**|Desenvolvedor 2| [@LinkedIn](https://www.linkedin.com/in/raphael-lisboa-7b3597187/)|[@GitHub](https://github.com/raphaelprado)|<img src = "/Imagens Geral/Raphael.png" width="50" height="50" />|
-|**Jefferson Reis**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Imagens Geral/jefferson.png" width="50" height="50" />|
+|**Bryan Ribeiro**|Desenvolvedor 3|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Imagens Geral/Bryan.png" width="50" height="50" />|
 |**Jeferson Henrique**|Desenvolvedor 4|[@LinkedIn](https://www.linkedin.com/in/jeferson-silva-249884149/)|[@GitHub](https://github.com/JefersonHenrique)|<img src = "/Imagens Geral/Jeferson.png" width="50" height="50" />|
-|**Bryan Ribeiro**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/bryanrribeiro/)|[@GitHub](https://github.com/BryanRibeiro)|<img src = "/Imagens Geral/Bryan.png" width="50" height="50" />|
+|**Jefferson Reis**|Desenvolvedor 5|[@LinkedIn](https://www.linkedin.com/in/jefferson-silva-94b94218)|[@GitHub](https://github.com/jeffersonrrs)|<img src = "/Imagens Geral/jefferson.png" width="50" height="50" />|
    
 
 <br>
