@@ -4,11 +4,61 @@
 <html lang="pt-br">
 <head>
   <?php include('cabecalho.php');?>
+  <script src="js/vue.min.js"></script>
+	<script src="js/vue-resource.min.js"></script>
   <title>SOS EDUCA - Início</title>
+
+  <style>
+    .text--black {
+      color: black;
+    }
+  </style>
 </head>
+
 <body class="btn-success">
   <?php include('navbar.php') ?>
-  <div  style="margin-top: 60px;" class="container">    
+    <div  style="margin-top: 60px;" id="t" class="container"> 
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          var cookie = document.cookie
+          if (!cookie.includes('accept=true')) {
+            $('#myModal').modal('show');
+          } else {
+            alert('tem cookie')
+          }
+          
+        });
+
+        function close() {
+          $('#myModal').modal('hide');
+        }
+
+        function accept() {
+          document.cookie = "accept=true";
+          close();
+        }
+    </script>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text--black" id="myModalLabel">Melhore sua experiência</h4>
+          </div>
+          <div class="modal-body">
+            <p class="text--black">Ao navegar neste site, você aceita os cookies que usamos para melhorar a sua experiência.</P>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" onclick="accept()"data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary" onclick="accept()">Aceito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-sm-4">
         <div class="panel panel-primary">
