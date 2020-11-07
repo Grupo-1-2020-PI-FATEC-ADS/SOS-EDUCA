@@ -1,6 +1,6 @@
 <?php include("conexao.php");?>
 <!DOCTYPE html>
-
+<link href="css/carousel.css" rel="stylesheet">
 <html lang="pt-br">
 <head>
   <?php include('cabecalho.php');?>
@@ -17,7 +17,14 @@
 
 <body class="btn-success">
   <?php include('navbar.php') ?>
-    <div  style="margin-top: 60px;" id="t" class="container"> 
+    <div style="margin: 0px;" id="t" class="container"> 
+    <div class="img-fluid" alt="Responsive image">
+      <img  src="imagens/group.png" width = "100%" > 
+    </div>
+    <br>
+    <br>
+
+ 
 
     <script type="text/javascript">
         $(document).ready(function() {

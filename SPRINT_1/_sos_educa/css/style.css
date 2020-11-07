@@ -35,6 +35,18 @@ font-size: 0;}
 .btn {width: 60%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; margin-left: 54%; }
 .btn-cadastrar { color: #130400;}
 .btn-sobre {color:#fff ; margin-top: 2%;}
+
+section.banner{
+    min-height:600px;
+    background-image:url('imagens\inicio.png');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+.box{
+    position: relative;
+    top: 30px;
+}
 /* SERVIÇOS */
 .servico {width: 100%;  text-align: left;  margin-bottom: 3%;}
 .servico img {border-radius: 7px 7px 0 0;}
