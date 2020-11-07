@@ -15,9 +15,9 @@
           if($resultado){
             while($row=mysqli_fetch_assoc($resultado)){
                 ?>
-              <input class="form-control" type="text" id="nome_cliente" name="nome_cliente" value="<?php echo $row['nome']; ?>" size="30" />
+              <input class="form-control" type="text" id="nome_cliente" name="nome_cliente" value="<?php echo $row['nome']; ?>" size="30"/>
               <br >
-              <input class="form-control" type="text" id="cep" name="cep" value="<?php echo $row['cep']; ?>" size="30" />
+              <input class="form-control" type="text" id="cep" name="cep" value="<?php echo $row['cep']; ?>"/>
               <br >
               <input class="form-control" type="text" id="num_casa" name="num_casa" value="<?php echo $row['num_casa']; ?>" size="30" />
               <br >
