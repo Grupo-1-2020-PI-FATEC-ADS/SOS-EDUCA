@@ -6,7 +6,7 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-**Funcionalidades Entregues:
+**Funcionalidades Entregues:**
 
 * Hospedagem/Domínio
 * Tela Início
