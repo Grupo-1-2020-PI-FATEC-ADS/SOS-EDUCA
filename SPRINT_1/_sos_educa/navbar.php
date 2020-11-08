@@ -1,10 +1,10 @@
 <nav style="background-color: #203864; color:#fff; " >
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+      <button type="button" class="navbar-toggle" style="background-color: #1a9548;" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar "style="background-color: white;"></span>
+        <span class="icon-bar" style="background-color: white;"></span>
+        <span class="icon-bar" style="background-color: white;"></span>                        
       </button>
       <a class="navbar-brand" href="index.php"><img  src="imagens/logo6.png" alt="placeholder+image" style="margin-top:-12px"height="45px" width="45px"></a>
     </div>
