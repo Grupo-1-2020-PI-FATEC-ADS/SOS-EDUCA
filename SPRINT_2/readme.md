@@ -6,7 +6,17 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
-**Funcionalidades Entregues:**
+## :books: Link do Site
+
+**Clique no link abaixo para visualizar a hospedagem do site:**
+
+>  :key: [http://soseduca.site](http://soseduca.site/)
+ 
+  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
+ 
+ <br>
+ 
+ **Funcionalidades Entregues:**
 
 * Hospedagem/Domínio: Concluído :heavy_check_mark:
 * Tela Início: Concluído :heavy_check_mark:
@@ -20,19 +30,9 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 * Área Cliente - Alterar Dados Cadastrais: Concluído :heavy_check_mark:
 * Tela Login: Concluído :heavy_check_mark:
 * Incluir notificação cookies: Concluído :heavy_check_mark:
-
-<br>
-
-## :books: Link do Site
-
-**Clique no link abaixo para visualizar a hospedagem do site:**
-
->  :key: [http://soseduca.site](http://soseduca.site/)
  
-  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
- 
- <br>
- 
+ <br> 
+
  ## :cinema: Materiais Didáticos - Vídeos:
 
 **Clique no link abaixo para visualizar uma playlist com todos os vídeos de materiais didáticos:**  
