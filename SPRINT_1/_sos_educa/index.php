@@ -17,9 +17,9 @@
 
 <body class="btn-success">
   <?php include('navbar.php') ?>
-    <div style="margin: 0px;" id="t" class="container"> 
+    <div style="margin-top: 0px; margin-left: -15px;" id="t" class="container"> 
     <div class="img-fluid" alt="Responsive image">
-      <img  src="imagens/group.png" width = "100%" > 
+      <img src="imagens/group.png" width = "100%" > 
     </div>
     <br>
     <br>
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-left: 5%;">
       <div class="col-sm-4">
         <div class="panel panel-primary">
           <div class="panel-heading">Ofertas</div>
