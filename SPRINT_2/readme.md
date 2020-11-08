@@ -8,18 +8,18 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 **Funcionalidades Entregues:**
 
-* Hospedagem/Domínio
-* Tela Início
-* Material Didático Vídeo
-* Área ADM - Gestão de Clientes
-* Área ADM - Gestão de Vendas
-* Área ADM - Exportar relatório de Vendas
-* Área Cliente - Saldo de Créditos
-* Área Cliente - Histórico Pedidos
-* Área Cliente - Alterar Senha
-* Área Cliente - Alterar Dados Cadastrais
-* Tela Login
-* Incluir notificação cookies
+* Hospedagem/Domínio: Concluído :heavy_check_mark:
+* Tela Início: Concluído :heavy_check_mark:
+* Material Didático Vídeo: Concluído :heavy_check_mark:
+* Área ADM - Gestão de Clientes: Concluído :heavy_check_mark:
+* Área ADM - Gestão de Vendas: Concluído :heavy_check_mark:
+* Área ADM - Exportar relatório de Vendas: Concluído :heavy_check_mark:
+* Área Cliente - Saldo de Créditos: Concluído :heavy_check_mark:
+* Área Cliente - Histórico Pedidos: Concluído :heavy_check_mark:
+* Área Cliente - Alterar Senha: Concluído :heavy_check_mark:
+* Área Cliente - Alterar Dados Cadastrais: Concluído :heavy_check_mark:
+* Tela Login: Concluído :heavy_check_mark:
+* Incluir notificação cookies: Concluído :heavy_check_mark:
 
 <br>
 
