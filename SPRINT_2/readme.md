@@ -6,6 +6,23 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
+**Funcionalidades Entregues:
+
+* Hospedagem/Domínio
+* Tela Início
+* Material Didático Vídeo
+* Área ADM - Gestão de Clientes
+* Área ADM - Gestão de Vendas
+* Área ADM - Exportar relatório de Vendas
+* Área Cliente - Saldo de Créditos
+* Área Cliente - Histórico Pedidos
+* Área Cliente - Alterar Senha
+* Área Cliente - Alterar Dados Cadastrais
+* Tela Login
+* Incluir notificação cookies
+
+<br>
+
 ## :books: Link do Site
 
 **Clique no link abaixo para visualizar a hospedagem do site:**
