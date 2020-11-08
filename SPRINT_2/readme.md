@@ -18,12 +18,12 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 ## :mag_right: Demonstração 
 
-
+<h1 align="center"> <img src = "/Imagens Geral/Sprint 2 (6) (1).gif"/></h1>
 
 <br>
 
 **Clique no link abaixo para visualizar o vídeo completo das funcionalidades:**  
-> :movie_camera: [Vídeo Sprint 2]
+> :movie_camera: [Vídeo Sprint 2](https://www.youtube.com/watch?v=ZNVqFKkJuD8&feature=youtu.be&ab_channel=soseduca)
 
 <br>
  
