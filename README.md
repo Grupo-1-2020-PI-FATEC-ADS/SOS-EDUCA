@@ -74,7 +74,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 >  [http://soseduca.site](http://soseduca.site/)
  
-  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
+  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
 
 <br>
 
@@ -126,7 +126,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## Metodologia Utilizada
 
-* **Metodologia Ágil:** Framework Scrum
+* **Metodologia Ágil:** Framework [Scrum](https://www.desenvolvimentoagil.com.br/scrum/)
 
 <br>
 
