@@ -46,6 +46,6 @@ _Nota: Acessibilidade foi dividida em Sprints, ou seja, para cada etapa esse rec
 
 ## :chart_with_downwards_trend: Burndown da Equipe
 
-<img src = "/Imagens Geral/burndown_sprint_2.png" width="3000" height="350"/></h1>
+<img src = "/Imagens Geral/burndown2.png" width="3000" height="350"/></h1>
 
 <br>
