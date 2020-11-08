@@ -1,4 +1,4 @@
-<nav style="background-color: #2F528F; color:#fff; " >
+<nav style="background-color: #203864; color:#fff; " >
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
