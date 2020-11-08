@@ -14,7 +14,18 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
  
   _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm), Lei Geral de Proteção de Dados Pessoais (LGPD), em sua totalidade._
  
- <br>
+<br>
+
+## :mag_right: Demonstração 
+
+
+
+<br>
+
+**Clique no link abaixo para visualizar o vídeo completo das funcionalidades:**  
+> :movie_camera: [Vídeo Sprint 2]
+
+<br>
  
  **Funcionalidades**
 
@@ -38,9 +49,9 @@ _Nota: Acessibilidade foi dividida em Sprints, ou seja, para cada etapa esse rec
 
  ## :cinema: Materiais Didáticos - Vídeos:
 
-**Clique no link abaixo para visualizar uma playlist com todos os vídeos de materiais didáticos:**  
+**Clique no link abaixo para visualizar uma playlist com todos os materiais didáticos do tipo vídeo:**  
 
-> :movie_camera:  [Playlist](https://www.youtube.com/watch?v=9DbPImwFvUk&list=PL94iJfytd-50M5jZ52R7rGIdA7n2RwQuC&ab_channel=soseduca)
+> :movie_camera:  [Materiais - Vídeos (playlist)](https://www.youtube.com/watch?v=9DbPImwFvUk&list=PL94iJfytd-50M5jZ52R7rGIdA7n2RwQuC&ab_channel=soseduca)
 
 <br>
 
