@@ -12,11 +12,11 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 
 >  :key: [http://soseduca.site](http://soseduca.site/)
  
-  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a Lei n° 13.853, de 08/07/2019 da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
+  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm), Lei Geral de Proteção de Dados Pessoais (LGPD), em sua totalidade._
  
  <br>
  
- **Funcionalidades Entregues:**
+ **Funcionalidades**
 
 * Hospedagem/Domínio: Concluído :heavy_check_mark:
 * Tela Início: Concluído :heavy_check_mark:
@@ -29,7 +29,10 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 * Área Cliente - Alterar Senha: Concluído :heavy_check_mark:
 * Área Cliente - Alterar Dados Cadastrais: Concluído :heavy_check_mark:
 * Tela Login: Concluído :heavy_check_mark:
-* Incluir notificação cookies: Concluído :heavy_check_mark:
+* Notificação cookies: Concluído :heavy_check_mark:
+* Acessibilidade (Libras): Concluído para esse Sprint (ver nota) :heavy_check_mark:
+
+_Nota: Acessibilidade foi dividida em Sprints, ou seja, para cada etapa esse recurso será inserido, todavia só será considerada completa no último Sprint, conforme descrito no Backlog_
  
  <br> 
 
