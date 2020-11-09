@@ -41,9 +41,15 @@ No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do se
 * Área Cliente - Alterar Dados Cadastrais: Concluído :heavy_check_mark:
 * Tela Login: Concluído :heavy_check_mark:
 * Notificação cookies: Concluído :heavy_check_mark:
-* Acessibilidade (Libras): Concluído para esse Sprint (ver nota) :heavy_check_mark:
-
-_Nota: Acessibilidade foi dividida em Sprints, ou seja, para cada etapa esse recurso será inserido, todavia só será considerada completa no último Sprint, conforme descrito no Backlog_
+* Acessibilidade (Libras): Concluído para esse Sprint (ver nota 1) :heavy_check_mark:
+ 
+ <br> 
+ 
+_Nota 1: Acessibilidade foi dividida em Sprints, ou seja, para cada etapa esse recurso será inserido, todavia só será considerada completa no último Sprint, conforme descrito no Backlog_
+ 
+ <br> 
+ 
+ _Nota 2: Visando a simulação mais real do ambiente de compras, a compra por boleto foi refatorada para "aguardar a confirmação do pagamento" antes de liberar o produto para download. Para isso, o cliente receberá um e-mail com o produto, após o pagamento. A funcionalidade de e-mail será implementada no próximo Sprint, conforme backlog._
  
  <br> 
 
