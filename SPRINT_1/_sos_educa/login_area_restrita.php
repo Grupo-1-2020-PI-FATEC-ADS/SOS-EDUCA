@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
    <?php include('cabecalho.php');?>
-   <title>Aréa Restrita</title>
+   <title>Área Restrita</title>
 </head>
 <body>
   <?php include('navbar.php');?>

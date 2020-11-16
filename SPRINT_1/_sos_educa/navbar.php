@@ -1,28 +1,48 @@
-<nav style="background-color: #203864; color:#fff; " >
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" style="background-color: #1a9548;" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar "style="background-color: white;"></span>
-        <span class="icon-bar" style="background-color: white;"></span>
-        <span class="icon-bar" style="background-color: white;"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.php"><img  src="imagens/logo6.png" alt="placeholder+image" style="margin-top:-12px"height="45px" width="45px"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a style="color:#fff" href="index.php"><span class="glyphicon glyphicon-asterisk"></span> Início</a></li>
-        <li><a style="color:#fff" href="cadastro_cliente.php"><span class="glyphicon glyphicon-plus"></span> Cadastre-se</a></li>
-        <li><a style="color:#fff" href="login_area_restrita.php"><span class="glyphicon glyphicon-user"></span> Login ADM</a></li>
-        <li><a style="color:#fff" href="login_cliente_geral.php"><span class="glyphicon glyphicon-plus"></span> Login Clientes</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-left">
-        <li><a  style="color:#fff"href="index_carrinho_cliente.php"><span class="glyphicon glyphicon-book"></span> Produtos</a></li>
-        <li><a  style="color:#fff"href="carrinho_cliente.php"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho</a></li>
-        <li><a style="color:#fff" href="contatos.php"><span class="glyphicon glyphicon-phone-alt"></span> Contatos</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!--Front End NavBar -->
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="#" class="navbar-brand"><img src="imagens/logo6.png" class="img-responsive" alt="placeholder+image" style="margin-top:-12px"height="100px" width="100px"></a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.php" class="smoothScroll">Início</a></li>
+                         <li><a href="index.php#about" >Sobre</a></li>
+                         <li><a href="blog_index.php" class="smoothScroll">Blog</a></li>
+                         <li><a href="index_carrinho_cliente.php">Produtos</a></li>
+                         <li><a href="index.php#contact" class="smoothScroll">Fale Conosco</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="cadastro_cliente.php">Cadastro</a></li>
+                         <li><a href="login_cliente_geral.php">Login</a></li>
+                         <li><a href="carrinho_cliente.php"><i class="fa fa-shopping-cart"></i></a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
 
 <div vw class="enabled">
   <div vw-access-button class="active"></div>

@@ -6,11 +6,8 @@
   </head>
 
   <body>
-    <?php include("navbar.php") ?>
-    
-    <?php
-         include("conexao.php");
-     ?>
+  <?php include("conexao.php");?>
+  <?php include('navbar.php') ?>
 
     <div class="page-header">
 		<div class="alert alert-info" role="alert">

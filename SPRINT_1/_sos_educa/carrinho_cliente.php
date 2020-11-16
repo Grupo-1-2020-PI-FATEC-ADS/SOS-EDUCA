@@ -88,10 +88,10 @@
 <!DOCTYPE html">
 <html lang="pt-br">
 <head>
-   <?php include("conexao.php");?>
    <?php include("cabecalho.php");?>
+   <?php include("conexao.php");?>
    <title>Carrinho de compras</title>
-   <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+  
 </head>
 <body>
   <?php include("navbar.php");?>
