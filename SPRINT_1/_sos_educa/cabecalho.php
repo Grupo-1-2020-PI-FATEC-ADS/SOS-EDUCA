@@ -13,7 +13,7 @@
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/magnific-popup.css">
-     <link rel="stylesheet" href="css/product.css">
+     
 
      <!-- SCRIPTS -->
      <script src="js/jquery.js"></script>
