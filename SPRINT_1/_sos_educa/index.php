@@ -69,7 +69,7 @@ https://templatemo.com/tm-516-known-->
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="cadastro_cliente.php" class="smoothScroll">Cadastro</a></li>
-                         <li><a href="login_cliente_geral.php" class="smoothScroll">Login</a></li>
+                         <li><a href="login.php" class="smoothScroll">Login</a></li>
                          <li><a href="carrinho_cliente.php"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                </div>
