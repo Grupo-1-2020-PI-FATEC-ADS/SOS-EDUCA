@@ -36,7 +36,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="cadastro_cliente.php">Cadastro</a></li>
-                         <li><a href="login_cliente_geral.php">Login</a></li>
+                         <li><a href="login.php">Login</a></li>
                          <li><a href="carrinho_cliente.php"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                </div>

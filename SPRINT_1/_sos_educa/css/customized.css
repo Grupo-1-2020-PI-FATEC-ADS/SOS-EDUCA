@@ -212,6 +212,76 @@ section {
 
 
 /*---------------------------------------
+   LOGIN               
+-----------------------------------------*/
+  .login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -50.5%;
+}
+.login-logo img{
+    position: absolute;
+    width: 30%;
+    margin-top: 12%;
+    background: #F1C232;
+    border-radius: 45.5rem;
+    padding: 2%;
+}
+.login-form-1{
+    padding: 9%;
+    background:#29ca8e;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color:#fff;
+}
+
+.login-form-1 h2{
+  text-align: center;
+  margin-bottom:12%;
+  color:#BC1452;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+.login-form-2{
+    padding: 8.7%;
+    background: #BC1452;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+.login-form-2 h2{
+  text-align: center;
+  margin-bottom:12%;
+  color: #29ca8e;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+/*---------------------------------------
    BUTTONS               
 -----------------------------------------*/
 
