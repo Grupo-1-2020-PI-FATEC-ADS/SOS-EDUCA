@@ -29,7 +29,7 @@
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="index.php" class="smoothScroll">Início</a></li>
                          <li><a href="index.php#about" >Sobre</a></li>
-                         <li><a href="blog_index.php" class="smoothScroll">Notícias</a></li>
+                         <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="index.php#contact" class="smoothScroll">Fale Conosco</a></li>
                     </ul>

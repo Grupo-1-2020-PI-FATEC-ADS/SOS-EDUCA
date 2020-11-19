@@ -62,7 +62,7 @@ https://templatemo.com/tm-516-known-->
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#top" class="smoothScroll">Início</a></li>
                          <li><a href="#about" class="smoothScroll">Sobre</a></li>
-                         <li><a href="blog_index.php" class="smoothScroll">Notícias</a></li>
+                         <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="#contact" class="smoothScroll">Fale Conosco</a></li>
                     </ul>

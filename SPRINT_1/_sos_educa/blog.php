@@ -9,8 +9,8 @@
 	<?php include('navbar.php');?>
 
 
-<li><a href="blog_index.php" target="_blank">Jogo da Forca</a></li>
+	<iframe src="blog_index.php" height="2800" width="1400" title="Iframe Example"></iframe>
 
-<?php include('rodape.php');?>
 </body>
+<?php include('rodape.php');?>
 </html>
