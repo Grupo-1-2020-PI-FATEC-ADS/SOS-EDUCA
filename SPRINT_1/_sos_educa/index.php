@@ -95,7 +95,7 @@ https://templatemo.com/tm-516-known-->
                                         <div class="col-md-6 col-sm-12">
                                              <h1>Melhores Conteúdos</h1>
                                              <h3>Excelência na venda de produtos didáticos e materiais de educação </h3>
-                                             <a href="#feature" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
+                                             <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
                                         </div>
                                    </div>
                               </div>
@@ -108,7 +108,7 @@ https://templatemo.com/tm-516-known-->
                                              <h1>Simplicidade e Praticidade</h1>
                                              <h3>Matérias mais buscadas concentradas em um único lugar
                                              </h3>
-                                             <a href="#courses" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
+                                             <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
                                         </div>
                                    </div>
                               </div>
@@ -120,7 +120,7 @@ https://templatemo.com/tm-516-known-->
                                         <div class="col-md-6 col-sm-12">
                                              <h1>Conheça nossos materiais</h1>
                                              <h3>Resumos, Vídeos e Jogos para fixação de Conteúdo </h3>
-                                             <a href="#contact" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
+                                             <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
                                         </div>
                                    </div>
                               </div>
@@ -190,6 +190,9 @@ https://templatemo.com/tm-516-known-->
                     </div>
                     
                </div>
+               <br>
+               <br>
+               <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
           </div>
      </section>
           
@@ -242,7 +245,7 @@ https://templatemo.com/tm-516-known-->
 
                                    <input type="password" name="password" class="form-control" placeholder="Sua Senha" required="">
 
-                                   <button class="submit-btn form-control" id="form-submit">Get started</button>
+                                   <button class="submit-btn form-control" id="form-submit">Comece Agora!</button>
                               </form>
                          </div>
                     </div>
@@ -261,9 +264,7 @@ https://templatemo.com/tm-516-known-->
                          <h2 style="color:white;" > Notícias 
                          <small style="color:white;"> As notícias mais relevantes você encontra aqui </small></h2>
                     </div>
-               </div>
-          
-     
+               </div>    
           <div class="accordian">
                <ul>
                      <li>
