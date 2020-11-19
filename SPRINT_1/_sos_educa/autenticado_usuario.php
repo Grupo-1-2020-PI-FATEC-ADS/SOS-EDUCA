@@ -5,12 +5,13 @@
 <head>
   <?php include("cabecalho.php") ?>
   <title>Autenticando Administrador</title>
+  <?php session_start(); ?>
   <script type="text/javascript">
     function loginsuccessfully(){
-      setTimeout("window.location='admin.php'",5000);
+      setTimeout("window.location='admin_index.php'",5000);
     }
     function loginfailed() { 	
-      setTimeout("window.location='login_area_restrita.php'",5000);
+      setTimeout("window.location='login.php'",5000);
     }
   </script>
 </head>
@@ -32,7 +33,7 @@
     
       } */
       if ($row > 0) {
-        session_start();
+        
         $_SESSION['email']=$_POST['email'];
         $_SESSION['senha']=$_POST['senha'];
         $ass = mysqli_fetch_assoc($query);

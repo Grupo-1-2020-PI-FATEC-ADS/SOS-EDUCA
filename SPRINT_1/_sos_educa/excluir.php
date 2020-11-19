@@ -7,7 +7,7 @@
     echo '<meta charset=UTF-8>
     <script> alert("Produto excluído")</script>';
     echo "<script>
-            window.location=\"admin.php\"
+            window.location=\"admin_produto.php\"
           </script>";
-    include('rodape.php');
+    
 ?>

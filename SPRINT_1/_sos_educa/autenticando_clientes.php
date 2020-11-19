@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <?php include('cabecalho.php');?>
+  <?php session_start(); ?>
   <title>Autenticando...</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
       $row=mysqli_num_rows($query);
 
       if ($row > 0) {
-          session_start();
+          
           $_SESSION['usuario']=$_POST['usuario'];
           $_SESSION['senha']=$_POST['senha'];
 

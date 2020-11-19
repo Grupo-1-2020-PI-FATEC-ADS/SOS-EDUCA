@@ -64,14 +64,14 @@
               <div class="col-md-12">
                 <label class="col-md-12">Selecione o arquivo conteúdo para Upload</label>
                 <div class="input-group col-md-6">
-                  <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+                  <span class="input-group-addon" id="sizing-addon2"><span class="fas fa fa-upload"> </span></span>
                   <input type="file" name="arquivo" class="form-control" aria-describedby="sizing-addon2" />
                 </div>
               </div>
               <div class="col-md-12">
                 <label class="col-md-12">Selecione a imagem para Upload</label>
                   <div class="input-group col-md-6">
-                    <span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-paperclip"> </span></span>
+                    <span class="input-group-addon" id="sizing-addon2"><span class="fa fa-picture-o"> </span></span>
                     <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2" />
                   </div>
               </div>
@@ -145,10 +145,10 @@
                               <?php echo "<p></p>".($row['estoque']);?>
                             </td>
                             <td>
-                              <a href="alterar.php?id=<?php echo $row['id_produto'];?>"><span class="glyphicon glyphicon-pencil"></span></a>
+                              <a href="alterar.php?id=<?php echo $row['id_produto'];?>"><span class="fa fa-pencil"></span></a>
                             </td>
                             <td>
-                              <a href="excluir.php?id=<?php echo $row['id_produto'];?>"><p><span class="glyphicon glyphicon-trash"></span></p></a>
+                              <a href="excluir.php?id=<?php echo $row['id_produto'];?>"><p><span class="fa fa-trash"></span></p></a>
                             </td>
                           </tr>
                       </tbody>
