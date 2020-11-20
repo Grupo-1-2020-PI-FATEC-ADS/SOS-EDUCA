@@ -29,6 +29,20 @@
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="index.php" class="smoothScroll">Início</a></li>
                          <li><a href="index.php#about" >Sobre</a></li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                                <span>
+                                    Jogos <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                                <a class="dropdown-item" href="#">Jogo da Memoria</a>
+                            </div>
+                        </li>
                          <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="index.php#contact" class="smoothScroll">Fale Conosco</a></li>

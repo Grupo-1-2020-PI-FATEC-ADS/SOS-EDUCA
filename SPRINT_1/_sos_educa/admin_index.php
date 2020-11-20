@@ -1,3 +1,22 @@
+<?php
+$servername = "localhost";
+$username = "soseduca_soseduc";
+$password = "#1YsYMEQbvh_";
+$database = "soseduca_soseduc";
+
+//Criando conexão
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+// Verificando conexão
+if (!$conn) {
+  die("A conexão ao Banco falhou: " . mysqli_connect_error());
+}
+$sql = "
+SELECT * FROM fale_conosco ORDER BY fale_conosco.data DESC;
+";
+$result = $conn->query($sql);
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -73,6 +92,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="admin_relvendas.php">Relatório de Vendas</a>
                                 <a class="dropdown-item" href="admin_relclientes.php">Relatório de Clientes</a>
+                                <a class="dropdown-item" href="admin_msgclientes.php">Mensagens de Clientes</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -81,6 +101,20 @@
                                 Produtos
                             </a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-gamepad"></i>
+                                <span>
+                                    Jogos <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                                <a class="dropdown-item" href="#">Jogo da Memoria</a>
+                            </div>
+                        </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="admin_contas.php">
@@ -88,20 +122,7 @@
                                 Contas
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-cog"></i>
-                                <span>
-                                    Configurações <i class="fas fa-angle-down"></i>
-                                </span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Perfil</a>
-                                <a class="dropdown-item" href="#">Pagamentos</a>
-                                <a class="dropdown-item" href="#">Customização</a>
-                            </div>
-                        </li>
+                        
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -145,211 +166,113 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-                    <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
+                    <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
                         <h2 class="tm-block-title">Mensagens</h2>
-                        <div class="tm-notification-items">
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Jessica</b> and <b>6 others</b> sent you new <a href="#"
-                                            class="tm-notification-link">product updates</a>. Check new orders.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Oliver Too</b> and <b>6 others</b> sent you existing <a href="#"
-                                            class="tm-notification-link">product updates</a>. Read more reports.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Victoria</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">order updates</a>. Read order information.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Laura Cute</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">product records</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Samantha</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">order stuffs</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Sophie</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">product updates</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Lily A</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">product updates</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Amara</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">product updates</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
-                            <div class="media tm-notification-item">
-                                <div class="tm-gray-circle"><img src="css/admin/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle"></div>
-                                <div class="media-body">
-                                    <p class="mb-2"><b>Cinthela</b> and <b>6 others</b> sent you <a href="#"
-                                            class="tm-notification-link">product updates</a>.</p>
-                                    <span class="tm-small tm-text-color-secondary">6h ago.</span>
-                                </div>
-                            </div>
+                        <div class="table-responsive">
+                        <table  class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">DATA/HORA</th>
+                                    <th scope="col">NOME CLIENTE</th>
+                                    <th scope="col">E-MAIL</th>
+                                    <th scope="col">MENSAGEM</th>
+                                  
+                                   
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                                if ($result->num_rows > 0) {
+                                    while ($rows = $result->fetch_assoc()) {
+                            ?>
+                            <tr>
+                                <th class="align-middle text-center text-white" scope="row ">
+                                    <?php echo date('d/m/Y', strtotime($rows['data'])); ?><br>
+                                    <?php echo date('h:i A', strtotime($rows['data'])); ?>
+                                </th>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"><?php echo $rows["nome"]; ?></b><br>
+                                </td>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"> <?php echo $rows["email"]; ?></b><br>
+                                </td>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"> <?php echo $rows["msg"]; ?></b><br>
+                                </td>
+                                </tr>  
+                            <?php
+                                    }
+                                } else {
+                                    echo "Nenhuma mensagem recebida!";
+                                }
+                            ?>         
+                            </tbody>
+                        </table>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
                         <h2 class="tm-block-title">Últimas Compras</h2>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">NOME CLIENTE</th>
-                                    <th scope="col">QTDE</th>
-                                    <th scope="col">DATA DA COMPRA</th>
-                                    <th scope="col">TOTAL</th>
-                                    <th scope="col">FORMA DE PAGAMENTO</th>
-                                    
+                        <table id="venda" class="table table-striped table-bordered table-condensed table-hover printable"  >
+                            <thead >
+                                <tr >
+                                <th>Nome Cliente</th>
+                                <th>Quantidade</th>
+                                <th>Data da Compra</th>
+                                <th>Total </th>
+                                <th>Forma pagamento</th>
                                 </tr>
-                            </thead>
-                            <tbody>
-                           
-                            <tr>
-                                    <th scope="row"><b>#122347</b></th>
-                                    <td>
-                                        <div class="tm-status-circle cancelled">
-                                        </div>Cancelled
-                                    </td>
-                                    <td><b>George Wilson</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>340 km</b></td>
-                                    <td>12:00, 22 NOV 2018</td>
-                                    <td>06:00, 28 NOV 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122346</b></th>
-                                    <td>
-                                        <div class="tm-status-circle moving">
-                                        </div>Moving
-                                    </td>
-                                    <td><b>William Aung</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>218 km</b></td>
-                                    <td>15:00, 10 NOV 2018</td>
-                                    <td>09:00, 14 NOV 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122345</b></th>
-                                    <td>
-                                        <div class="tm-status-circle pending">
-                                        </div>Pending
-                                    </td>
-                                    <td><b>Harry Ryan</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>280 km</b></td>
-                                    <td>15:00, 11 NOV 2018</td>
-                                    <td>09:00, 17 NOV 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122344</b></th>
-                                    <td>
-                                        <div class="tm-status-circle pending">
-                                        </div>Pending
-                                    </td>
-                                    <td><b>Michael Jones</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>218 km</b></td>
-                                    <td>18:00, 12 OCT 2018</td>
-                                    <td>06:00, 18 OCT 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122343</b></th>
-                                    <td>
-                                        <div class="tm-status-circle moving">
-                                        </div>Moving
-                                    </td>
-                                    <td><b>Timmy Davis</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>218 km</b></td>
-                                    <td>12:00, 10 OCT 2018</td>
-                                    <td>08:00, 18 OCT 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122342</b></th>
-                                    <td>
-                                        <div class="tm-status-circle moving">
-                                        </div>Moving
-                                    </td>
-                                    <td><b>Oscar Phyo</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>420 km</b></td>
-                                    <td>15:30, 06 OCT 2018</td>
-                                    <td>09:30, 16 OCT 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122341</b></th>
-                                    <td>
-                                        <div class="tm-status-circle moving">
-                                        </div>Moving
-                                    </td>
-                                    <td><b>Charlie Brown</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>300 km</b></td>
-                                    <td>11:00, 10 OCT 2018</td>
-                                    <td>03:00, 14 OCT 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122340</b></th>
-                                    <td>
-                                        <div class="tm-status-circle cancelled">
-                                        </div>Cancelled
-                                    </td>
-                                    <td><b>Wilson Cookies</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>218 km</b></td>
-                                    <td>17:30, 12 OCT 2018</td>
-                                    <td>08:30, 22 OCT 2018</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"><b>#122339</b></th>
-                                    <td>
-                                        <div class="tm-status-circle moving">
-                                        </div>Moving
-                                    </td>
-                                    <td><b>Richard Clamon</b></td>
-                                    <td><b>London, UK</b></td>
-                                    <td><b>150 km</b></td>
-                                    <td>15:00, 12 OCT 2018</td>
-                                    <td>09:20, 26 OCT 2018</td>
-                                </tr>
-
+                            </thead>  
+                            <script>
+                                function data($data){
+                                return date("d/m/Y", strtotime($data));
+                            }
+                            </script>
+                            <?php
+                                $resultado=mysqli_query($conexao,  "SELECT vd.*,cl.* from vendas as vd, cliente as cl  WHERE (vd.id_cliente=cl.id_cliente)" );
                                 
-                            </tbody>
+                                
+                                if($resultado){
+                                    while($row = mysqli_fetch_assoc($resultado)){
+                                    $idVenda = $row['id_venda'];
+                                    $itensVendidos=mysqli_query($conexao,  "SELECT it.*,pr.* from itens_venda as it, produtos as pr  WHERE (it.id_produto=pr.id_produto) AND (it.id_venda='$idVenda')" );
+                            ?>
+                            <tbody style="text-align: center;">
+                                <tr>
+                                <?php while($rowItem = mysqli_fetch_assoc($itensVendidos)){
+                                            ?>
+                                           
+                                            <?php
+                                        }
+                                        ?>
+                                    <td>
+                                    <?php echo ($row['nome']);?>
+                                    </td>
+                                    <td>
+                                    <?php echo ($row['qtd_itens']);?>
+                                    </td>
+                                   
+                                    <td>
+                                    <?php echo date("d/m/Y", strtotime($row['data_venda'])); ?>
+                                    </td>
+                                    <td>
+                                    <?php echo "R$: ".($row['total']);?>
+                                    </td>
+                                    <td>
+                                    <?php echo ($row['forma_pagamento']);?>
+                                    </td>
+                                
+                                </tr>
+                            </tbody>  
+                            <?php
+                            
+                                }//fim do while
+                            }//fim do if
+
+                            ?>
+                        
                         </table>
                     </div>
                 </div>
@@ -358,9 +281,9 @@
         <footer class="tm-footer row tm-mt-small">
             <div class="col-12 font-weight-light">
                 <p class="text-center text-white mb-0 px-4 small">
-                    Copyright &copy; <b>2018</b> All rights reserved. 
+                    Copyright &copy; <b>2020</b> SOS EDUCA. 
                     
-                    Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+                    
                 </p>
             </div>
         </footer>

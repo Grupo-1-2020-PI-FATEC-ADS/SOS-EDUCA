@@ -1,10 +1,30 @@
+<?php
+$servername = "localhost";
+$username = "soseduca_soseduc";
+$password = "#1YsYMEQbvh_";
+$database = "soseduca_soseduc";
+
+//Criando conexão
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+// Verificando conexão
+if (!$conn) {
+  die("A conexão ao Banco falhou: " . mysqli_connect_error());
+}
+$sql = "
+SELECT * FROM fale_conosco ORDER BY fale_conosco.data DESC;
+";
+$result = $conn->query($sql);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Product Page - Admin HTML Template</title>
+    <title>Mensagens dos Clientes</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
     <!-- https://fonts.google.com/specimen/Roboto -->
@@ -87,7 +107,6 @@
                 <i class="fas fa-shopping-cart"></i> Produtos
               </a>
             </li>
-
             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
@@ -108,7 +127,7 @@
                 <i class="far fa-user"></i> Contas
               </a>
             </li>
-           
+       
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -122,80 +141,47 @@
     </nav>
     
       
-        
           <div class="tm-bg-primary-dark tm-block tm-block-products">
-            
-          <table id="venda" class="table table-striped table-bordered table-condensed table-hover printable"  >
-  <thead >
-    <tr >
-      <th>Cliente</th>
-      <th>Quantidade</th>
-      <th>Itens</th>
-      <th>Data da Compra</th>
-      <th>Total </th>
-      <th>Forma pagamento</th>
-    </tr>
-  </thead>  
-  <script>
-    function data($data){
-    return date("d/m/Y", strtotime($data));
-  }
-  </script>
-  <?php
-    $resultado=mysqli_query($conexao,  "SELECT vd.*,cl.* from vendas as vd, cliente as cl  WHERE (vd.id_cliente=cl.id_cliente)" );
-    
-    
-      if($resultado){
-        while($row = mysqli_fetch_assoc($resultado)){
-          $idVenda = $row['id_venda'];
-          $itensVendidos=mysqli_query($conexao,  "SELECT it.*,pr.* from itens_venda as it, produtos as pr  WHERE (it.id_produto=pr.id_produto) AND (it.id_venda='$idVenda')" );
-  ?>
-          <tbody style="text-align: center;">
-              <tr>
-                <td>
-                  <?php echo ($row['nome']);?>
-                </td>
-                <td>
-                  <?php echo ($row['qtd_itens']);?>
-                </td>
-                <td>
-                  
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne<?=$row['id_venda']?>" aria-expanded="false" aria-controls="collapseOne">
-                      Clique aqui para verificar os Itens comprados
-                    </button>
-                    <div id="collapseOne<?=$row['id_venda']?>" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <ul>
-                        <?php while($rowItem = mysqli_fetch_assoc($itensVendidos)){
-                        ?>
-                        <li><?=$rowItem['nome_prod']?></li>
-                        <?php
-                      }
-                      ?>
-                      </ul>
-                    </div>
-                </td>
-                <td>
-                  <?php echo date("d/m/Y", strtotime($row['data_venda'])); ?>
-                </td>
-                <td>
-                  <?php echo "R$: ".($row['total']);?>
-                </td>
-                <td>
-                  <?php echo ($row['forma_pagamento']);?>
-                </td>
-               
-              </tr>
-          </tbody>
-         
-  
-    <?php
-    
-        }//fim do while
-      }//fim do if
-
-    ?>
-  
-</table>
+          <table  class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">DATA/HORA</th>
+                                    <th scope="col">NOME CLIENTE</th>
+                                    <th scope="col">E-MAIL</th>
+                                    <th scope="col">MENSAGEM</th>
+                                  
+                                   
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php
+                                if ($result->num_rows > 0) {
+                                    while ($rows = $result->fetch_assoc()) {
+                            ?>
+                            <tr>
+                                <th class="align-middle text-center text-white" scope="row ">
+                                    <?php echo date('d/m/Y', strtotime($rows['data'])); ?><br>
+                                    <?php echo date('h:i A', strtotime($rows['data'])); ?>
+                                </th>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"><?php echo $rows["nome"]; ?></b><br>
+                                </td>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"> <?php echo $rows["email"]; ?></b><br>
+                                </td>
+                                <td class="align-middle text-left">
+                                    <b class="text-white"> <?php echo $rows["msg"]; ?></b><br>
+                                </td>
+                                </tr>  
+                            <?php
+                                    }
+                                } else {
+                                    echo "Nenhuma mensagem recebida!";
+                                }
+                            ?>         
+                            </tbody>
+                        </table>
             
             <!-- table container -->
 
@@ -236,9 +222,15 @@
           </div>
 
         
-      
-    
-  
+    <footer class="tm-footer row tm-mt-small">
+      <div class="col-12 font-weight-light">
+        <p class="text-center text-white mb-0 px-4 small">
+          Copyright &copy; <b>2018</b> All rights reserved. 
+          
+          Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+        </p>
+      </div>
+    </footer>
 
 
     <script>

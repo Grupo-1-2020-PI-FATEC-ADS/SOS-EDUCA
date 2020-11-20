@@ -23,6 +23,7 @@
               <input class="input-sm" type="text" id="nome_prod" name="nome_prod" value="<?php echo $row['nome_prod']; ?>" size="30" />
               <br />
               <input class="input-sm" type="text" id="preco" name="preco" value="<?php echo $row['preco']; ?>" size="25" />
+     
               <br />
           <?php
             } //fim while

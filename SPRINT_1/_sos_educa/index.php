@@ -1,3 +1,28 @@
+<?php
+$servername = "localhost";
+$username = "soseduca_soseduc";
+$password = "#1YsYMEQbvh_";
+$database = "soseduca_soseduc";
+
+//Criando conexão
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+// Verificando conexão
+if (!$conn) {
+  die("A conexão ao Banco falhou: " . mysqli_connect_error());
+}
+
+if (isset($_POST['nome']) && isset($_POST['msg']) && isset($_POST['email'])) {
+  $nome = $_POST['nome'];
+  $email = $_POST['email'];
+  $msg = $_POST['msg'];
+
+  $sql = "insert  into fale_conosco (nome, email, msg) values ('$nome','$email','$msg')";
+  $result = $conn->query($sql);
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -62,6 +87,20 @@ https://templatemo.com/tm-516-known-->
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#top" class="smoothScroll">Início</a></li>
                          <li><a href="#about" class="smoothScroll">Sobre</a></li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-cog"></i>
+                                <span>
+                                    Jogos <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                              <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                              <a class="dropdown-item" href="#">Jogo da Memoria</a>
+                            </div>
+                        </li>
                          <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="#contact" class="smoothScroll">Fale Conosco</a></li>
@@ -71,6 +110,7 @@ https://templatemo.com/tm-516-known-->
                          <li><a href="cadastro_cliente.php" class="smoothScroll">Cadastro</a></li>
                          <li><a href="login.php" class="smoothScroll">Login</a></li>
                          <li><a href="carrinho_cliente.php"><i class="fa fa-shopping-cart"></i></a></li>
+                         
                     </ul>
                </div>
 
@@ -427,11 +467,11 @@ https://templatemo.com/tm-516-known-->
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                   <input type="text" class="form-control" placeholder="Digite Nome Completo" name="name" required="">
+                                   <input type="text" class="form-control" placeholder="Digite Nome Completo" name="nome" required="">
                     
                                    <input type="email" class="form-control" placeholder="Digite E-mail" name="email" required="">
 
-                                   <textarea class="form-control" rows="6" placeholder="Digite sua mensagem" name="message" required=""></textarea>
+                                   <textarea class="form-control" rows="6" placeholder="Digite sua mensagem" name="msg" required=""></textarea>
                               </div>
 
                               <div class="col-md-4 col-sm-12">
