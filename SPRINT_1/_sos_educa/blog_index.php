@@ -21,12 +21,12 @@
             </div>
             <nav class="tm-nav" id="tm-nav">            
                 <ul>
-                    <li class="tm-nav-item active"><a href="css/blog/index.html" class="tm-nav-link">
+                    <li class="tm-nav-item active"><a href= "blog_index.php" class="tm-nav-link">
                         <i class="fas fa-home"></i>
                         Início
                     </a>
                     </li>
-                    <li class="tm-nav-item"><a href="css/blog/post.html" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="blog_index.php" class="tm-nav-link">
                         <i class="fas fa-pen"></i>
                         Single Post
                     </a></li>
@@ -67,7 +67,7 @@
             <div class="row tm-row">
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="css/blog/post.html" class="effect-lily tm-post-link tm-pt-60">
+                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-60">
                         <div class="tm-post-link-inner">
                             <img src="css/blog/img/img-01.jpg" alt="Image" class="img-fluid">                            
                         </div>
@@ -90,7 +90,7 @@
                 </article>
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="css/blog/post.html" class="effect-lily tm-post-link tm-pt-60">
+                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-60">
                         <div class=" tm-post-link-inner">
                             <img src="css/blog/img/img-02.jpg" alt="Image" class="img-fluid">                            
                         </div>
