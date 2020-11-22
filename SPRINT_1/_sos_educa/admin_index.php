@@ -70,7 +70,7 @@ $result = $conn->query($sql);
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars tm-nav-icon"></i>
                 </button>
-
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto h-100">
                         <li class="nav-item">
@@ -86,13 +86,12 @@ $result = $conn->query($sql);
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-file-alt"></i>
                                 <span>
-                                    Relatórios <i class="fas fa-angle-down"></i>
+                                    Relatórios 
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="admin_relvendas.php">Relatório de Vendas</a>
                                 <a class="dropdown-item" href="admin_relclientes.php">Relatório de Clientes</a>
-                                <a class="dropdown-item" href="admin_msgclientes.php">Mensagens de Clientes</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -106,7 +105,7 @@ $result = $conn->query($sql);
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-gamepad"></i>
                                 <span>
-                                    Jogos <i class="fas fa-angle-down"></i>
+                                    Jogos 
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -115,7 +114,12 @@ $result = $conn->query($sql);
                                 <a class="dropdown-item" href="#">Jogo da Memoria</a>
                             </div>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin_msgclientes.php">
+                                <i class="fa fa-envelope"></i>
+                                Mensagens
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="admin_contas.php">
                                 <i class="far fa-user"></i>

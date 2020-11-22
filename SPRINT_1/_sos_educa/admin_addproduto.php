@@ -50,61 +50,60 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto h-100">
-            <li class="nav-item">
-              <a class="nav-link" href="admin_index.php">
-                <i class="fas fa-tachometer-alt"></i> Dashboard
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <i class="far fa-file-alt"></i>
-                <span> Relatórios <i class="fas fa-angle-down"></i> </span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="admin_relvendas.php">Relatório de Vendas</a>
-                        <a class="dropdown-item" href="admin_relclientes.php">Relatório de Clientes</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="admin_produto.php">
-                <i class="fas fa-shopping-cart"></i> Produtos
-              </a>
-            </li>
+                    <ul class="navbar-nav mx-auto h-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin_index.php">
+                                <i class="fas fa-tachometer-alt"></i>
+                                Dashboard
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
 
-            <li class="nav-item">
-              <a class="nav-link" href="admin_contas.php">
-                <i class="far fa-user"></i> Contas
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <i class="fas fa-cog"></i>
-                <span> Configurações <i class="fas fa-angle-down"></i> </span>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Perfil</a>
-                <a class="dropdown-item" href="#">Pagamentos</a>
-                <a class="dropdown-item" href="#">Customização</a>
-              </div>
-            </li>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-file-alt"></i>
+                                <span>
+                                    Relatórios 
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="admin_relvendas.php">Relatório de Vendas</a>
+                                <a class="dropdown-item" href="admin_relclientes.php">Relatório de Clientes</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="admin_produto.php">
+                                <i class="fas fa-shopping-cart"></i>
+                                Produtos
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-gamepad"></i>
+                                <span>
+                                    Jogos 
+                                </span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                                <a class="dropdown-item" href="#">Jogo da Memoria</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin_msgclientes.php">
+                                <i class="fa fa-envelope"></i>
+                                Mensagens
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin_contas.php">
+                                <i class="far fa-user"></i>
+                                Contas
+                            </a>
+                        </li>
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
