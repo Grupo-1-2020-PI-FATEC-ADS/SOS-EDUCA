@@ -10,37 +10,25 @@
     <script src="css/blog/js/templatemo-script.js"></script>
 </head>
 <body>
-    
- 
-    <div id="main">
-    
-    
+     <div id="main">
     <header class="tm-header" id="tm-header">
         <div class="tm-header-wrapper">
             <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <div class="tm-site-header">
-                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>            
-                <h1 class="text-center">Xtra Blog</h1>
+            <div class="tm-site-header">            
+                <h1 class="text-center">SOS Notícias</h1>
             </div>
             <nav class="tm-nav" id="tm-nav">            
                 <ul>
                     <li class="tm-nav-item active"><a href="css/blog/index.html" class="tm-nav-link">
                         <i class="fas fa-home"></i>
-                        Blog Home
-                    </a></li>
+                        Início
+                    </a>
+                    </li>
                     <li class="tm-nav-item"><a href="css/blog/post.html" class="tm-nav-link">
                         <i class="fas fa-pen"></i>
                         Single Post
-                    </a></li>
-                    <li class="tm-nav-item"><a href="css/blog/about.html" class="tm-nav-link">
-                        <i class="fas fa-users"></i>
-                        About Xtra
-                    </a></li>
-                    <li class="tm-nav-item"><a href="css/blog/contact.html" class="tm-nav-link">
-                        <i class="far fa-comments"></i>
-                        Contact Us
                     </a></li>
                 </ul>
             </nav>
@@ -59,7 +47,7 @@
                 </a>
             </div>
             <p class="tm-mb-80 pr-5 text-white">
-                Xtra Blog is a multi-purpose HTML template from TemplateMo website. Left side is a sticky menu bar. Right side content will scroll up and down.
+                SOS notícias trará as mais recentes e importantes informações do mundo técnológico e estudantil.
             </p>
         </div>
     </header>
@@ -244,7 +232,7 @@
                     Design: <a rel="nofollow" target="_parent" href="https://templatemo.com" class="tm-external-link">TemplateMo</a>
                 </div>
                 <div class="col-md-6 col-12 tm-color-gray tm-copyright">
-                    Copyright 2020 Xtra Blog Company Co. Ltd.
+                    Copyright 2020 Notícias Company Co. Ltd.
                 </div>
             </footer>
         </main>
