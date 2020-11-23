@@ -7,7 +7,7 @@
     <title>Jogo Forca</title>
 </head>
 <body>
-    <h1>Para jogar precione as letras do teclado</h1>
+    <h1>Para jogar pressione as letras do teclado</h1>
     <canvas id="forca" width="900" height="300" style="border:1px solid #000000"></canvas>
     
     <script>
@@ -69,7 +69,7 @@
             if (acertos == palavraSecreta.length) {
                 ctx.font = "20px Arial";
                 ctx.fillText("Você ganhou!", 200, 100);
-                ctx.fillText("Está palavra em inglês é: " + palavrasIngles[sorteio], 400, 200);
+                ctx.fillText("Essa palavra em inglês é: " + palavrasIngles[sorteio], 400, 200);
                 window.onkeypress = null;
                 return;
             }
