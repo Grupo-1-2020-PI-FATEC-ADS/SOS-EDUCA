@@ -250,14 +250,14 @@
             </div>
             <div class="wizard">
                 <nav class="list-group list-group-flush">
-                    <a class="list-group-item" href="clientes_index.php">
+                    <a class="list-group-item active" href="cliente_index.php">
                         <div class="d-flex justify-content-between align-items-center">
                             <div><i class="fa fa-shopping-cart mr-1 text-muted"></i>
                                 <div class="d-inline-block font-weight-medium text-uppercase">Histórico de Pedidos</div>
                             </div>
-                        </div>
+                        </div>    
                     </a>
-                    <a class="list-group-item active" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
+                    <a class="list-group-item" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
                     <a class="list-group-item" href="cliente_senha.php"><i class="fa fa-lock text-muted"></i>Atualização de Senha</a>
                     <a class="list-group-item" href="descontos.php">
                         <div class="d-flex justify-content-between align-items-center">
@@ -270,15 +270,14 @@
                 </nav>
             </div>
         </div>
-        <!-- Orders Table-->
         <div class="col-lg-8 pb-5">
-        <div class="embed-responsive embed-responsive-4by3">
-        <iframe src="alterarcadastro_cliente.php"  title="Iframe Example"></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="pedidoscliente.php"  title="Iframe Example"></iframe>
         </div>
+        <!-- Orders Table-->
+        
+    
+</div>
 
-      </div>  
-    </div>
-  </div>
 </body>
 </html>
-

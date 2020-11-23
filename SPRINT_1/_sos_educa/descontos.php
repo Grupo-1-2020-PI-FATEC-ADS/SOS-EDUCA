@@ -257,9 +257,9 @@
                             </div>
                         </div>
                     </a>
-                    <a class="list-group-item active" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
+                    <a class="list-group-item" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
                     <a class="list-group-item" href="cliente_senha.php"><i class="fa fa-lock text-muted"></i>Atualização de Senha</a>
-                    <a class="list-group-item" href="descontos.php">
+                    <a class="list-group-item active" href="descontos.php">
                         <div class="d-flex justify-content-between align-items-center">
                             <div><i class="fa fa-tag mr-1 text-muted"></i>
                                 <div class="d-inline-block font-weight-medium text-uppercase">Saldo de Créditos</div>
@@ -273,7 +273,7 @@
         <!-- Orders Table-->
         <div class="col-lg-8 pb-5">
         <div class="embed-responsive embed-responsive-4by3">
-        <iframe src="alterarcadastro_cliente.php"  title="Iframe Example"></iframe>
+        <iframe src="saldo_creditos.php"  title="Iframe Example"></iframe>
         </div>
 
       </div>  

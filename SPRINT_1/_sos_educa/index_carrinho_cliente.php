@@ -28,13 +28,15 @@
   <?php include("conexao.php");?>
   <?php include('navbar.php') ?>
 
+    
+    <div style='text-align:center'>
+    <div class="col-md-12">
     <div class="page-header">
-		<div class="alert alert-info" role="alert">
-			<div style='text-align:center'>
-			<h2> <b> Lista de Produtos </b></h2>
+      <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Lista de Produtos </b><br><br></h2>
 			<br>
 		</div>
-		</div>
+    </div>
+    </div>
 		
     <form name="cons" method="post" action="index_carrinho_cliente.php">
       

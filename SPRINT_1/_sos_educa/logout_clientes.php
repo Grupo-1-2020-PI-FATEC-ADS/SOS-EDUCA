@@ -6,7 +6,7 @@
 <?php
     session_start();
     session_destroy();
-    header("location:login_cliente_geral.php");
+    header("location:login.php");
     
 ?>
 <?php include ('rodape.php');?>

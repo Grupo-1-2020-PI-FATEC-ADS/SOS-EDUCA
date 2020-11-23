@@ -17,7 +17,7 @@
       $query = $conexao->prepare($result);
        if($query->execute()){
                echo "<script language='javascript' type='text/javascript'>
-                alert('Senha alterada com sucesso!');window.location.href='clientes.php';
+                alert('Senha alterada com sucesso!');window.location.href='alterarsenha_cliente.php';
                   </script>";
           }else{
             echo "<script language='javascript' type='text/javascript'>

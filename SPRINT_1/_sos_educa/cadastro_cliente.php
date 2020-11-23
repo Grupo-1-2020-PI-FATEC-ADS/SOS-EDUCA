@@ -68,11 +68,9 @@
   <div class="container">
     <div class="row col-md-12">
       <div class="page-header">
-        <div class="alert alert-info" role="alert">
-          <div style='text-align:center'>
-            <h2 class="text-primary"> <b> Formulário de Cadastro </b></h2>
-            <br />
-          </div>
+      <div style='text-align:center'>  
+      <h2 class='text-white bg-primary shadow-lg rounded'><br> Formulário de Cadastro <br><br></h2>
+           </div>
         </div>
         <br/>
         <br/>

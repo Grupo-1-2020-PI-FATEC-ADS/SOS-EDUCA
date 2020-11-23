@@ -97,14 +97,14 @@
   <?php include("navbar.php");?>
   <?php (include("progresso.php"))(0);?>
     <table style="margin: 2% 35% 2% 35%;"class="table-responsive">
-      <div class="page-header">
-        <div class="alert alert-info" role="alert">
-          <div style='text-align:center'>
-            <h2 class="text-primary"><b>Carrinho de Compras</b></h2>
-            <br/>
-          </div>
-        </div>
-      </div>
+    <div style='text-align:center'>
+    <div class="col-md-12">
+    <div class="page-header">
+      <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Carrinho de Compras </b><br><br></h2>
+			<br>
+		</div>
+    </div>
+    </div>
         <tr class="table-responsive">             
           <th class="table-responsive">Produto</th>
          
