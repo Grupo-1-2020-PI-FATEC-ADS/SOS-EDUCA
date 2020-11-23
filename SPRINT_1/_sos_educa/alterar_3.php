@@ -22,7 +22,7 @@
 		$query = $conexao->prepare($result);
     	if($query->execute()){
                echo "<script language='javascript' type='text/javascript'>
-                alert('Cadastro alterado com Sucesso!');window.location.href='cliente_cadastro_mudança.php';
+                alert('Cadastro alterado com Sucesso!');window.location.href='cliente_cadastro_mudanca.php';
                   </script>";
           }else{
             echo "<script language='javascript' type='text/javascript'>
