@@ -72,7 +72,7 @@
                         <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="https://noticias.r7.com/tecnologia-e-ciencia/whatsapp-bloqueia-mais-de-1000-contas-por-disparos-em-massa-19112020"target="_blank"> WhatsApp bloqueia mais de 1.000 contas por disparos em massa</h2>
                     </a>                   
                     <p class="tm-pt-30">
-                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank"></a>  Denúncias foram recebidas em canal do TSE. Dentre as contas banidas, mais de 63% já tinham sido bloqueadas de forma proativa e automática 
+                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank"></a>  Denúncias foram recebidas em canal do TSE. Dentre as contas banidas, mais de 63% já tinham sido bloqueadas de forma proativa e automática.
                     </p>
                    
                 </article>
