@@ -9,10 +9,10 @@
   <?php include('navbar.php');?>
     <script type="text/javascript">
       function loginsuccessfully(){
-        setTimeout("window.location='clientes.php'",5000);
+        setTimeout("window.location='clientes_index.php'",5000);
       }
       function loginfailed() {
-              setTimeout("window.location='login_clientes.php'",5000);
+              setTimeout("window.location='login.php'",5000);
       }
     </script>
     <?php include("conexao.php");

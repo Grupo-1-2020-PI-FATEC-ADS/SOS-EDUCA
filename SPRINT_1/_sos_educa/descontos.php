@@ -1,11 +1,11 @@
-<div id="sair">
+<div>
   <?php 
     session_start();
     if(!isset($_SESSION['usuario']) && !isset($_SESSION['senha'])){
       header("location:login_cliente_geral.php");
       exit;          
     }else{
-      echo "<br><br><br><br><center><h2 class='text-white bg-primary shadow-lg rounded'><br>Área de Clientes <br><br></h2></center>";
+      echo "<center><h2 class='text-white bg-primary shadow-lg rounded m-0'><br>Área de Clientes <br><br></h2></center>";
     }
     
   ?>
@@ -19,7 +19,6 @@
     <!--  All snippets are MIT license http://bootdey.com/license -->
     <title>bs4 account tickets - Bootdey.com</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
@@ -198,17 +197,10 @@
         background-color: #fff;
         border: 1px solid rgba(0,0,0,0.125);
     }
-
+</style>
 <?php include('cabecalho.php');?>
     <title>Login Cliente</title>
    
-
-    
-    <script>
-      $(function() {
-        $( "#tabs" ).tabs();
-      });
-    </script>
     <script type="text/javascript">
       $(document).ready(function() {
           $('.dica + span')
@@ -230,6 +222,7 @@
     </style>
 </head>
 <body>
+<?php include('navbar.php');?>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
 <div class="container mb-4 main-container">
@@ -250,22 +243,10 @@
             </div>
             <div class="wizard">
                 <nav class="list-group list-group-flush">
-                    <a class="list-group-item" href="clientes_index.php">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-shopping-cart mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">Histórico de Pedidos</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="list-group-item" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
-                    <a class="list-group-item" href="cliente_senha.php"><i class="fa fa-lock text-muted"></i>Atualização de Senha</a>
-                    <a class="list-group-item active" href="descontos.php">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-tag mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">Saldo de Créditos</div>
-                            </div>
-                        </div>
-                    </a>
+                    <a class="list-group-item" href="clientes_index.php"><i class="fa fa-shopping-cart mr-1 text-muted"></i> Histórico de Pedidos</a>
+                    <a class="list-group-item" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i> Atualização de Cadastro</a>
+                    <a class="list-group-item" href="cliente_senha.php"><i class="fa fa-lock text-muted bg-write"></i> Atualização de Senha</a>
+                    <a class="list-group-item" href="descontos.php"><i class="fa fa-tag mr-1 text-muted"></i>  Saldo de Créditos</a>
                     <a class="list-group-item" href="logout_clientes.php"><i class="fa fa-user text-muted"></i>Sair</a>
                 </nav>
             </div>
