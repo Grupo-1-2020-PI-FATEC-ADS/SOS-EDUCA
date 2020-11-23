@@ -86,7 +86,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 - [x] [SPRINT 2](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2) - 19/10/2020 a 08/11/2020
 
-- [ ] SPRINT 3 - 09/11/2020 a 29/11/2020
+- [x] [SPRINT 3](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3) - 09/11/2020 a 29/11/2020
 
 - [ ] Apresentação Final - 30/11/2020 a 06/12/2020
 
@@ -105,7 +105,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ✅ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
 
-⬜ SPRINT 3 : Em Andamento :clock8:
+✅ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Concluído :heavy_check_mark:
+
+⬜ VÍDEO FINAL : Em Andamento :clock8:
 
 <br>
 
