@@ -1,5 +1,5 @@
 <div class="alert-danger">
-  <footer style="margin-top: 120px;" class="container-fluid text-center">
+  <footer style="margin-top: -20px;" class="container-fluid text-center">
     <div class="text-white">
     <p>
       <strong>SOS EDUCA</strong>
