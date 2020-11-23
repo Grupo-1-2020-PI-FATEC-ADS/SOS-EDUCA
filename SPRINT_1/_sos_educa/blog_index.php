@@ -54,10 +54,10 @@
                     <hr class="tm-hr-primary">
                     <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-60">
                         <div class="tm-post-link-inner">
-                            <img src="css/blog/img/img-01.jpg" alt="Image" class="img-fluid"> <a href="httpshttps://www.youtube.com/watch?v=E1JeXJj8ooU"></a>                           
+                            <img src="https://veja.abril.com.br/wp-content/uploads/2020/08/STJ-1.jpeg?quality=70&strip=info&resize=680,453" alt="Image" class="img-fluid">                           
                         </div>
                         <span class="position-absolute tm-new-badge">New</span>
-                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Simple and useful HTML layout</h2>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="https://veja.abril.com.br/blog/radar-economico/brasil-sofre-seu-maior-ataque-hacker-da-historia/"target="_blank">Simple and useful HTML</a></h2>
                     </a>                    
                     <p class="tm-pt-30">
                         There is a clickable image with beautiful hover effect and active title link for each post item. 

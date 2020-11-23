@@ -42,7 +42,7 @@
                                 <a class="dropdown-item" href="#">Jogo da Memoria</a>
                             </div>
                         </li>
-                         <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
+                         <li><a href="blog_index.php" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="index.php#contact" class="smoothScroll">Fale Conosco</a></li>
                     </ul>
