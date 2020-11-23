@@ -3,7 +3,7 @@
 <head>
 	<?php include('cabecalho.php');?>
 	<title>SOS Educa - login</title>
-	
+	<?php session_start(); ?>
 
 
 </head>

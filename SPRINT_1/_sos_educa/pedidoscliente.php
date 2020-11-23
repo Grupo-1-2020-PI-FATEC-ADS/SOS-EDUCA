@@ -1,16 +1,3 @@
-<div id="sair">
-  <?php 
-    session_start();
-    if(!isset($_SESSION['usuario']) && !isset($_SESSION['senha'])){
-      header("location:login_cliente_geral.php");
-      exit;          
-    }else{
-      echo "<br><br><br><br><center><h2 class='text-white bg-primary shadow-lg rounded'><br>Área de Clientes <br><br></h2></center>";
-    }
-    
-  ?>
-</div>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +10,9 @@
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript"></script>
-
+    <?php
+    session_start();  
+    ?>
     <style type="text/css">
     	body{
     background:url("https://lohcus.com.br/wp-content/uploads/2015/09/Fundo-Artigos-videos-04.png");    
@@ -198,87 +187,82 @@
         background-color: #fff;
         border: 1px solid rgba(0,0,0,0.125);
     }
-
-<?php include('cabecalho.php');?>
     <title>Login Cliente</title>
-   
-
-    
-    <script>
-      $(function() {
-        $( "#tabs" ).tabs();
-      });
-    </script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-          $('.dica + span')
-          .css({display:'none',
-                border: '1px solid #336600',
-                padding:'2px 4px',
-                background:'#999966',
-                marginLeft:'10px'   });
-          $('.dica').focus(function() {
-            $(this).next().fadeIn(1500);    	 	
-          })
-          .blur(function(){
-            $(this).next().fadeOut(1500);
-          });
-      });
-    </script>
-
     <?php include('conexao.php');?>
     </style>
 </head>
-<body>
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <body>
 
-<div class="container mb-4 main-container">
-    <div class="row">
-        <div class="col-lg-4 pb-5">
-            <!-- Account Sidebar-->
-            <div class="author-card pb-3">
-                <div class="author-card-cover" style="background-image:url(https://image.freepik.com/free-photo/back-school-education-banner-background_8087-1192.jpg);"><a class="btn btn-style-1 btn-white btn-sm" href="#" data-toggle="tooltip" title="" data-original-title="You currently have 290 Reward points to spend"></a></div>
-                <div class="author-card-profile">
-                    <div class="author-card-avatar"><img src="images/users.png" alt="<?php ($_SESSION['nome_cliente'])?>">
-                    </div>
-                    <div class="author-card-details">
-                    <?php
-                    echo "<h5 class='author-card-name text-lg'>".($_SESSION['nome_cliente'])."</h5>"?><span class="author-card-position">Bem vindo(a) de volta!</span>  
-                     
-                    </div>
-                </div>
-            </div>
-            <div class="wizard">
-                <nav class="list-group list-group-flush">
-                    <a class="list-group-item" href="clientes_index.php">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-shopping-cart mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">Histórico de Pedidos</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="list-group-item active" href="cliente_cadastro_mudanca.php"><i class="fa fa-user text-muted"></i>Atualização de Cadastro</a>
-                    <a class="list-group-item" href="cliente_senha.php"><i class="fa fa-lock text-muted"></i>Atualização de Senha</a>
-                    <a class="list-group-item" href="descontos.php">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div><i class="fa fa-tag mr-1 text-muted"></i>
-                                <div class="d-inline-block font-weight-medium text-uppercase">Saldo de Créditos</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="list-group-item" href="logout_clientes.php"><i class="fa fa-user text-muted"></i>Sair</a>
-                </nav>
-            </div>
-        </div>
-        <!-- Orders Table-->
         <div class="col-lg-8 pb-5">
-        <div class="embed-responsive embed-responsive-4by3">
-        <iframe src="alterarcadastro_cliente.php"  title="Iframe Example"></iframe>
+            <div class="table-responsive">
+                <table class="table table-hover mb-0">
+                    <thead >
+                        <tr >
+                        <th>Quantidade</th>
+                        <th>Itens</th>
+                        <th>Data da Compra</th>
+                        <th>Total </th>
+                        <th>Forma pagamento</th>
+                        </tr>
+                    </thead>  
+                    <script>
+                        function data($data){
+                        return date("d/m/Y", strtotime($data));
+                    }
+                    </script>
+                        <?php
+                        $pesquisa = $_SESSION['id_cliente'];
+                        $resultado=mysqli_query($conexao,  "SELECT vd.* from vendas as vd  WHERE vd.id_cliente=$pesquisa" );
+                    
+                        
+                        if($resultado){
+                            while($row = mysqli_fetch_assoc($resultado)){
+                            $idVenda = $row['id_venda'];
+                            $itensVendidos=mysqli_query($conexao,  "SELECT it.*,pr.* from itens_venda as it, produtos as pr  WHERE (it.id_produto=pr.id_produto) AND (it.id_venda='$idVenda')" );
+                        ?>
+                            <tbody style="text-align: center;">
+                                        <tr>
+                                            <td>
+                                            <?php echo ($row['qtd_itens']);?>
+                                            </td>
+                                            <td>
+                                            
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne<?=$row['id_venda']?>" aria-expanded="false" aria-controls="collapseOne">
+                                                Clique aqui para verificar os Itens comprados
+                                                </button>
+                                                <div id="collapseOne<?=$row['id_venda']?>" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                                <ul>
+                                                    <?php while($rowItem = mysqli_fetch_assoc($itensVendidos)){
+                                                    ?>
+                                                    <li><?=$rowItem['nome_prod']?></li>
+                                                    <?php
+                                                }
+                                                ?>
+                                                </ul>
+                                                </div>
+                                            </td>
+                                            <td>
+                                            <?php echo date("d/m/Y", strtotime($row['data_venda'])); ?>
+                                            </td>
+                                            <td>
+                                            <?php echo "R$: ".($row['total']);?>
+                                            </td>
+                                            <td>
+                                            <?php echo ($row['forma_pagamento']);?>
+                                            </td>
+                                        
+                                        </tr>
+                            </tbody>
+                                    
+                            
+                                <?php
+                                
+                                    }//fim do while
+                                }//fim do if
+
+                                ?>
+                </table>
+            </div>
         </div>
-
-      </div>  
-    </div>
-  </div>
-</body>
+    </body>
 </html>
-
