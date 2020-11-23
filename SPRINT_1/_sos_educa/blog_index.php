@@ -51,7 +51,7 @@
             <div class="row tm-row">
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-60">
+                    <a href="blog_index.php">
                         <div class="tm-post-link-inner">
                             <img src="https://veja.abril.com.br/wp-content/uploads/2020/08/STJ-1.jpeg?quality=70&strip=info&resize=680,453" alt="Image" class="img-fluid">                           
                         </div>
@@ -64,7 +64,7 @@
                 </article>
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-60">
+                    <a href="blog_index.php">
                         <div class=" tm-post-link-inner">
                             <img src="https://img.r7.com/images/whatsapp-23102020145150737?dimensions=460x305" alt="Image" class="img-fluid">                            
                         </div>
