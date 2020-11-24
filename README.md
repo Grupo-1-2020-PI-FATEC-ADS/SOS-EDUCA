@@ -37,7 +37,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## Proposta
+## :dart: Proposta
 
 **Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:**<br><br>
 
