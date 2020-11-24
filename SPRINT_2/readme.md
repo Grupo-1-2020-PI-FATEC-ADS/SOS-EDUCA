@@ -1,4 +1,4 @@
-## :rocket: Entrega 3 - SPRINT 2
+## :ballot_box_with_check: Entrega 3 - SPRINT 2
 
 No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
 
