@@ -1,4 +1,4 @@
-## Entrega 2 - SPRINT 1
+## :rocket: Entrega 2 - SPRINT 1
 
 <br>
 
