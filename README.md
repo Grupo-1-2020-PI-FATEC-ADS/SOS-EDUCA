@@ -121,6 +121,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 * **Banco de Dados:** MySQL
 * **Back-end:** JavaScript e PhP
 * **Front-end:** HTML, CSS e Bootstrap
+* **Ferramentas:** Visual Studio Code e Figma
 
 <br>
 
