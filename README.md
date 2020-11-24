@@ -137,7 +137,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## Equipe 
+## :mortar_board: Equipe 
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
