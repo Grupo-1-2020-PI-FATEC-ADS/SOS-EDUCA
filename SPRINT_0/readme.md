@@ -1,4 +1,4 @@
-## :rocket: Entrega 1 - SPRINT 0
+## :ballot_box_with_check: Entrega 1 - SPRINT 0
 
 <h1 align="center"> <img src = "/Imagens Geral/card 0.png" width="710" height="420" /></h1>
 
