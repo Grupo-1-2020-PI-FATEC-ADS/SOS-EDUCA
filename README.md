@@ -99,13 +99,13 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## :ballot_box_with_check: As Sprints
 
-✅ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0)): Concluído :heavy_check_mark:
+☑️ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0)): Concluído :heavy_check_mark:
 
-✅ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1)): Concluído :heavy_check_mark:
+☑️ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1)): Concluído :heavy_check_mark:
 
-✅ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
+☑️ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
 
-✅ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Em Andamento :clock8:
+☑️ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Em Andamento :clock8:
 
 <br>
 
