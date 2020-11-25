@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href ="#rocket-o-projeto"> Projeto </a>  • 
-  <a href ="#proposta"> Proposta </a>  • 
+  <a href ="#dart-proposta"> Proposta </a>  • 
   <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
   <a href ="#as-sprints"> Sprints </a>  • 
   <a href ="#cards-das-sprints"> Cards </a>  •
