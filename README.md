@@ -10,8 +10,8 @@
 <p align="center">
   <a href ="#rocket-o-projeto"> Projeto </a>  • 
   <a href ="#dart-proposta"> Proposta </a>  • 
-  <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
-  <a href ="#as-sprints"> Sprints </a>  • 
+  <a href ="#pencil2-planejamento-de-entregas"> Planejamento </a>  • 
+  <a href ="#ballot_box_with_check-as-sprints"> Sprints </a>  • 
   <a href ="#cards-das-sprints"> Cards </a>  •
   <a href ="#tecnologias-utilizadas"> Tecnologias </a>  • 
   <a href ="#metodologia-utilizada"> Metodologia </a>  • 
