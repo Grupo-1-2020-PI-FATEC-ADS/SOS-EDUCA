@@ -6,4 +6,11 @@ No sprint 3, decidimos a partir das necessidades do cliente, a aplicação do se
 
 ## Fluxogramas
 
-<h1 align="center"> <img src = "/Imagens Geral/Fluxograma de Clientes.png" width="710" height="420" /></h1>
+**Fluxogramas de Clientes:**
+<h1 align="center"> <img src = "/Imagens Geral/Fluxograma de Clientes.png" width="600" height="800" /></h1>
+
+**Fluxograma de Compra:**
+<h1 align="center"> <img src = "/Imagens Geral/_Fluxograma de Compra.png" width="600" height="800" /></h1>
+
+**Fluxograma de Administrador:**
+<h1 align="center"> <img src = "/Imagens Geral/_Fluxograma de Administrador.png" width="600" height="800" /></h1>
