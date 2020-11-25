@@ -12,11 +12,11 @@
   <a href ="#dart-proposta"> Proposta </a>  • 
   <a href ="#pencil2-planejamento-de-entregas"> Planejamento </a>  • 
   <a href ="#ballot_box_with_check-as-sprints"> Sprints </a>  • 
-  <a href ="#cards-das-sprints"> Cards </a>  •
-  <a href ="#tecnologias-utilizadas"> Tecnologias </a>  • 
-  <a href ="#metodologia-utilizada"> Metodologia </a>  • 
-  <a href ="#backlog-do-produto"> Backlog </a>  •
-  <a href ="#equipe"> Equipe </a> 
+  <a href ="#card_index_dividers-cards-das-sprints"> Cards </a>  •
+  <a href ="#ticket-tecnologias-utilizadas"> Tecnologias </a>  • 
+  <a href ="#bulb-metodologia-utilizada"> Metodologia </a>  • 
+  <a href ="#pushpin-backlog-do-produto"> Backlog </a>  •
+  <a href ="#mortar_board-equipe"> Equipe </a> 
 </p>
 
 <h4 align="center"> 
