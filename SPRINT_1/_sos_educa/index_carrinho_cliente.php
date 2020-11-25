@@ -3,74 +3,70 @@
   <head>
     <!-- ESTILOS - não importar cabeçalho pois dá imcompatibilidade com product.css -->
     <link rel="stylesheet" href="css/product.css">
-     <link rel="stylesheet" href="css/customized.css">
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
-     <script src="js/jquery.parallax.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/magnific-popup-options.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/customized.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <title>SOS Educa - Carrinho</title>
   </head>
 
   <body>
-  <?php include("conexao.php");?>
-  <?php include('navbar.php') ?>
+    <?php include("conexao.php");?>
+    <?php include('navbar.php') ?>
 
     
     <div style='text-align:center'>
-    <div class="col-md-12">
-    <div class="page-header">
-      <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Lista de Produtos </b><br><br></h2>
-			<br>
-		</div>
-    </div>
+      <div class="col-md-12">
+        <div class="page-header">
+          <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Lista de Produtos </b><br><br></h2>
+			    <br>
+		    </div>
+      </div>
     </div>
 		
     <form name="cons" method="post" action="index_carrinho_cliente.php">
-      
       <div style='text-align:center'>
-      <h4 class="text-primary">Escolha uma matéria</h4>
-      
+        <h4 class="text-primary">Escolha uma matéria</h4>
+          <select name='sel_cat'>
+            <option value="0">Todos</option>
+              <?php 
+                @$pagina = $_GET['pagina'];
+                @$idcat = $_POST['sel_cat'];
 
-      <select name='sel_cat'>
-          <option value="0">Todos</option>
-        <?php 
-            @$pagina = $_GET['pagina'];
-            @$idcat = $_POST['sel_cat'];
-        
-          $resultado = mysqli_query($conexao,"SELECT * FROM categorias");
-          $selecionado = "";
-          while($item = mysqli_fetch_assoc($resultado)): ?>
-            <?php 
+                $resultado = mysqli_query($conexao,"SELECT * FROM categorias");
+                $selecionado = "";
+                while($item = mysqli_fetch_assoc($resultado)): ?>
+              <?php 
                 if ($item['id_cat']==$idcat){
-                    $selecionado = "selected";
+                  $selecionado = "selected";
                 } else
                 {
-                    $selecionado = "";
+                  $selecionado = "";
                 }
-            ?>
-            <option <?php echo $selecionado ?> value="<?= $item['id_cat']?>">
-              <?= $item['nome_cat'] ?>
-            </option>
-          <?php endwhile ?>
-      </select> 
-
-      <button type="submit" class="btn btn-success">Consultar</button>
+              ?>
+              <option <?php echo $selecionado ?> value="<?= $item['id_cat']?>">
+                <?= $item['nome_cat'] ?>
+              </option>
+            <?php endwhile ?>
+          </select> 
+          <button type="submit" class="btn btn-success">Consultar</button>
+      </div>
     </form>
-    </div>
-
+    
     <div class="container-fluid">
       <div class="row">
           <?php
@@ -176,9 +172,12 @@
             </li>
           <?php endif ?>
         </ul>
+        <br/><br/>
+        <?php include("rodape.php");?>
       </div>
     <?php endif // END OF PAGINATION ?>
+        
 
-    <?php include("rodape.php");?>
   </body>
+  
 </html>

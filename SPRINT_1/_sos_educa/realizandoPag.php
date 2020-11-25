@@ -84,79 +84,22 @@
 
 </head>
 <body class="printable">
-<?php
+<?php include("navbar.php") ?>
+
+    <?php
+ 
 
 ?>
-  <?php include("navbar.php") ?>
-  <?php (include("progresso.php"))(4);?>
-    <div class="conteudo  printable">
-      <div class="container text-center">
-          <img  src="imagens/logo6.png" alt="placeholder+image" height="40px" width="80px">
-              <?php
-                $data = date("d/m/Y");
-                $hora = date("H:i:s");
-                @$nome_cli = $_POST['nome_cli'];
+ 
 
-                echo "<b>" . " CNPJ " . "</b>" . "00.000.000/0000-00" . "<br>";
-                echo "<b>" . "Endereço: " . "</b>" . "Avenida Cesare Monsueto Giulio Lattes" . " - " . "Nº " . "1350" . " - " . "Eugênio de Melo" . "<br>";
-                echo "Data: " . $data;
-                echo "  Hora: " . $hora . "<br>";
-                echo "<div class='container'>
-                        <div class='row'>
-                          <div class='col-sm-12' style='background-color:#0099cc;'></div>
-                          <div class='col-sm-12' style='background-color:#0099cc;'></div>
-                        </div>
-                      </div>";
-                echo "<br>" . "Nome do Comprador:" . "<h2 class='text-danger'>" . utf8_encode(@$_SESSION['nome_cliente']) . "</h2>";
-                echo @$nome_cli;
-              ?>
-
-        
-        <br/><br/>
-       
-      </div>
-    </div>
-   
-  <div class="container printable">
-  
-    <h3 style="text-align:center"><?= $forma_pagamento === 'cartao' ? 'Pagamento realizado' : 'Boleto gerado' ?> com sucesso.</h3>
-    <?php 
-    if ($forma_pagamento=="boleto"){
-
-
-    ?>
-    <img src="imagens/cod_barra3.jpg" alt="codigo_de_barra" class="img-responsive"  >
-    <?php 
-    } else {
-      $dados_cartao = $_SESSION['dados_cartao'];
-      ?>
-    <table class="table table-responsive printable">
-      <tbody>
-        <tr>
-          <th style="text-align:right">Titular</th>
-          <td style="width:75%"><?= $dados_cartao['titular'] ?></td>
-        </tr>
-        <tr>
-            <th style="text-align:right">Nº do Cartão</th>
-            <td style="width:75%"><?= $dados_cartao['numero'] ?></td>
-        </tr>
-        <tr>
-            <th style="text-align:right">Parcelas</th>
-            <td style="width:75%"><?= $dados_cartao['parcelas'] ?></td>
-        </tr>
-      </tbody>
-    </table>
-          <?php
-    }
-    ?>
-
-    <table class="table">
+  <h1 class="text-center">Agradecemos o Pagemento</h1>
+ <br /><br/><br />
+    <div class="container conteudo  printable">
+        <table class="table">
         <thead>
           <tr>
             <th>Nome do Produto</th>
-            <th>Quantidade</th>
-            <th>Link</th>
-            <th>Preço</th>
+            <th>Download</th>
           </tr>
         </thead>
         <tbody>
@@ -175,21 +118,17 @@
         ?>
               <tr>
                 <td><?= $produtos['nome_prod'] ?></td>
-                <td><?= $produtos['qtd_item'] ?></td>
-                <td><?= $forma_pagamento === 'cartao' ? '<a href="arquivos/'.$produtos['arquivo'].'"target="_blank">Baixar Arquivo</a>' : '<a href="realizandoPag.php">Aguardando pagamento</a>' ?>
+               
+                <td><?= $forma_pagamento === 'cartao' ? '<a href="arquivos/'.$produtos['arquivo'].'"target="_blank">Baixar Arquivo</a>' : '<a href="arquivos/'.$produtos['arquivo'].'"target="_blank">Baixar Arquivo</a>' ?>
 
                 </td>
-                <td>R$ <?= number_format($produtos['preco'], 2, ',', '.') ?></td>
+              
               </tr>
              <?php
         }
+       
              ?>
-          <tfoot>
-              <tr>
-                <th colspan="2">TOTAL</th>
-                <td>R$ <?= number_format($total, 2, ',', '.') ?> </td>
-              </tr>
-          </tfoot>
+      
         </tbody>
     </table>
   </div>
@@ -209,12 +148,14 @@
     
   </script>
   <div class="text-center">
-  <input type="button" onclick="printBy('.printable');" class="btn-success btn"  value="Imprimir"> 
       <a href="session_d.php">
-        <button class="btn-danger" >Encerrar venda</button>
+        <button class="btn-success" >Voltar ao carrinho</button>
       </a>
   </div>  
-  <br /><br />
-  <?php include("rodape.php") ?>
+  <br /><br/>
+  <br /><br/>
+  <br /><br/>
+  
+  <?php    include("rodape.php") ?>
 </body>
 </html>
