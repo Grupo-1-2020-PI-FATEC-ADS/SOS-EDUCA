@@ -1,6 +1,6 @@
 ## :ballot_box_with_check: Entrega 1 - SPRINT 0
 
-Na primeira sprint, decidimos juntamente com a necessidade do cliente, a aplicação do seguinte card:
+Na primeira entrega, decidimos juntamente com a necessidade do cliente, a aplicação do seguinte card:
 
 <h1 align="center"> <img src = "/Imagens Geral/card 0.png" width="710" height="420" /></h1>
 
