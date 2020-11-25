@@ -39,7 +39,7 @@
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
                                 <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="#">Jogo da Memoria</a>
+                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
                             </div>
                         </li>
                          <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
