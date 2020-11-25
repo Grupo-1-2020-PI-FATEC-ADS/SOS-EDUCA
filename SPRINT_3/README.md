@@ -6,6 +6,24 @@ No sprint 3, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <br>
 
+## :mag_right: Demonstração
+
+(vídeo mostrando site com o novo layout)
+
+<br>
+
+**Clique no link abaixo para visualizar o vídeo completo das funcionalidades:**  
+> :movie_camera: [Vídeo Sprint 3] (link)
+
+<br>
+
+## :mag_right: Apresentação Final
+
+**Clique no link abaixo para visualizar o vídeo final do projeto:**  
+> :movie_camera: [Vídeo] (link)
+
+<br>
+
 ## :chart_with_downwards_trend: Burndown da Equipe
 
 (burndown)
