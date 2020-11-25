@@ -8,7 +8,7 @@
 <hr>
 
 <p align="center">
-  <a href ="#-:rocket:-o-projeto"> Projeto </a>  • 
+  <a href ="#🚀o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
   <a href ="#as-sprints"> Sprints </a>  • 
