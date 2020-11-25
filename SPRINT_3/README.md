@@ -4,6 +4,14 @@ No sprint 3, decidimos a partir das necessidades do cliente, a aplicação do se
 
 <h1 align="center"> <img src = "/Imagens Geral/card3att.png" width="710" height="420" /></h1>
 
+<br>
+
+## :chart_with_downwards_trend: Burndown da Equipe
+
+(burndown)
+
+<br>
+
 ## :page_with_curl: Fluxogramas
 
 **Fluxogramas de Clientes:**
