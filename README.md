@@ -8,7 +8,7 @@
 <hr>
 
 <p align="center">
-  <a href ="#🚀o-projeto"> Projeto </a>  • 
+  <a href ="#o-projeto"> Projeto </a>  • 
   <a href ="#proposta"> Proposta </a>  • 
   <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
   <a href ="#as-sprints"> Sprints </a>  • 
@@ -30,7 +30,7 @@
 
 <br>
 
-## 🚀 O Projeto
+## :rocket: O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
 > Status do Projeto : Em Andamento <img src = "/Imagens Geral/status.png" width="50" height="10" />
