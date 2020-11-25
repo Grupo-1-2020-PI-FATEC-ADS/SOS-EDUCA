@@ -1,4 +1,4 @@
-## Entrega 2 - SPRINT 1
+## :ballot_box_with_check: Entrega 2 - SPRINT 1
 
 <br>
 

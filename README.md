@@ -8,15 +8,15 @@
 <hr>
 
 <p align="center">
-  <a href ="#o-projeto"> Projeto </a>  • 
-  <a href ="#proposta"> Proposta </a>  • 
-  <a href ="#planejamento-de-entregas"> Planejamento </a>  • 
-  <a href ="#as-sprints"> Sprints </a>  • 
-  <a href ="#cards-das-sprints"> Cards </a>  •
-  <a href ="#tecnologias-utilizadas"> Tecnologias </a>  • 
-  <a href ="#metodologia-utilizada"> Metodologia </a>  • 
-  <a href ="#backlog-do-produto"> Backlog </a>  •
-  <a href ="#equipe"> Equipe </a> 
+  <a href ="#rocket-o-projeto"> Projeto </a>  • 
+  <a href ="#dart-proposta"> Proposta </a>  • 
+  <a href ="#pencil2-planejamento-de-entregas"> Planejamento </a>  • 
+  <a href ="#ballot_box_with_check-as-sprints"> Sprints </a>  • 
+  <a href ="#card_index_dividers-cards-das-sprints"> Cards </a>  •
+  <a href ="#ticket-tecnologias-utilizadas"> Tecnologias </a>  • 
+  <a href ="#bulb-metodologia-utilizada"> Metodologia </a>  • 
+  <a href ="#pushpin-backlog-do-produto"> Backlog </a>  •
+  <a href ="#mortar_board-equipe"> Equipe </a> 
 </p>
 
 <h4 align="center"> 
@@ -30,14 +30,14 @@
 
 <br>
 
-## O Projeto
+## :rocket: O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
 > Status do Projeto : Em Andamento <img src = "/Imagens Geral/status.png" width="50" height="10" />
 
 <br>
 
-## Proposta
+## :dart: Proposta
 
 **Desenvolver um Site de Vendas de Materiais Didáticos com as seguintes características:**<br><br>
 
@@ -78,7 +78,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## Planejamento de Entregas
+## :pencil2: Planejamento de Entregas
 
 - [x] [SPRINT 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0) - 07/09/2020 a 27/09/2020
 
@@ -86,7 +86,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 - [x] [SPRINT 2](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2) - 19/10/2020 a 08/11/2020
 
-- [ ] SPRINT 3 - 09/11/2020 a 29/11/2020
+- [x] [SPRINT 3](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3) - 09/11/2020 a 29/11/2020
 
 - [ ] Apresentação Final - 30/11/2020 a 06/12/2020
 
@@ -97,46 +97,47 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## As Sprints
+## :ballot_box_with_check: As Sprints
 
-✅ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0)): Concluído :heavy_check_mark:
+☑️ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0)): Concluído :heavy_check_mark:
 
-✅ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1)): Concluído :heavy_check_mark:
+☑️ SPRINT 1 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1)): Concluído :heavy_check_mark:
 
-✅ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
+☑️ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
 
-⬜ SPRINT 3 : Em Andamento :clock8:
-
-<br>
-
-## Cards das Sprints
-<img src="/Imagens Geral/cardjuntos.png" width="1500" height="450">
+☑️ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Em Andamento :clock8:
 
 <br>
 
-## Tecnologias Utilizadas
+## :card_index_dividers: Cards das Sprints
+<img src="/Imagens Geral/fullcards.png" width="1500" height="450">
+
+<br>
+
+## :ticket: Tecnologias Utilizadas
 
 <h1 align="center"> <img src = "/Imagens Geral/tecnologia.png"/></h1>
 
 * **Banco de Dados:** MySQL
 * **Back-end:** JavaScript e PhP
 * **Front-end:** HTML, CSS e Bootstrap
+* **Ferramentas:** Visual Studio Code e Figma
 
 <br>
 
-## Metodologia Utilizada
+## :bulb: Metodologia Utilizada
 
 * **Metodologia Ágil:** Framework [Scrum](https://www.desenvolvimentoagil.com.br/scrum/)
 
 <br>
 
-## Backlog do Produto
+## :pushpin: Backlog do Produto
 
 <h1 align="center"> <img src = "/Imagens Geral/backlog_novo.png" /></h1>
 
 <br>
 
-## Equipe 
+## :mortar_board: Equipe 
 
 |Nome|Função|Linkedin|GitHub|Avatar|
 | -------- |-------- |-------- |-------- |-------- |
