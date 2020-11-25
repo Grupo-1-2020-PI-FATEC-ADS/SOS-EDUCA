@@ -20,7 +20,7 @@ No sprint 3, decidimos a partir das necessidades do cliente, a aplicação do se
 ## :fire: Apresentação Final
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
-> :movie_camera: [Vídeo] (link)
+> :movie_camera: [Vídeo Final] (link)
 
 <br>
 
