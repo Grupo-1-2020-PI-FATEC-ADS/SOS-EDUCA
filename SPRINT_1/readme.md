@@ -2,7 +2,7 @@
 
 <br>
 
-No sprint 1, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
+Nessa sprint focamos em entregar o código e algumas funcionalidades importantes de acordo com o seguinte card:
 <h1 align="center"> <img src = "/Imagens Geral/card 1.png" width="710" height="420" /></h1>
 
 <br>

@@ -1,6 +1,6 @@
 ## :ballot_box_with_check: Entrega 3 - SPRINT 2
 
-No sprint 2, decidimos a partir das necessidades do cliente, a aplicação do seguinte card de tarefas:
+Para essa sprint, continuamos no desenvolvimento do SOS-EDUCA, como apresentado no card a seguir:
 
 <h1 align="center"> <img src = "/Imagens Geral/card2.png" width="710" height="420" /></h1>
 
