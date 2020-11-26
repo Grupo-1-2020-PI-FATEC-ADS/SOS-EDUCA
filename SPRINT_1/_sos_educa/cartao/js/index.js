@@ -1,4 +1,3 @@
-/*
 $('.input-cart-number').on('keyup change', function(){
   $t = $(this);
   
@@ -9,9 +8,6 @@ $('.input-cart-number').on('keyup change', function(){
   var card_number = '';
   $('.input-cart-number').each(function(){
     card_number += $(this).val() + ' ';
-    if ($(this).val().length == 4) {
-      $(this).next().focus();
-    }
   })
   
   $('.credit-card-box .number').html(card_number);
@@ -68,4 +64,3 @@ setTimeout(function(){
 $('#card-number').change(function(){
   console.log(getCreditCardType($(this).val()));
 })*/
-  

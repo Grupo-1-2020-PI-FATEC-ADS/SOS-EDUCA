@@ -39,62 +39,17 @@
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="cartao">
-            <div class="panel" style="padding-top:20px">
-              <form class="form" method="post" action="confirmar_produtos.php">
-                <input type="hidden" name="forma_pagamento" value="cartao">
-                <input type="hidden" name="idVenda" value="<?=$idVenda?>" />
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="form-group">
-                      <label for="numero_cartao">Número do Cartão</label>
-                      <input type="text" class="form-control" id="numero_cartao" name="numero_cartao">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="form-group">
-                      <label for="cod_seguranca">Código de Segurança</label>
-                      <input type="text" class="form-control" id="cod_seguranca" name="cod_seguranca">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="form-group">
-                      <label for="parcelas">Parcelas</label>
-                      <input type="text" class="form-control" id="parcelas" name="parcelas">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="form-group">
-                      <label for="data_validade">Data de Validade</label>
-                      <input type="text" class="form-control" id="data_validade" name="data_validade">
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="form-group">
-                      <label for="nome_titular">Nome completo do titular</label>
-                      <input type="text" class="form-control" id="nome_titular" name="nome_titular">
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="form-group">
-                      <label for="cupom_desconto">Cupom de Desconto</label>
-                      <input type="text" class="form-control" id="cupom_desconto" name="cupom_desconto">
-                    </div>
-                  </div>
-                </div>
-                <div class="checkbox">
-                  <label>
-                    <input type="checkbox">
-                    <strong>Lembrar deste cartão</strong>
-                  </label>
-                </div>
-                <button type="submit" class="btn btn-primary btn-center">Continuar</button>
-              </form>
+   
+            <iframe src="cartao.php" height="800" width="1400" title="Iframe Example"></iframe>
+            <form method="post" action="confirmar_produtos.php">
+            <div class="col-md-3 ml-md-auto" style="margin: 2% 55% 2% 55%"> 
+            <button type="submit" class="btn btn-primary btn-lg btn-center" href="confirmar_produtos.php">Continuar</button>
             </div>
-          </div>
+          </form>
+          <br>
+          <br>
+            </div>
+          
           <div role="tabpanel" class="tab-pane" id="boleto">
             <div class="panel" style="padding-top:20px">
               <form method="post" action="confirmar_produtos.php">
