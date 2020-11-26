@@ -11,8 +11,8 @@ body {
 }
 
 body {
-  background: white;
-  
+  background: white !important;
+} 
 
 /*--------------------
 Buttons
