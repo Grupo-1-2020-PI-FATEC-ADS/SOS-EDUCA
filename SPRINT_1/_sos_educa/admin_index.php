@@ -109,9 +109,9 @@ $result = $conn->query($sql);
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
                                 <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -153,6 +153,7 @@ $result = $conn->query($sql);
                     <div class="tm-bg-primary-dark tm-block">
                         <h2 class="tm-block-title">Vendas</h2>
                         <canvas id="lineChart"></canvas>
+                        
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
@@ -161,31 +162,22 @@ $result = $conn->query($sql);
                         <canvas id="barChart"></canvas>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-                    <div class="tm-bg-primary-dark tm-block tm-block-taller">
-                        <h2 class="tm-block-title">Performance por Categoria</h2>
-                        <div id="pieChartContainer">
-                            <canvas id="pieChart" class="chartjs-render-monitor" width="200" height="200"></canvas>
-                        </div>                        
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+
+                <div class="col-12 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
                         <h2 class="tm-block-title">Mensagens</h2>
                         <div class="table-responsive">
                         <table  class="table table-hover">
-                            <thead>
-                                <tr>
+                            <thead style="text-align: center">
+                                <tr >
                                     <th scope="col">DATA/HORA</th>
                                     <th scope="col">NOME CLIENTE</th>
                                     <th scope="col">E-MAIL</th>
                                     <th scope="col">MENSAGEM</th>
-                                  
-                                   
                                     
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody style="text-align: center">
                             <?php
                                 if ($result->num_rows > 0) {
                                     while ($rows = $result->fetch_assoc()) {
@@ -219,8 +211,9 @@ $result = $conn->query($sql);
                 <div class="col-12 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
                         <h2 class="tm-block-title">Últimas Compras</h2>
-                        <table id="venda" class="table table-striped table-bordered table-condensed table-hover printable"  >
-                            <thead >
+                        <div class="table-responsive">
+                        <table  class="table table-hover printable">
+                            <thead style="text-align: center">
                                 <tr >
                                 <th>Nome Cliente</th>
                                 <th>Quantidade</th>

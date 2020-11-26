@@ -59,7 +59,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto h-100">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="admin_index.php">
                                 <i class="fas fa-tachometer-alt"></i>
                                 Dashboard
                                 <span class="sr-only">(current)</span>
@@ -94,9 +94,9 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -125,7 +125,7 @@
     
       
           <div class="tm-bg-primary-dark tm-block tm-block-products">
-            <table class="table table-hover tm-table-large tm-product-table">
+            <table class="table table-hover tm-table-large tm-product-table table-condensed printable">
                 <thead style="text-align: center;">
                   <tr>
                     <th scope="col">NOME DO CLIENTE</th>
@@ -214,9 +214,9 @@
     <footer class="tm-footer row tm-mt-small">
       <div class="col-12 font-weight-light">
         <p class="text-center text-white mb-0 px-4 small">
-          Copyright &copy; <b>2018</b> All rights reserved. 
+          Copyright &copy; <b>2020</b> SOS EDUCA. 
           
-          Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+         
         </p>
       </div>
     </footer>

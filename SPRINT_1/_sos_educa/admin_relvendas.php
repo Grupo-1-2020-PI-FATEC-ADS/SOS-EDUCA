@@ -59,7 +59,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto h-100">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="admin_index.php">
                                 <i class="fas fa-tachometer-alt"></i>
                                 Dashboard
                                 <span class="sr-only">(current)</span>
@@ -94,9 +94,9 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -127,68 +127,68 @@
       
         
           <div class="tm-bg-primary-dark tm-block tm-block-products">
-            
-          <table id="venda" class="table table-striped table-bordered table-condensed table-hover printable"  >
-  <thead >
-    <tr >
-      <th>Cliente</th>
-      <th>Quantidade</th>
-      <th>Itens</th>
-      <th>Data da Compra</th>
-      <th>Total </th>
-      <th>Forma pagamento</th>
-    </tr>
-  </thead>  
-  <script>
-    function data($data){
-    return date("d/m/Y", strtotime($data));
-  }
-  </script>
-  <?php
-    $resultado=mysqli_query($conexao,  "SELECT vd.*,cl.* from vendas as vd, cliente as cl  WHERE (vd.id_cliente=cl.id_cliente)" );
-    
-    
-      if($resultado){
-        while($row = mysqli_fetch_assoc($resultado)){
-          $idVenda = $row['id_venda'];
-          $itensVendidos=mysqli_query($conexao,  "SELECT it.*,pr.* from itens_venda as it, produtos as pr  WHERE (it.id_produto=pr.id_produto) AND (it.id_venda='$idVenda')" );
-  ?>
-          <tbody style="text-align: center;">
-              <tr>
-                <td>
-                  <?php echo ($row['nome']);?>
-                </td>
-                <td>
-                  <?php echo ($row['qtd_itens']);?>
-                </td>
-                <td>
-                  
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne<?=$row['id_venda']?>" aria-expanded="false" aria-controls="collapseOne">
-                      Clique aqui para verificar os Itens comprados
-                    </button>
-                    <div id="collapseOne<?=$row['id_venda']?>" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <ul>
-                        <?php while($rowItem = mysqli_fetch_assoc($itensVendidos)){
-                        ?>
-                        <li><?=$rowItem['nome_prod']?></li>
-                        <?php
-                      }
-                      ?>
-                      </ul>
-                    </div>
-                </td>
-                <td>
-                  <?php echo date("d/m/Y", strtotime($row['data_venda'])); ?>
-                </td>
-                <td>
-                  <?php echo "R$: ".($row['total']);?>
-                </td>
-                <td>
-                  <?php echo ($row['forma_pagamento']);?>
-                </td>
-               
-              </tr>
-          </tbody>
+            <table class="table table-hover tm-table-large tm-product-table table-condensed printable">
+
+              <thead style="text-align: center;" >
+                <tr >
+                  <th>Cliente</th>
+                  <th>Quantidade</th>
+                  <th>Itens</th>
+                  <th>Data da Compra</th>
+                  <th>Total </th>
+                  <th>Forma pagamento</th>
+                </tr>
+              </thead>  
+              <script>
+                function data($data){
+                return date("d/m/Y", strtotime($data));
+              }
+              </script>
+              <?php
+                $resultado=mysqli_query($conexao,  "SELECT vd.*,cl.* from vendas as vd, cliente as cl  WHERE (vd.id_cliente=cl.id_cliente)" );
+                
+                
+                  if($resultado){
+                    while($row = mysqli_fetch_assoc($resultado)){
+                      $idVenda = $row['id_venda'];
+                      $itensVendidos=mysqli_query($conexao,  "SELECT it.*,pr.* from itens_venda as it, produtos as pr  WHERE (it.id_produto=pr.id_produto) AND (it.id_venda='$idVenda')" );
+              ?>
+                      <tbody style="text-align: center;">
+                          <tr>
+                            <td>
+                              <?php echo ($row['nome']);?>
+                            </td>
+                            <td>
+                              <?php echo ($row['qtd_itens']);?>
+                            </td>
+                            <td>
+                              
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne<?=$row['id_venda']?>" aria-expanded="false" aria-controls="collapseOne">
+                                  Clique aqui para verificar os Itens comprados
+                                </button>
+                                <div id="collapseOne<?=$row['id_venda']?>" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                  <ul>
+                                    <?php while($rowItem = mysqli_fetch_assoc($itensVendidos)){
+                                    ?>
+                                    <li><?=$rowItem['nome_prod']?></li>
+                                    <?php
+                                  }
+                                  ?>
+                                  </ul>
+                                </div>
+                            </td>
+                            <td>
+                              <?php echo date("d/m/Y", strtotime($row['data_venda'])); ?>
+                            </td>
+                            <td>
+                              <?php echo "R$: ".($row['total']);?>
+                            </td>
+                            <td>
+                              <?php echo ($row['forma_pagamento']);?>
+                            </td>
+                          
+                          </tr>
+                      </tbody>
          
   
     <?php
@@ -239,17 +239,11 @@
           </div>
 
         
-      
+     
     
   
 
 
-    <script>
-      $(function() {
-        $(".tm-product-name").on("click", function() {
-          window.location.href = "admin_editproduto.php";
-        });
-      });
-    </script>
   </body>
+
 </html>

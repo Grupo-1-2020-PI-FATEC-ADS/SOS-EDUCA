@@ -27,6 +27,9 @@
     <!-- https://getbootstrap.com/ -->
     <script src="css/admin/js/tooplate-scripts.js"></script>
 
+    <?php 
+    session_start();?>
+
     <?php include('conexao.php');?>
     
   </head>
@@ -87,9 +90,10 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>                                
+
                             </div>
                         </li>
                         <li class="nav-item">
@@ -126,28 +130,33 @@
             </div>
             <div class="row tm-edit-product-row">
               <div class="col-xl-6 col-lg-6 col-md-12">
-                <form action="" class="tm-edit-product-form">
+                <form action="cadastrar_produtos.php" name="upload_insere" method="post" enctype="multipart/form-data" class="tm-edit-product-form">
                   <div class="form-group mb-3">
                     <label
                       for="name"
                       >Nome do Produto
                     </label>
                     <input
+                      
                       id="name"
-                      name="name"
+                      name="nome_prod"
                       type="text"
                       class="form-control validate"
                       required
+                      placeholder="Digite o nome do produto"
                     />
                   </div>
+                  
                   <div class="form-group mb-3">
                     <label
-                      for="description"
+                      for="desc"
                       >Descrição</label
                     >
                     <textarea
+                      name="desc" 
+                      placeholder="Realize uma descrição do produto"
                       class="form-control validate"
-                      rows="3"
+                      rows="9"
                       required
                     ></textarea>
                   </div>
@@ -157,6 +166,7 @@
                       >Matéria</label
                     >
                     <select
+                      name="sel_cat" 
                       class="custom-select tm-select-accounts"
                       id="category"
                     >
@@ -180,53 +190,64 @@
                       }?>
                     </select>
                   </div>
-                  <div class="row">
-                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                  <div class="form-group mb-3">
                           <label
-                            for="expire_date"
+                            for="preco"
                             >Preço
                           </label>
                           <input
-                            id="expire_date"
-                            name="expire_date"
+                          
+                            id="preco"
+                            name="preco"
                             type="text"
                             class="form-control validate"
-                            data-large-mode="true"
+                            placeholder="Digite o preço"
                           />
-                        </div>
-                        <div class="form-group mb-3 col-xs-12 col-sm-6">
-                          <label
-                            for="stock"
-                            >Estoque
-                          </label>
-                          <input
-                            id="stock"
-                            name="stock"
-                            type="text"
-                            class="form-control validate"
-                            required
-                          />
-                        </div>
                   </div>
-                  
+                   
               </div>
-              <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4">
+              
+              <div class="col-xl-6 col-lg-6 col-md-12 mx-0 mb-1">
                 <div class="tm-product-img-dummy mx-auto">
                   <i
                     class="fas fa-cloud-upload-alt tm-upload-icon"
                     onclick="document.getElementById('fileInput').click();"
                   ></i>
                 </div>
-                <div class="custom-file mt-3 mb-3">
-                  <input id="fileInput" type="file" style="display:none;" />
+                <div class="custom-file mt-1 mb-4">
+                  <input id="imgInput" type="file" style="display:none;" />
+                  
                   <input
+                    name="imagem"
+                    aria-describedby="sizing-addon2" 
                     type="button"
                     class="btn btn-primary btn-block mx-auto"
                     value="UPLOAD IMAGEM DO PRODUTO"
+                    onclick="document.getElementById('imgInput').click();"
+                  />
+                </div>
+              
+                
+              
+                <div class="tm-product-img-dummy mx-auto">
+                  <i
+                    class="fas fa-cloud-upload-alt tm-upload-icon"
+                    onclick="document.getElementById('fileInput').click();"
+                  ></i>
+                </div>
+                <div class="custom-file mt-1 mb-4">
+                  <input id="fileInput" type="file" style="display:none;" />
+                  <input
+                    name="arquivo" 
+                    aria-describedby="sizing-addon2"
+                    type="button"
+                    class="btn btn-primary btn-block mx-auto"
+                    value="UPLOAD ARQUIVO DO PRODUTO"
                     onclick="document.getElementById('fileInput').click();"
                   />
                 </div>
-              </div>
+                
+                </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-primary btn-block text-uppercase">Incluir Novo Produto</button>
               </div>
@@ -241,7 +262,7 @@
           <p class="text-center text-white mb-0 px-4 small">
             Copyright &copy; <b>2018</b> All rights reserved. 
             
-            Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+            
         </p>
         </div>
     </footer> 
@@ -251,5 +272,9 @@
         $("#expire_date").datepicker();
       });
     </script>
+    <?php 
+      mysqli_close($conexao);//fecha conexão
+
+    ?>
   </body>
 </html>

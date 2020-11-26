@@ -1,30 +1,10 @@
-<?php
-$servername = "localhost";
-$username = "soseduca_soseduc";
-$password = "#1YsYMEQbvh_";
-$database = "soseduca_soseduc";
-
-//Criando conexão
-$conn = mysqli_connect($servername, $username, $password, $database);
-
-// Verificando conexão
-if (!$conn) {
-  die("A conexão ao Banco falhou: " . mysqli_connect_error());
-}
-$sql = "
-SELECT * FROM fale_conosco ORDER BY fale_conosco.data DESC;
-";
-$result = $conn->query($sql);
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mensagens dos Clientes</title>
+    <title>Add Product - Dashboard HTML Template</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
     <!-- https://fonts.google.com/specimen/Roboto -->
@@ -47,18 +27,14 @@ $result = $conn->query($sql);
     <!-- https://getbootstrap.com/ -->
     <script src="css/admin/js/tooplate-scripts.js"></script>
 
+    <?php 
+    session_start();?>
+
     <?php include('conexao.php');?>
-
     
-  <?php 
-    session_start(); 
-    
-    
-  ?>
-
   </head>
 
-  <body id="reportsPage">
+  <body>
     <nav class="navbar navbar-expand-xl">
       <div class="container h-100">
         <a class="navbar-brand" href="admin_index.php">
@@ -100,7 +76,7 @@ $result = $conn->query($sql);
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="admin_produto.php">
+                            <a class="nav-link active" href="admin_produto.php">
                                 <i class="fas fa-shopping-cart"></i>
                                 Produtos
                             </a>
@@ -120,7 +96,7 @@ $result = $conn->query($sql);
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="admin_msgclientes.php">
+                            <a class="nav-link" href="admin_msgclientes.php">
                                 <i class="fa fa-envelope"></i>
                                 Mensagens
                             </a>
@@ -131,7 +107,6 @@ $result = $conn->query($sql);
                                 Contas
                             </a>
                         </li>
-       
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -143,106 +118,59 @@ $result = $conn->query($sql);
         </div>
       </div>
     </nav>
-    
-      
-          <div class="tm-bg-primary-dark tm-block tm-block-products">
-          <table  class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th scope="col">DATA/HORA</th>
-                                    <th scope="col">NOME CLIENTE</th>
-                                    <th scope="col">E-MAIL</th>
-                                    <th scope="col">MENSAGEM</th>
-                                  
-                                   
-                                    
-                                </tr>
-                            </thead>
-                            <tbody>
-                            <?php
-                                if ($result->num_rows > 0) {
-                                    while ($rows = $result->fetch_assoc()) {
-                            ?>
-                            <tr>
-                                <th class="align-middle text-center text-white" scope="row ">
-                                    <?php echo date('d/m/Y', strtotime($rows['data'])); ?><br>
-                                    <?php echo date('h:i A', strtotime($rows['data'])); ?>
-                                </th>
-                                <td class="align-middle text-left">
-                                    <b class="text-white"><?php echo $rows["nome"]; ?></b><br>
-                                </td>
-                                <td class="align-middle text-left">
-                                    <b class="text-white"> <?php echo $rows["email"]; ?></b><br>
-                                </td>
-                                <td class="align-middle text-left">
-                                    <b class="text-white"> <?php echo $rows["msg"]; ?></b><br>
-                                </td>
-                                </tr>  
-                            <?php
-                                    }
-                                } else {
-                                    echo "Nenhuma mensagem recebida!";
-                                }
-                            ?>         
-                            </tbody>
-                        </table>
-            
-            <!-- table container -->
-
-            <style>
-                @media print {
-                html, body {
-                    margin: 20px;
-                    padding: 0;
-                    border: 0;
-                }
-                .printable {
-                    margin: 0;
-                    padding: 0;
-                    border: 0;
-                    font-size: 14px;
-                }
-                .printable ~ * {
-                    display: none;
-                }
-                }
-            </style>
-            <script>
-                function printBy(selector){
-
-                var $print = $(selector)
-                .clone()
-                .addClass('print')
-                .prependTo('body');
-                
-                // Stop JS execution
-                window.print();
-                
-                // Remove div once printed
-                $print.remove();
-                }
-            </script>
-            <div class="btn btn-primary btn-block text-uppercase mb-3" onclick="printBy('.printable');">Exportar Relatório</div>
+    <div class="container tm-mt-big tm-mb-big">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 mx-auto">
+          <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="tm-block-title d-inline-block">Adicionar Matéria</h2>
+              </div>
+            </div>
+            <div class="row tm-edit-product-row">
+              <div class="col-xl-6 col-lg-6 col-md-12">
+                <form action="cadastrar_materias.php" name="upload_insere" method="post" enctype="multipart/form-data" class="tm-edit-product-form">
+                   <div class="form-group mb-3">
+                          <label
+                            for="categoria"
+                            >Matéria
+                          </label>
+                          <input
+                          
+                            id="categoria"
+                            name="nome_cat"
+                            type="text"
+                            class="form-control validate"
+                            placeholder="Digite a matéria"
+                          />
+                  </div>
+                   
+              </div>
+              
+              
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-block text-uppercase">Incluir Novo Produto</button>
+              </div>
+            </form>
+            </div>
           </div>
-
-        
-    <footer class="tm-footer row tm-mt-small">
-      <div class="col-12 font-weight-light">
-        <p class="text-center text-white mb-0 px-4 small">
-         Copyright &copy; <b>2020</b> SOS EDUCA. 
-          
-          
-        </p>
+        </div>
       </div>
-    </footer>
+    </div>
+    <footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+          <p class="text-center text-white mb-0 px-4 small">
+            Copyright &copy; <b>2018</b> All rights reserved. 
+            
+            
+        </p>
+        </div>
+    </footer> 
 
 
-    <script>
-      $(function() {
-        $(".tm-product-name").on("click", function() {
-          window.location.href = "admin_editproduto.php";
-        });
-      });
-    </script>
+    <?php 
+      mysqli_close($conexao);//fecha conexão
+
+    ?>
   </body>
 </html>

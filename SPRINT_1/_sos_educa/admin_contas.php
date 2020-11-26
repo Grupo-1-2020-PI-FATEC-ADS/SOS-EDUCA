@@ -27,6 +27,13 @@
     <!-- https://getbootstrap.com/ -->
     <script src="css/admin/js/tooplate-scripts.js"></script>
 
+    
+    <?php session_start() ?>
+    <?php
+        include("conexao.php"); 
+        
+      ?>
+
   </head>
 
   <body id="reportsPage">
@@ -86,9 +93,9 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -119,86 +126,116 @@
         <div class="row tm-content-row">
           <div class="col-12 tm-block-col">
             <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
-              <h2 class="tm-block-title">Lista de Contas</h2>
-              <p class="text-white">Contas</p>
-              <select class="custom-select">
-                <option value="0">Select uma Conta</option>
-                <option value="1">Admin</option>
-                <option value="2">Editor</option>
-              </select>
+            <form action="cadastrar_admin.php" name="upload_insere" method="post" enctype="multipart/form-data" class="tm-edit-product-form">
+              <h2 class="tm-block-title">Incluir uma Conta de Administrador</h2>
+              
+                <div class="form-group mb-3">
+                    <label
+                      for="name"
+                      >Nome do Admin
+                    </label>
+                    <input
+                      
+                      id="name"
+                      name="nome_func"
+                      type="text"
+                      class="form-control validate"
+                      required
+                      placeholder="Digite o nome do Novo Admin"
+                      value="<?php echo @$_SESSION['nome_func']?>"
+                    />
+                  </div>
+                  <div class="form-group mb-3">
+                    <label
+                      for="login"
+                      >E-mail do Admin
+                    </label>
+                    <input
+                      
+                      id="login"
+                      name="login_func"
+                      type="text"
+                      class="form-control validate"
+                      required
+                      placeholder="Digite o e-mail para Login do Novo Admin"
+                      value="<?php echo @$_SESSION['login_func']?>"
+                    />
+                  </div>
+                  <div class="form-group mb-3">
+                    <label
+                      for="senha"
+                      >Senha do Admin
+                    </label>
+                    <input
+                      
+                      id="senha"
+                      name="senha_func"
+                      type="text"
+                      class="form-control validate"
+                      required
+                      placeholder="Digite a senha para Login do Novo Admin"
+                      value="<?php echo @$_SESSION['senha_func']?>"
+                    />
+                  </div>
+                  <div class="form-group mb-3">
+                  <label class="tm-hide-sm">&nbsp;</label>
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-block text-uppercase"
+                  >
+                   Incluir Perfil
+                  </button>
+                </div>
             </div>
           </div>
         </div>
         <!-- row -->
+        
         <div class="row tm-content-row">
-          <div class="tm-block-col tm-col-avatar">
-            <div class="tm-bg-primary-dark tm-block tm-block-avatar">
-              <h2 class="tm-block-title">Alterar Avatar</h2>
-              <div class="tm-avatar-container">
-                <img
-                  src="css/admin/img/avatar.png"
-                  alt="Avatar"
-                  class="tm-avatar img-fluid mb-4"
-                />
-                <a href="#" class="tm-avatar-delete-link">
-                  <i class="far fa-trash-alt tm-product-delete-icon"></i>
-                </a>
-              </div>
-              <button class="btn btn-primary btn-block text-uppercase">
-                Upload Nova Foto
-              </button>
-            </div>
-          </div>
-          <div class="tm-block-col tm-col-account-settings">
-            <div class="tm-bg-primary-dark tm-block tm-block-settings">
+          <div class="col-12 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+      
+           
               <h2 class="tm-block-title">Configurações da Conta</h2>
-              <form action="" class="tm-signup-form row">
-                <div class="form-group col-lg-6">
-                  <label for="name">Nome da Conta</label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    class="form-control validate"
-                  />
-                </div>
-                <div class="form-group col-lg-6">
+              <form action="alterar_admin.php" class="tm-signup-form row">
+                <div class="form-group mb-3">
                   <label for="email">E-mail da Conta</label>
                   <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    class="form-control validate"
+                      id="email"
+                      name="login_func_new"
+                      type="email"
+                      class="form-control validate"
+                      required
+                      placeholder="Digite o Novo e-mail"
+                      
                   />
                 </div>
-                <div class="form-group col-lg-6">
+                <div class="form-group mb-3">
                   <label for="password">Senha</label>
                   <input
-                    id="password"
-                    name="password"
-                    type="password"
-                    class="form-control validate"
+                      id="password"
+                      name="senha_func_new"
+                      type="password"
+                      class="form-control validate"
+                      required
+                      placeholder="Digite a Nova Senha"
+                      
                   />
                 </div>
-                <div class="form-group col-lg-6">
+                
+                <div class="form-group mb-3">
                   <label for="password2">Digite novamente a Senha</label>
                   <input
                     id="password2"
-                    name="password2"
+                    name="senha_func_confirmar"
                     type="password"
                     class="form-control validate"
+                    required
+                    placeholder="Confirmar Senha"
+                    
                   />
                 </div>
-                <div class="form-group col-lg-6">
-                  <label for="phone">Telefone</label>
-                  <input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    class="form-control validate"
-                  />
-                </div>
-                <div class="form-group col-lg-6">
+                <div class="form-group mb-3">
                   <label class="tm-hide-sm">&nbsp;</label>
                   <button
                     type="submit"
@@ -207,14 +244,8 @@
                     Atualize seu Perfil
                   </button>
                 </div>
-                <div class="col-12">
-                  <button
-                    type="submit"
-                    class="btn btn-primary btn-block text-uppercase"
-                  >
-                    Delete sua Conta
-                  </button>
-                </div>
+
+                
               </form>
             </div>
           </div>
@@ -223,14 +254,15 @@
       <footer class="tm-footer row tm-mt-small">
         <div class="col-12 font-weight-light">
           <p class="text-center text-white mb-0 px-4 small">
-            Copyright &copy; <b>2018</b> All rights reserved. 
+            Copyright &copy; <b>2020</b> SOS EDUCA. 
+
             
-            Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+ 
           </p>
         </div>
       </footer>
     </div>
 
-
+    <?php mysqli_close($conexao); ?>
   </body>
 </html>

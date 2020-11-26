@@ -27,6 +27,9 @@
     <script src="css/admin/js/tooplate-scripts.js"></script>
 
     <?php include('conexao.php');?>
+    <?php 
+    session_start(); 
+    ?>
     
   </head>
 
@@ -86,9 +89,9 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -124,18 +127,28 @@
               </div>
             </div>
             <div class="row tm-edit-product-row">
-              <div class="col-xl-6 col-lg-6 col-md-12">
-                <form action="" method="post" class="tm-edit-product-form">
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                <form action="" name="form_alterar" method="post" class="tm-edit-product-form" action="alterar_2.php">
                   <div class="form-group mb-3">
+
+                  <?php
+                  $idAlt=$_GET['id'];
+                  $resultado=mysqli_query($conexao, "SELECT * FROM produtos where id_produto='$idAlt'");
+                  if($resultado){
+                    while($row=mysqli_fetch_assoc($resultado)){
+                  ?>
+                      <input class="input-sm" readonly="true" type="hidden" id="id_prod" name="id_produto" value="<?php echo $row['id_produto']; ?>" />
+                     
+                  
                     <label
                       for="name"
                       >Nome do Produto
                     </label>
                     <input
+                      name="nome_prod" 
                       id="name"
-                      name="name"
                       type="text"
-                      value="Lorem Ipsum Product"
+                      value="<?php echo $row['nome_prod']; ?>"
                       class="form-control validate"
                     />
                   </div>
@@ -145,91 +158,43 @@
                       >Descrição</label
                     >
                     <textarea                    
-                      class="form-control validate tm-small"
                       rows="5"
                       required
-                    >Lorem ipsum dolor amet gentrify glossier locavore messenger bag chillwave hashtag irony migas wolf kale chips small batch kogi direct trade shaman.</textarea>
+                      name="desc" 
+                      id="desc"
+                      type="text"
+                      value="<?php echo $row['descricao']; ?>"
+                      class="form-control validate"
+                    ></textarea>
                   </div>
-                  <div class="form-group mb-3">
-                    <label
-                      for="category"
-                      >Matéria</label
-                    >
-                    <select
-                      class="custom-select tm-select-accounts"
-                      id="category"
-                    >
-                      <option>Selecione a Matéria</option>
-                      <?php
-                      $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
-                        while($linha=mysqli_fetch_assoc($resultado)){
-                    ?>
-                        <option value="<?php echo $linha['id_cat']; ?>">
-                        <tr>
-                            
-                        <td class="tm-product-name"><?php echo ($linha['nome_cat']);?></td>
-                        <td class="text-center">
-                        <a href="#" class="tm-product-delete-link">
-                        <i class="far fa-trash-alt tm-product-delete-icon"></i></a>
-
-
-                        </option>
-                        </tr>
-                      <?php 
-                      }?>
-                    </select>
-                  </div>
+                  
                   <div class="row">
-                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                      <div class="form-group col-xl-12 col-lg-12 col-md-12">
                           <label
-                            for="expire_date"
+                            for="preco"
                             >Preço
                           </label>
                           <input
-                            id="expire_date"
-                            name="expire_date"
+                            type="text" 
+                            id="preco" 
+                            name="preco" 
+                            value="<?php echo $row['preco']; ?>"
                             type="text"
-                            value="22 Oct, 2020"
                             class="form-control validate"
-                            data-large-mode="true"
+                            
                           />
                         </div>
-                        <div class="form-group mb-3 col-xs-12 col-sm-6">
-                          <label
-                            for="stock"
-                            >Estoque
-                          </label>
-                          <input
-                            id="stock"
-                            name="stock"
-                            type="text"
-                            value="19,765"
-                            class="form-control validate"
-                          />
-                        </div>
+
                   </div>
+                  <?php
+                    } //fim while
+                  }//fim if
+                  ?>
                   
               </div>
-              <div class="col-xl-6 col-lg-6 col-md-12 mx-auto mb-4">
-                <div class="tm-product-img-edit mx-auto">
-                  <img src="css/admin/img/product-image.jpg" alt="Product image" class="img-fluid d-block mx-auto">
-                  <i
-                    class="fas fa-cloud-upload-alt tm-upload-icon"
-                    onclick="document.getElementById('fileInput').click();"
-                  ></i>
-                </div>
-                <div class="custom-file mt-3 mb-3">
-                  <input id="fileInput" type="file" style="display:none;" />
-                  <input
-                    type="button"
-                    class="btn btn-primary btn-block mx-auto"
-                    value="CHANGE IMAGE NOW"
-                    onclick="document.getElementById('fileInput').click();"
-                  />
-                </div>
-              </div>
+
               <div class="col-12">
-                <button type="submit" class="btn btn-primary btn-block text-uppercase">Update Now</button>
+                <button type="submit" class="btn btn-primary btn-block text-uppercase">Atualizar</button>
               </div>
             </form>
             </div>
@@ -242,18 +207,13 @@
           <p class="text-center text-white mb-0 px-4 small">
             Copyright &copy; <b>2018</b> All rights reserved. 
             
-            Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+           
         </p>
         </div>
     </footer> 
 
 
-    <script>
-      $(function() {
-        $("#expire_date").datepicker({
-          defaultDate: "10/22/2020"
-        });
-      });
-    </script>
+
+    <?php mysqli_close($conexao);?>
   </body>
 </html>

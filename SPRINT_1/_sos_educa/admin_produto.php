@@ -94,9 +94,9 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
-                                <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                                <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                            <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
+                            <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
+                            <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                         <li class="nav-item">
@@ -156,7 +156,7 @@
                               <?php echo "<p></p>".(1000 - $row['estoque']);?>
                             </td>
                             <td>
-                            <a href="alterar.php?id=<?php echo $row['id_produto'];?>" class="tm-product-delete-link">
+                            <a href="admin_editproduto.php?id=<?php echo $row['id_produto'];?>" class="tm-product-delete-link">
                                 <i class="far fa-edit tm-product-delete-icon"></i>
                             </a>
                             </td>
@@ -195,7 +195,7 @@
                             
                         <td class="tm-product-name"><?php echo ($linha['nome_cat']);?></td>
                         <td class="text-center">
-                        <a href="#" class="tm-product-delete-link">
+                        <a href="excluir_materia.php" class="tm-product-delete-link">
                         <i class="far fa-trash-alt tm-product-delete-icon"></i></a>
 
 
@@ -207,30 +207,24 @@
               </table>
             </div>
             <!-- table container -->
-            <button class="btn btn-primary btn-block text-uppercase mb-3">
-              Incluir Nova Matéria
-            </button>
-          </div>
+            <a
+              href="admin_addmateria.php"
+              class="btn btn-primary btn-block text-uppercase mb-3">Incluir Nova Matéria</a>
+            </div>
         </div>
       </div>
     </div>
     <footer class="tm-footer row tm-mt-small">
       <div class="col-12 font-weight-light">
         <p class="text-center text-white mb-0 px-4 small">
-          Copyright &copy; <b>2018</b> All rights reserved. 
+          Copyright &copy; <b>2020</b> SOS EDUCA.  
           
-          Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+         
         </p>
       </div>
     </footer>
 
 
-    <script>
-      $(function() {
-        $(".tm-product-name").on("click", function() {
-          window.location.href = "admin_editproduto.php";
-        });
-      });
-    </script>
+
   </body>
 </html>
