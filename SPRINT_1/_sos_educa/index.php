@@ -100,7 +100,7 @@ https://templatemo.com/tm-516-known-->
                               <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
                             </div>
                         </li>
-                         <li><a href="blog.php" class="smoothScroll">Notícias</a></li>
+                         <li><a href="#team" class="smoothScroll">Notícias</a></li>
                          <li><a href="index_carrinho_cliente.php">Produtos</a></li>
                          <li><a href="#contact" class="smoothScroll">Fale Conosco</a></li>
                     </ul>
@@ -306,48 +306,41 @@ https://templatemo.com/tm-516-known-->
                <ul>
                      <li>
                           <div class="image_title">
-                               <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Notícia 1</a>
+                               <a href="post1.html">Entenda o que é IOT</a>
                           </div> 
-                          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-                               <img src="images/news3.jpg"/>
+                          <a href="post1.html">
+                               <img src="https://www.diariodeti.com.br/wp-content/uploads/2017/10/IoT-06-948x640.png" width="700px" height="320px"/>
                           </a>
                      </li>
                      <li>
                           <div class="image_title">
-                               <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Notícia 2</a>
+                               <a href="post2.html">O maior ataque hacker da história </a>
                           </div>
-                          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-                               <img src="images/news2.jpg"/>
+                          <a href="post2.html">
+                               <img src="https://veja.abril.com.br/wp-content/uploads/2020/08/STJ-1.jpeg?quality=70&strip=info&resize=680,453" width="700px" height="320px"/>
                           </a>
                      </li>
                      <li>
                           <div class="image_title">
-                               <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">Notícia 3</a>
+                               <a href="post3.html">WhatsApp bloqueia mais de 1.000 contas</a>
                           </div>
-                          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-                               <img src="images/news1.jpg"/>
+                          <a href="post3.html">
+                               <img src="https://img.r7.com/images/whatsapp-23102020145150737?dimensions=460x305" width="700px" height="320px"/>
                           </a>
                      </li>
                      <li>
                           <div class="image_title">
-                               <a href="#">Notícia 4</a>
+                               <a href="post4.html">Dicas sobre o PIX</a>
                           </div>
-                          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-                               <img src="images/news2.jpg"/>
-                          </a>
-                     </li>
-                     <li>
-                          <div class="image_title">
-                               <a href="#">Notícia 5</a>
-                          </div>
-                          <a href="https://www.youtube.com/channel/UCXTfDJ60DBmA932Du6B1ydg">
-                               <img src="images/news3.jpg"/>
+                          <a href="post4.html">
+                               <img src="images/news3.jpg" width="700px" height="320px"/>
                           </a>
                      </li>
                 </ul>
+                
            </div>
           
-         
+           <a href="blog.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
      </div>     
 
                

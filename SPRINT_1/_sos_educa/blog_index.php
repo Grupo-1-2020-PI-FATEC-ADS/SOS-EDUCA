@@ -21,7 +21,7 @@
             </div>
             <nav class="tm-nav" id="tm-nav">            
                 <ul>
-                    <li class="tm-nav-item active"><a href= "blog_index.php" class="tm-nav-link">
+                    <li class="tm-nav-item active"><a href= "blog.php" target="_blank" class="tm-nav-link">
                         <i class="fas fa-home"></i>
                         Início
                     </a>
@@ -38,14 +38,14 @@
             <div class="row tm-row">
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-5">
+                    <a href="post2.html" class="effect-lily tm-post-link tm-pt-5">
                         <div class="tm-post-link-inner">
                             
                             <img src="https://veja.abril.com.br/wp-content/uploads/2020/08/STJ-1.jpeg?quality=70&strip=info&resize=680,453" alt="Image" class="img-fluid">   
                                                     
                         </div>
                         <span class="position-absolute tm-new-badge">Novo</span>
-                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="https://veja.abril.com.br/blog/radar-economico/brasil-sofre-seu-maior-ataque-hacker-da-historia/"target="_blank">Brasil sofre seu maior ataque hacker da história </a></h2>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="post2.html">Brasil sofre seu maior ataque hacker da história </a></h2>
                     </a>                    
                     <p class="tm-pt-30">
                     Superior Tribunal de Justiça, Ministério da Saúde e Distrito Federal foram alvos de cibercriminosos, que obtiveram acesso a informações sigilosas.
@@ -53,18 +53,49 @@
                 </article>
                 <article class="col-12 col-md-6 tm-post">
                     <hr class="tm-hr-primary">
-                    <a href="blog_index.php" class="effect-lily tm-post-link tm-pt-5">
+                    <a href="post3.html" class="effect-lily tm-post-link tm-pt-5">
                         <div class=" tm-post-link-inner">
                             <img src="https://img.r7.com/images/whatsapp-23102020145150737?dimensions=460x305" alt="Image" class="img-fluid">                            
                         </div>
                         <span class="position-absolute tm-new-badge">Novo</span>
-                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="https://noticias.r7.com/tecnologia-e-ciencia/whatsapp-bloqueia-mais-de-1000-contas-por-disparos-em-massa-19112020"target="_blank"> WhatsApp bloqueia mais de 1.000 contas por disparos em massa</h2>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="post3.html"> WhatsApp bloqueia mais de 1.000 contas por disparos em massa</h2>
                     </a>                   
                     <p class="tm-pt-30">
-                        <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank"></a>  Denúncias foram recebidas em canal do TSE. Dentre as contas banidas, mais de 63% já tinham sido bloqueadas de forma proativa e automática.
+                        Denúncias foram recebidas em canal do TSE. Dentre as contas banidas, mais de 63% já tinham sido bloqueadas de forma proativa e automática.
                     </p>
                    
                 </article>
+                <div class="row tm-row">
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post1.html" class="effect-lily tm-post-link tm-pt-5">
+                        <div class="tm-post-link-inner">
+                            
+                            <img src="https://www.diariodeti.com.br/wp-content/uploads/2017/10/IoT-06-948x640.png" alt="Image" class="img-fluid">   
+                                                    
+                        </div>
+  
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="post1.html">Entenda o que é a internet das coisas</a></h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                    Infográfico demonstra o que é e como está o avanço dessa tendência que surge na tecnologia e que pode alterar comportamentos e a vida em sociedade.
+                    </p>
+                </article>
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post4.html" class="effect-lily tm-post-link tm-pt-5">
+                        <div class=" tm-post-link-inner">
+                            <img src="images/news3.jpg" alt="Image" class="img-fluid">                            
+                        </div>
+
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title"><a href="post4.html"> Dicas para quem ainda tem dúvidas sobre o PIX</h2>
+                    </a>                   
+                    <p class="tm-pt-30">
+                        Especialista da área fala sobre as vantagens e os cuidados que devem ser tomados para cadastro no novo sistema de pagamentos.
+                    </p>
+                   
+                </article>
+                
                
             
         </main>
