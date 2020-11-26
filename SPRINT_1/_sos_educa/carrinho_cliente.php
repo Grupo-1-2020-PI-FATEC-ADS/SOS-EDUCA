@@ -96,53 +96,42 @@
 <body>
   <?php include("navbar.php");?>
   <?php (include("progresso.php"))(0);?>
-    <table style="margin: 2% 35% 2% 35%;"class="table-responsive">
     <div style='text-align:center'>
-    <div class="col-md-12">
+  
     <div class="page-header">
       <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Carrinho de Compras </b><br><br></h2>
 			<br>
 		</div>
-    </div>
-    </div>
-        <tr class="table-responsive">             
-          <th class="table-responsive">Produto</th>
-         
-          <th class="table-responsive" >Pre&ccedil;o</th>
-         
-          <th class="table-responsive" >Excluir</th>
-        </tr>
-      </thead>
-      <tfoot class="table-responsive">         
-        <tr class="table-responsive">     
 
-          <td class="table-responsive">
-            <a href="index_carrinho_cliente.php">Continuar Comprando</a>
-          </td>
-          <br/>
-          <p class="btn-success">
-            <td  class="table-responsive">
-              <form action="carrinho_cliente.php" method="POST">
-                <input type="hidden" name="acao" value="finalizar"/>
-                <input type="hidden" name="idVenda" value="<?=$idVenda?>" />
-                <?php              
+    </div>
+
+
+      <div class="container">
+      
+        <table class="table table-hover tm-table-small tm-product-table">
+        
+            <tr class="table-responsive">   
+              <?php              
                  if (count($_SESSION['carrinho_cliente']) == 0){
-                  echo "<button type='submit' disabled>Finalizar Compra</button>";
-                 }else{
-                   echo "<button type='submit' >Finalizar Compra</button>";
-                 }           
-                ?>    
-              </form>  
-            </td>
-          </p>
-        </tr>
-      </tfoot>
-      <tbody class="table-responsive">
-        <?php
-          if(count($_SESSION['carrinho_cliente']) == 0){
-            echo '<tr><td colspan="5">Não há produto no carrinho</td></tr >';      
-          }
-          else {
+                  echo '<tr><td colspan="5"><p class="text-danger"><b>Não há produto no carrinho</b></p></td></tr >'; ?><br><br>
+                  <td class="table-responsive">
+                  <a href="index_carrinho_cliente.php">Continuar Comprando</a>
+                  </td> 
+                  <?php }else{ ?>
+
+              <thead style="text-align: center;">
+
+                <th class="table-responsive">Produto</th>
+              
+                <th class="table-responsive" >Pre&ccedil;o</th>
+
+                <th class="table-responsive" >&nbsp;</th>
+         
+          
+            </tr>
+              </thead>
+              
+       <?php
             include("conexao.php");                
               $total = 0; 
                 foreach($_SESSION['carrinho_cliente'] as $id => $qtd){         
@@ -158,18 +147,18 @@
                   $total += $ln['preco'] * $qtd;
                   $max = mysqli_fetch_array(mysqli_query($conexao,"select * from produtos where nome_prod='".$nome."'"));
                     echo '<tr>                                          
-                              <td class="alert-info">'.$nome.'</td>
+                              <td>'.$nome.'</td>
                               
-                              <td class="alert-warning">R$ '.$preco.'</td>
+                              <td>R$ '.$preco.'</td>
                               
-                              <p class="alert-danger">
-                                <td class="alert-warning">
+                              <p>
+                                <td>
                                   <form action="carrinho_cliente.php" method="POST">
                                     <input type="hidden" name="acao" value="del"/>
                                     <input type="hidden" name="idItem" value="'.$id.'" />
                                     <input type="hidden" name="idProduto" value="'.$id.'" />
                                     <input type="hidden" name="idVenda" value="'.$idVenda.'" />
-                                    <button type="submit">X</a>
+                                    <button type="submit" class="btn btn-outline-light"><i class="fa fa-times-circle" aria-hidden="true" width="200%"></i></a>
                                   </form>
                                 </td>
                               </p>
@@ -177,14 +166,52 @@
                 }
                 $total = number_format($total, 2, ',', '.');
                   echo '<tr>                               
-                          <td colspan="2" class="alert-danger">Total</td>
-                          <td class="alert-danger">R$ '.$total.'</td>
+                          <td colspan="1" class="alert alert-danger"><b>Total</b></td>
+                          <td class="alert alert-danger"><b>R$ '.$total.'</b></td>
+                          <td class="alert alert-danger">&nbsp;</td>
                         </tr>';
-          }
+          
         ?>
+        
+        
       </tbody>
+      <tfoot class="table-responsive"> 
+         
+      <tr class="table-responsive">  
+        
+          <td class="table-responsive">
+          <div class="col-md-3 ml-md-auto" style="margin: 0% 65% 0% 60%">  
+          <a class="btn btn-primary" href="index_carrinho_cliente.php" role="button"><i class="fa fa-arrow-left" aria-hidden="true"></i> Continuar Comprando</a>
+                    
+        </td>
+          </p>
+          </div>
+          <br/>
+          <p class="btn-success">
+            <td  class="table-responsive">
+              <form action="carrinho_cliente.php" method="POST">
+                <input type="hidden" name="acao" value="finalizar"/>
+                <input type="hidden" name="idVenda" value="<?=$idVenda?>" />
+               
+                <?php 
+                echo "<button type='submit' class='btn btn-success' >Finalizar Compra <i class='fa fa-arrow-right' aria-hidden='true'></i></button>";
+                 }           
+                ?>    
+              </form>  
+            </td>
+          </p>
+      </tr>
+      
+     
+      </tfoot>
+      
+      </div>
+                
   <!-- </form> -->
     </table>
-  <?php include ("rodape.php");?>
+  
 </body>
+
+<?php include ("rodape.php");?>
+              
 </html>

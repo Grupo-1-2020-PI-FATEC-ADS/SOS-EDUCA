@@ -20,11 +20,8 @@
                         <div class="form-group">
                         <a href="login_clientes.php"><input type="submit" class="btnSubmit" value="Login" /></a>
                         </div>
-                        <div class="form-group">
-                            <a href="#" class="btnForgetPwd">Esqueceu a Senha?</a>
-                        </div>
-                        <br>
                     </div>
+                    <br>
                 </div>
                 <div class="col-md-6 login-form-2">
                     <div class="login-logo">
@@ -35,17 +32,13 @@
                     <div style='text-align:center'>
                         <div class="form-group">
                         <a href="form_compra.php"><input type="submit" class="btnSubmit" value="Cadastre-se" /></a>
-                        </div>
-
-                        <br>
-                        <br>
-                        <br>
-                        
+                        </div>                       
                     </div>
-                  </div> 
+                    <br>
+                </div> 
                 
             </div>
-      </div>
+    </div>
 
   
 	<?php include('rodape.php');?>

@@ -27,9 +27,7 @@
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
-                        <div class="form-group">
-                            <a href="#" class="btnForgetPwd">Esqueceu a Senha?</a>
-                        </div>
+                        <br>
                 </form>
 
                 </div>
@@ -48,9 +46,8 @@
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
-                        <div class="form-group">
-                            <a href="#" class="btnForgetPwd">Esqueceu a Senha?</a>
-                        </div>
+
+                        <br>
                     </form>
                         
                 </div>

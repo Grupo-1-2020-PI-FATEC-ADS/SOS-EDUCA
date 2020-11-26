@@ -276,14 +276,12 @@ https://templatemo.com/tm-516-known-->
 
                     <div class="col-md-offset-1 col-md-4 col-sm-12">
                          <div class="entry-form">
-                              <form action="#" method="post">
-                                   <h2>Cadastre-se Hoje</h2>
-                                   <input type="text" name="full name" class="form-control" placeholder="Nome Completo" required="">
+                              <form action="cadastro_cliente.php" method="post">
+                                   <h2>Cadastre-se Hoje</h2><br><br>
+                                        <img src="images/cadastro.gif" height="140px" width="300px">
+                                   
 
-                                   <input type="email" name="email" class="form-control" placeholder="Endereço de E-mail" required="">
-
-                                   <input type="password" name="password" class="form-control" placeholder="Sua Senha" required="">
-
+                                   
                                    <button class="submit-btn form-control" id="form-submit">Comece Agora!</button>
                               </form>
                          </div>

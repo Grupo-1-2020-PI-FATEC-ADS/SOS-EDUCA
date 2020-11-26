@@ -48,6 +48,14 @@ p {
   line-height: 24px;
 }
 
+.cadastro{
+  color: #29ca8e;
+  width: 8px;
+  height: 8px;
+
+}
+
+
 
 
 /*---------------------------------------
@@ -220,12 +228,12 @@ section {
 }
 .login-logo{
     position: relative;
-    margin-left: -50.5%;
+    margin-left: -50%;
 }
 .login-logo img{
     position: absolute;
     width: 30%;
-    margin-top: 12%;
+    margin-top: 10%;
     background: #F1C232;
     border-radius: 45.5rem;
     padding: 2%;
@@ -248,7 +256,7 @@ section {
   text-shadow: white 0.1em 0.1em 0.2em;
 }
 .login-form-2{
-    padding: 8.7%;
+    padding: 9%;
     background: #BC1452;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
 }
@@ -263,6 +271,8 @@ section {
   color: #29ca8e;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+
 .btnSubmit{
     font-weight: 600;
     width: 50%;
@@ -271,6 +281,7 @@ section {
     border: none;
     border-radius: 1.5rem;
     padding:2%;
+    margin-left: -50%;
 }
 .btnForgetPwd{
     color: #fff;
