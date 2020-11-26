@@ -254,10 +254,15 @@
       <footer class="tm-footer row tm-mt-small">
         <div class="col-12 font-weight-light">
           <p class="text-center text-white mb-0 px-4 small">
+<<<<<<< HEAD
             Copyright &copy; <b>2020</b> SOS EDUCA. 
 
             
  
+=======
+            Copyright &copy; Todos os direitos reservados - <b>SOS EDUCA</b>
+            <strong> - 2020</strong>
+>>>>>>> 298672ade1a3fee809651f0537ab752f87541eaa
           </p>
         </div>
       </footer>

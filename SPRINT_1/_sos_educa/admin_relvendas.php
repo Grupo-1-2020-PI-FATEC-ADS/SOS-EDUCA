@@ -244,6 +244,17 @@
   
 
 
+<<<<<<< HEAD
+=======
+    <script>
+      $(function() {
+        $(".tm-product-name").on("click", function() {
+          window.location.href = "admin_editproduto.php";
+        });
+      });
+    </script>
+    
+>>>>>>> 298672ade1a3fee809651f0537ab752f87541eaa
   </body>
 
 </html>

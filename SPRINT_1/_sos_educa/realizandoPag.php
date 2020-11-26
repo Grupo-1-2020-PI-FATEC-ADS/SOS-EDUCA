@@ -92,7 +92,7 @@
 ?>
  
 
-  <h1 class="text-center">Agradecemos o Pagemento</h1>
+  <h1 class="text-center">Agradecemos o Pagamento</h1>
  <br /><br/><br />
     <div class="container conteudo  printable">
         <table class="table">
