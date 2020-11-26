@@ -147,19 +147,67 @@ $result = $conn->query($sql);
                 ?>
                 </div>
             </div>
+            
             <!-- row -->
             <div class="row tm-content-row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block">
                         <h2 class="tm-block-title">Vendas</h2>
                         <canvas id="lineChart"></canvas>
-                        
+                        <script>
+                        var ctx = document.getElementById('lineChart').getContext('2d');
+                        var myLineChart = new Chart(ctxLine, {
+                            type: 'line',
+                            data: {
+                            datasets: [{
+                                label: 'First dataset',
+                                data: [0, 20, 40, 50]
+                            }],
+                            labels: ['January', 'February', 'March', 'April']
+                        },
+                            options:  {
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        suggestedMin: 50,
+                                        suggestedMax: 100
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                          
+                    </script>
                     </div>
                 </div>
+                
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block">
                         <h2 class="tm-block-title">Performance por Produto</h2>
                         <canvas id="barChart"></canvas>
+                        <script>
+                        var ctx = document.getElementById('barChart').getContext('2d');
+                        var myBarChart = new Chart (ctxBar, {
+                            type: 'horizontalBar',
+                            data: {
+                                    datasets: [{
+                                        barPercentage: 0.5,
+                                        barThickness: 6,
+                                        maxBarThickness: 8,
+                                        minBarLength: 2,
+                                        data: [10, 20, 30, 40, 50, 60, 70]
+                                    }], labels: ['Português', 'Matemática', 'Inglês','Algoritmos', 'AOC', 'Laboratório HW']
+                        },
+                            options: {
+                                        scales: {
+                                            xAxes: [{
+                                                gridLines: {
+                                                    offsetGridLines: true
+                                                }
+                                            }]
+                                        }
+                        });
+                        </script>
                     </div>
                 </div>
 
@@ -275,14 +323,7 @@ $result = $conn->query($sql);
                 </div>
             </div>
         </div>
-        <footer class="tm-footer row tm-mt-small">
-        <div class="col-12 font-weight-light">
-          <p class="text-center text-white mb-0 px-4 small">
-            Copyright &copy; Todos os direitos reservados - <b>SOS EDUCA</b>
-            <strong> - 2020</strong>
-          </p>
-        </div>
-      </footer>
+
     </div>
 
 
@@ -298,12 +339,12 @@ $result = $conn->query($sql);
             configBar,
             configPie,
             lineChart;
-        barChart, pieChart;
+            barChart;
         // DOM is ready
         $(function () {
             drawLineChart(); // Line Chart
             drawBarChart(); // Bar Chart
-            drawPieChart(); // Pie Chart
+            
 
             $(window).resize(function () {
                 updateLineChart();
@@ -312,4 +353,12 @@ $result = $conn->query($sql);
         })
     </script>
 </body>
+<footer class="tm-footer row tm-mt-small">
+        <div class="col-12 font-weight-light">
+          <p class="text-center text-white mb-0 px-4 small">
+            Copyright &copy; Todos os direitos reservados - <b>SOS EDUCA</b>
+            <strong> - 2020</strong>
+          </p>
+        </div>
+      </footer>
 </html>
