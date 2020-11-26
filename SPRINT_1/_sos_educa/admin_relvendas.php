@@ -26,6 +26,9 @@
     <script src="css/admin/js/bootstrap.min.js"></script>
     <!-- https://getbootstrap.com/ -->
     <script src="css/admin/js/tooplate-scripts.js"></script>
+    
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
     <?php include('conexao.php');?>
 

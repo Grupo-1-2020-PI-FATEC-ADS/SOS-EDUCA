@@ -53,7 +53,7 @@
           </script>
     <?php
       }
-    }
+    
     ?>  
 </body>
 </html>

@@ -187,9 +187,10 @@
         background-color: #fff;
         border: 1px solid rgba(0,0,0,0.125);
     }
-    <title>Login Cliente</title>
+    
     <?php include('conexao.php');?>
     </style>
+    <title>Login Cliente</title>
 </head>
     <body>
 
