@@ -214,7 +214,8 @@
     <footer class="tm-footer row tm-mt-small">
       <div class="col-12 font-weight-light">
         <p class="text-center text-white mb-0 px-4 small">
-          Copyright &copy; <b>2020</b> SOS EDUCA. 
+        Copyright &copy; Todos os direitos reservados - <b>SOS EDUCA</b>
+            <strong> - 2020</strong>
           
          
         </p>
@@ -222,12 +223,6 @@
     </footer>
 
 
-    <script>
-      $(function() {
-        $(".tm-product-name").on("click", function() {
-          window.location.href = "admin_editproduto.php";
-        });
-      });
-    </script>
+
   </body>
 </html>

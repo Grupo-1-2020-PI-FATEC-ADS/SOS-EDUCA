@@ -226,17 +226,6 @@ $result = $conn->query($sql);
           </div>
 
         
-<<<<<<< HEAD
-    <footer class="tm-footer row tm-mt-small">
-      <div class="col-12 font-weight-light">
-        <p class="text-center text-white mb-0 px-4 small">
-         Copyright &copy; <b>2020</b> SOS EDUCA. 
-          
-          
-        </p>
-      </div>
-    </footer>
-=======
       <footer class="tm-footer row tm-mt-small">
         <div class="col-12 font-weight-light">
           <p class="text-center text-white mb-0 px-4 small">
@@ -245,7 +234,6 @@ $result = $conn->query($sql);
           </p>
         </div>
       </footer>
->>>>>>> 298672ade1a3fee809651f0537ab752f87541eaa
 
 
     <script>
