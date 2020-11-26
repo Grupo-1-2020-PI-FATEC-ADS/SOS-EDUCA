@@ -44,7 +44,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  > **Conteúdos**
 
  - [x] Português (Concordância e Pontuação)
- - [x] Matemática (Grafos e Lógica)
+ - [x] Matemática (Graficos e Lógica)
  - [x] Inglês
  - [x] Lógica de Programação
  - [x] Laboratório de Hardware
