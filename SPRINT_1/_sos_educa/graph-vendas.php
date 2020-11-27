@@ -39,7 +39,7 @@ foreach ($row_performance as $k => $v) {
     title: {
       display: true,
       fontColor: 'white',
-      text: 'Vendas Por Mês'
+      text: 'Valor Ganho Por Mês (R$)'
     },
     scales: {
       yAxes: [

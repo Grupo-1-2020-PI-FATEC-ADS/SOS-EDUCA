@@ -156,7 +156,7 @@ https://templatemo.com/tm-524-product-admin
     <!-- row -->
     <div class="row tm-content-row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-        <div class="tm-bg-primary-dark tm-block">
+        <div class="tm-bg-primary-dark tm-block p-3">
           <h2 class="tm-block-title">Vendas</h2>
           <?php
           // ARQUIVO COM O GRAFICO DE PRODUTOS / CATEGORIAS
@@ -166,7 +166,7 @@ https://templatemo.com/tm-524-product-admin
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-        <div class="tm-bg-primary-dark tm-block">
+        <div class="tm-bg-primary-dark tm-block p-3">
           <h2 class="tm-block-title">Performance por Categoria</h2>
           <?php
           // ARQUIVO COM O GRAFICO DE PRODUTOS / CATEGORIAS

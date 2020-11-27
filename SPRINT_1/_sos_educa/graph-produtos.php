@@ -30,8 +30,16 @@ $sql3 = "SELECT SUM(b.preco * a.qtd_item) valor_total,
                INNER JOIN categorias c ON (b.id_categoria = c.id_cat)
                  GROUP BY c.id_cat";
 
+$sql4 = "SELECT COUNT(a.id_venda) QNT,
+                          c.nome_cat categoria
+                     FROM itens_venda a
+               INNER JOIN vendas x ON (a.id_venda = x.id_venda)
+               INNER JOIN produtos b ON (a.id_produto = b.id_produto)
+               INNER JOIN categorias c ON (b.id_categoria = c.id_cat)
+                 GROUP BY c.id_cat";                 
+
 // VOU POR SOMENTE O RESULTADO DO SQL1, CASO QUEIRA POR OUTROS GRÁFICOS, É SÓ USAR AS QUERIES
-$performe = $conn->query($sql3); // ESTOU USANDO A QUERIE 3 - CATEGORIAS
+$performe = $conn->query($sql4); // ESTOU USANDO A QUERIE 3 - CATEGORIAS
 $row_performance = $performe->fetch_all(MYSQLI_ASSOC);
 // vamos criar um array organizado de acordo com oque o gráfico precisa
 $arr_data   = array();
@@ -41,7 +49,7 @@ foreach ($row_performance as $k => $v) {
   // $k = index do array que veio do banco de dados
   // $v = o array em si - ex. $v['produto'] = nome do produto
   $label = $v['categoria'];
-  $valor = $v['valor_total'];
+  $valor = $v['QNT'];
   $arr_data[] = $valor;
   $arr_lbls[] = $label;
   $arr_colors[] = rand_color();
@@ -65,7 +73,7 @@ foreach ($row_performance as $k => $v) {
     scales: {
       yAxes: [
         {
-          barPercentage: 0.2,
+          barPercentage: 0.5,
           ticks: {
             beginAtZero: true,
             fontColor: 'white'
@@ -92,7 +100,7 @@ foreach ($row_performance as $k => $v) {
           backgroundColor: ['<?=implode("','", $arr_colors);?>'],
           borderWidth: 0
         }
-      ]
+      ] 
     },
     options: optionsBar
   };
