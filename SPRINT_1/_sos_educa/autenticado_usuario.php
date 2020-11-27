@@ -44,7 +44,7 @@
         echo "<script>loginsuccessfully()</script>";
         echo "<br><br><center><img src='imagens/ajax_load.gif'></center>";
       }else{
-          echo "<center><h1 class='alert-danger'><b>Campo Usuário e/ou senha inválido! Aguade um instante para tentar novamente.</h1></b></center>";
+          echo "<center><h1 class='alert-danger'><i><b>Campo Usuário e/ou senha inválido! Aguarde um instante para tentar novamente.</h1></b></center></i>";
           echo "<script>loginfailed()</script>";
           echo "<br><br><center><img src='imagens/ajax_load.gif'></center>";
       }
