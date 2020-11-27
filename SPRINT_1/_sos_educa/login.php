@@ -25,7 +25,7 @@
                             <input type="password" class="form-control" name="senha" placeholder="Sua Senha *" value="<?= @$_SESSION['senha'] ? 'autofocus' : '' ?>"  maxlength="8" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="btnSubmit" value="Login" />
+                            <input  type="submit" class="btnSubmit" value="Login" />
                         </div>
                         <br>
                 </form>
