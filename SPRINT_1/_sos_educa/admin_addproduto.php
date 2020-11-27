@@ -140,20 +140,15 @@
               
               <div class="col-md-12">
                 <label class="col-md-12">Selecione a imagem para Upload</label>
-                  
                     <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2" />
-
               </div>
               <br>
+
               <div class="col-md-12">
-                
                 <label class="col-md-12">Selecione a Categoria do Produto</label>
-                 
-               
               </div>
               <div class="col-md-12">
-                <div class="col-md-12">
-                  <select name="sel_cat" class="form-control">
+                  <select name="sel_cat" class="custom-select tm-select-accounts">
                     <?php
                       $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
                         while($linha=mysqli_fetch_assoc($resultado)){
@@ -165,33 +160,32 @@
                       }?>
                   </select> 
                 </div>
-              </div>
+
               <br>
               <div class="col-md-12">
-                <div class="col-md-12">
+
                   <input class="input-group form-control" type="text" name="nome_prod" placeholder="Digite o nome do produto" />
-                </div>
-              </div>
+              </div>        
               <br>
               <div class="col-md-12">
-                <div class="col-md-12">
+
                   <input class="input-group form-control" type="text" name="preco" placeholder="Digite o preço">
-                </div>
               </div>
+
               <br>
               <div class="col-md-12">
-                <div class="col-md-12">
+
                     <textarea name="desc" class="form-control" placeholder="Realize uma descrição do produto"></textarea>
                 </div>
-              </div>
+
               <br>
               <div class="col-md-12">
-                <div class="col-md-12">
+
                     <button class="btn btn-info "> Cadastrar </button>
-                </div>
+                
               </div>
             </form>
-              
+            </div>
             </div>
             </div>
       </div>
