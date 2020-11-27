@@ -30,13 +30,13 @@
 
     
     <div style='text-align:center'>
-      <div class="col-md-12">
+
         <div class="page-header">
           <h2 class='text-white bg-primary shadow-lg rounded'><b><br> Lista de Produtos </b><br><br></h2>
 			    <br>
 		    </div>
       </div>
-    </div>
+    
 		
     <form name="cons" method="post" action="index_carrinho_cliente.php">
       <div style='text-align:center'>
@@ -170,9 +170,13 @@
                 <span class="fa fa-chevron-right"></span>
               </a>
             </li>
+            
           <?php endif ?>
+          </div> 
         </ul>
-        <br/><br/>
+        
+        <br/><br/><br/><br/>
+          
         <?php include("rodape.php");?>
       </div>
     <?php endif // END OF PAGINATION ?>
