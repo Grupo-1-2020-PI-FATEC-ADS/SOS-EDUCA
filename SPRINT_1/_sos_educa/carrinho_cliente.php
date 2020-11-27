@@ -209,7 +209,7 @@
                 
   <!-- </form> -->
     </table>
-  
+    </div>
 </body>
 
 <?php include ("rodape.php");?>
