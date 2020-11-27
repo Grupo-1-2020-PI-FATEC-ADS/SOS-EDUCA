@@ -128,7 +128,7 @@
             </div>
             <div class="row tm-edit-product-row">
               <div class="col-xl-12 col-lg-12 col-md-12">
-                <form action="" name="form_alterar" method="post" class="tm-edit-product-form" action="alterar_2.php">
+                <form action="alterar_2.php" name="form_alterar" method="post" class="tm-edit-product-form" action="alterar_2.php">
                   <div class="form-group mb-3">
 
                   <?php
