@@ -125,7 +125,7 @@
       </div>
     </div>
   </div>
-  
+  <a href="session_d.php">
   <?php include("rodape.php") ?>
 </body>
 </html>

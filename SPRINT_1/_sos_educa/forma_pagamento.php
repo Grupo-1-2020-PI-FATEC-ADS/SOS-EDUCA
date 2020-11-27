@@ -23,6 +23,11 @@
 <html lang="pt-br">
 <head>
   <?php include("cabecalho.php") ?>
+  <link rel="stylesheet" href="cartao/css/normalize.css">
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Inconsolata'>
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="cartao/css/style.css">
   <title>SOS Educa</title>
 </head>
 <body>
@@ -39,17 +44,109 @@
         </ul>
         <div class="tab-content">
           <div role="tabpanel" class="tab-pane active" id="cartao">
-   
-            <iframe src="cartao.php" height="800" width="1400" title="Iframe Example"></iframe>
-            <form method="post" action="confirmar_produtos.php">
-            <div class="col-md-3 ml-md-auto" style="margin: 2% 55% 2% 55%"> 
-            <button type="submit" class="btn btn-primary btn-lg btn-center" href="confirmar_produtos.php">Continuar</button>
+            <div class="panel" style="padding-top:20px">
+              <form class="form" method="post" action="confirmar_produtos.php">
+                <input type="hidden" name="forma_pagamento" value="cartao">
+                <input type="hidden" name="idVenda" value="<?=$idVenda?>" />
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="form-group">
+                      
+                      <label for="numero_cartao">Número do Cartão</label>
+                      <input type="text" class="form-control" id="numero_cartao" name="numero_cartao"  maxlength="11">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="cod_seguranca">Código de Segurança</label>
+                      <input type="text" class="form-control" id="cod_seguranca" name="cod_seguranca"  maxlength="3">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                  <label style="margin-right:100%">Parcelas</label>
+                  <fieldset class="fieldset-expiration">
+                      <div style="width: 166%;margin-top:-2%" class="select">
+                        <select id="parcelas" name="parcelas">
+                          <option></option>
+                          <option>1x s/juros</option>
+                          <option>2x s/juros</option>
+                          <option>3x s/juros</option>
+                          <option>4x s/juros</option>
+                          <option>5x s/juros</option>
+                          <option>6x s/juros</option>
+                          <option>7x s/juros</option>
+                          <option>8x s/juros</option>
+                          <option>9x s/juros</option>
+                          <option>10x s/juros</option>
+                        </select>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div class="col-md-4">
+                  <label style="margin-right:100%">Vencimento</label>
+                  <fieldset class="fieldset-expiration">    
+                      <div style="margin-top:-5%"class="select">
+                        <select id="card-expiration-month" name="data_validade">
+                          <option></option>
+                          <option>Jan</option>
+                          <option>Fev</option>
+                          <option>Mar</option>
+                          <option>Abr</option>
+                          <option>Mai</option>
+                          <option>Jun</option>
+                          <option>Jul</option>
+                          <option>Ago</option>
+                          <option>Set</option>
+                          <option>Out</option>
+                          <option>Nov</option>
+                          <option>Dez</option>
+                        </select>
+                      </div>
+                      <div style="margin-top:-5%" class="select">
+                        <select id="card-expiration-year">
+                          <option></option>
+                          <option>2020</option>
+                          <option>2021</option>
+                          <option>2022</option>
+                          <option>2023</option>
+                          <option>2024</option>
+                          <option>2025</option>
+                          <option>2026</option>
+                          <option>2027</option>
+                          <option>2028</option>
+                          <option>2029</option>
+                          <option>2030</option>
+                        </select>
+                      </div>
+                    </fieldset>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="form-group">
+                      <label for="nome_titular">Nome completo do titular</label>
+                      <input type="text" class="form-control" id="nome_titular" name="nome_titular">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <label for="cupom_desconto">Cupom de Desconto</label>
+                      <input type="text" class="form-control" id="cupom_desconto" name="cupom_desconto">
+                    </div>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox">
+                    <strong>Lembrar deste cartão</strong>
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-center">Continuar</button>
+              </form>
             </div>
-          </form>
-          <br>
-          <br>
-            </div>
-          
+          </div>
           <div role="tabpanel" class="tab-pane" id="boleto">
             <div class="panel" style="padding-top:20px">
               <form method="post" action="confirmar_produtos.php">
