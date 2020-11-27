@@ -205,8 +205,10 @@ $result = $conn->query($sql);
                                                     offsetGridLines: true
                                                 }
                                             }]
-                                        }
-                        });
+                                      }
+                            }
+                        }),
+                        
                         </script>
                     </div>
                 </div>
