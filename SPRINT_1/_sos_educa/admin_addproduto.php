@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -129,133 +128,72 @@
                 <h2 class="tm-block-title d-inline-block">Adicionar Produto</h2>
               </div>
             </div>
-            <div class="row tm-edit-product-row">
-              <div class="col-xl-6 col-lg-6 col-md-12">
-                <form action="cadastrar_produtos.php" name="upload_insere" method="post" enctype="multipart/form-data" class="tm-edit-product-form">
-                  <div class="form-group mb-3">
-                    <label
-                      for="name"
-                      >Nome do Produto
-                    </label>
-                    <input
-                      
-                      id="name"
-                      name="nome_prod"
-                      type="text"
-                      class="form-control validate"
-                      required
-                      placeholder="Digite o nome do produto"
-                    />
-                  </div>
+
+
+
+            <form action="cadastrar_produtos.php" class="form-group" method="post" enctype="multipart/form-data" name="upload_insere">
+            <div class="col-md-12">
+                <label class="col-md-12">Selecione o arquivo conteúdo para Upload</label>
+                  <input type="file" name="arquivo" class="form-control" aria-describedby="sizing-addon2" />
+            </div>
+            <br>
+              
+              <div class="col-md-12">
+                <label class="col-md-12">Selecione a imagem para Upload</label>
                   
-                  <div class="form-group mb-3">
-                    <label
-                      for="desc"
-                      >Descrição</label
-                    >
-                    <textarea
-                      name="desc" 
-                      placeholder="Realize uma descrição do produto"
-                      class="form-control validate"
-                      rows="9"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="form-group mb-3">
-                    <label
-                      for="category"
-                      >Matéria</label
-                    >
-                    <select
-                      name="sel_cat" 
-                      class="custom-select tm-select-accounts"
-                      id="category"
-                    >
-                      <option selected>Selecione a Matéria</option>
-                      <?php
+                    <input type="file" name="imagem" class="form-control" aria-describedby="sizing-addon2" />
+
+              </div>
+              <br>
+              <div class="col-md-12">
+                
+                <label class="col-md-12">Selecione a Categoria do Produto</label>
+                 
+               
+              </div>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                  <select name="sel_cat" class="form-control">
+                    <?php
                       $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
                         while($linha=mysqli_fetch_assoc($resultado)){
                     ?>
                         <option value="<?php echo $linha['id_cat']; ?>">
-                        <tr>
-                            
-                        <td class="tm-product-name"><?php echo ($linha['nome_cat']);?></td>
-                        <td class="text-center">
-                        <a href="#" class="tm-product-delete-link">
-                        <i class="far fa-trash-alt tm-product-delete-icon"></i></a>
-
-
+                          <?php echo ($linha['nome_cat']);?>
                         </option>
-                        </tr>
                       <?php 
                       }?>
-                    </select>
-                  </div>
-                  <div class="form-group mb-3">
-                          <label
-                            for="preco"
-                            >Preço
-                          </label>
-                          <input
-                          
-                            id="preco"
-                            name="preco"
-                            type="text"
-                            class="form-control validate"
-                            placeholder="Digite o preço"
-                          />
-                  </div>
-                   
+                  </select> 
+                </div>
               </div>
-              
-              <div class="col-xl-6 col-lg-6 col-md-12 mx-0 mb-1">
-                <div class="tm-product-img-dummy mx-auto">
-                  <i
-                    class="fas fa-cloud-upload-alt tm-upload-icon"
-                    onclick="document.getElementById('fileInput').click();"
-                  ></i>
+              <br>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                  <input class="input-group form-control" type="text" name="nome_prod" placeholder="Digite o nome do produto" />
                 </div>
-                <div class="custom-file mt-1 mb-4">
-                  <input id="imgInput" type="file" style="display:none;" />
-                  
-                  <input
-                    name="imagem"
-                    aria-describedby="sizing-addon2" 
-                    type="button"
-                    class="btn btn-primary btn-block mx-auto"
-                    value="UPLOAD IMAGEM DO PRODUTO"
-                    onclick="document.getElementById('imgInput').click();"
-                  />
+              </div>
+              <br>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                  <input class="input-group form-control" type="text" name="preco" placeholder="Digite o preço">
                 </div>
-              
-                
-              
-                <div class="tm-product-img-dummy mx-auto">
-                  <i
-                    class="fas fa-cloud-upload-alt tm-upload-icon"
-                    onclick="document.getElementById('fileInput').click();"
-                  ></i>
+              </div>
+              <br>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                    <textarea name="desc" class="form-control" placeholder="Realize uma descrição do produto"></textarea>
                 </div>
-                <div class="custom-file mt-1 mb-4">
-                  <input id="fileInput" type="file" style="display:none;" />
-                  <input
-                    name="arquivo" 
-                    aria-describedby="sizing-addon2"
-                    type="button"
-                    class="btn btn-primary btn-block mx-auto"
-                    value="UPLOAD ARQUIVO DO PRODUTO"
-                    onclick="document.getElementById('fileInput').click();"
-                  />
+              </div>
+              <br>
+              <div class="col-md-12">
+                <div class="col-md-12">
+                    <button class="btn btn-info "> Cadastrar </button>
                 </div>
-                
-                </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary btn-block text-uppercase">Incluir Novo Produto</button>
               </div>
             </form>
+              
             </div>
-          </div>
-        </div>
+            </div>
       </div>
     </div>
     <footer class="tm-footer row tm-mt-small">
