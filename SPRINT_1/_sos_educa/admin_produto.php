@@ -170,6 +170,7 @@
             <?php
                   }//fim do while
                 }//fim do if
+              
               ?>
                 
               </table>
@@ -187,22 +188,27 @@
               <table class="table tm-table-small tm-product-table">
                 <tbody>
                 <?php
-                      $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
-                        while($linha=mysqli_fetch_assoc($resultado)){
+                      $resultado=mysqli_query($conexao, "SELECT * FROM categorias");
+                      if($resultado){
+                        while($row=mysqli_fetch_assoc($resultado)){
+
+                          
                     ?>
-                        <option value="<?php echo $linha['id_cat']; ?>">
+                        <option value="<?php echo $row['id_cat']; ?>">
                         <tr>
                             
-                        <td class="tm-product-name"><?php echo ($linha['nome_cat']);?></td>
+                        <td class="tm-product-name"><?php echo $row['nome_cat'];?></td>
                         <td class="text-center">
-                        <a href="excluir_materia.php" class="tm-product-delete-link">
+                        <a href="excluir_materia.php?id=<?php echo $row['id_cat'];?>"class="tm-product-delete-link">
                         <i class="far fa-trash-alt tm-product-delete-icon"></i></a>
-
+                        </td>
 
                         </option>
                         </tr>
                       <?php 
-                      }?>
+                        }
+                      }
+                      ?>
                 </tbody>
               </table>
             </div>
@@ -222,7 +228,6 @@
           </p>
         </div>
       </footer>
-
 
 
   </body>
