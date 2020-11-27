@@ -147,8 +147,8 @@
               <div class="col-md-12">
                 <label class="col-md-12">Selecione a Categoria do Produto</label>
               </div>
-              <div class="col-md-12">
-                  <select name="sel_cat" class="form-control">
+              <div class="col-md-12 mb-3">
+                  <select name="sel_cat" class="custom-select tm-select-accounts">
                     <?php
                       $resultado=mysqli_query($conexao,"SELECT * FROM categorias");
                         while($linha=mysqli_fetch_assoc($resultado)){
