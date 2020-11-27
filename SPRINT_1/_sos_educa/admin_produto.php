@@ -128,6 +128,7 @@
         <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 tm-block-col">
           <div class="tm-bg-primary-dark tm-block tm-block-products">
             <div class="tm-product-table-container">
+              <h2 class="tm-block-title">Produtos</h2>
               <table class="table table-hover tm-table-small tm-product-table">
                 <thead>
                   <tr>
@@ -182,21 +183,24 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-block-col">
-          <div class="tm-bg-primary-dark tm-block tm-block-product-categories">
-            <h2 class="tm-block-title">Matérias</h2>
+          <div class="tm-bg-primary-dark tm-block tm-block-products">
             <div class="tm-product-table-container">
-              <table class="table tm-table-small tm-product-table">
+              <h2 class="tm-block-title">Matérias</h2>
+              <table class="table table-hover tm-table-small tm-product-table">   
+              <thead>
+                  <tr>
+                    <th scope="col">&nbsp;</th>
+                    <th scope="col">&nbsp;</th>
+                  </tr>
+                </thead>     
                 <tbody>
                 <?php
                       $resultado=mysqli_query($conexao, "SELECT * FROM categorias");
                       if($resultado){
-                        while($row=mysqli_fetch_assoc($resultado)){
-
-                          
+                        while($row=mysqli_fetch_assoc($resultado)){                        
                     ?>
                         <option value="<?php echo $row['id_cat']; ?>">
-                        <tr>
-                            
+                        <tr>                           
                         <td class="tm-product-name"><?php echo $row['nome_cat'];?></td>
                         <td class="text-center">
                         <a href="excluir_materia.php?id=<?php echo $row['id_cat'];?>"class="tm-product-delete-link">
