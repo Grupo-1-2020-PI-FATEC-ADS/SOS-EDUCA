@@ -8,7 +8,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 
 ## :mag_right: Demonstração
 
-<h1 align="center"> <video src = "/Imagens Geral/video3.vlc"/></h1>
+<h1 align="center"> <video src = "/Imagens Geral/video3.mp4"/></h1>
 
 <br>
 
