@@ -15,7 +15,7 @@
   <a href ="#card_index_dividers-cards-das-sprints"> Cards </a>  •
   <a href ="#computer-tecnologias-utilizadas"> Tecnologias </a>  • 
   <a href ="#bulb-metodologia-utilizada"> Metodologia </a>  • 
-  <a href ="#pushpin-backlog-do-produto"> Backlog </a>  •
+  <a href ="#bar_chart-backlog-do-produto"> Backlog </a>  •
   <a href ="#mortar_board-equipe"> Equipe </a> 
 </p>
 
@@ -130,7 +130,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## :chart_with_downwards_trend: Backlog do Produto
+## :bar_chart: Backlog do Produto
 
 <h1 align="center"> <img src = "/Imagens Geral/backlog_novo.png" /></h1>
 
