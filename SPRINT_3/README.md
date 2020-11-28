@@ -1,6 +1,6 @@
 ## :ballot_box_with_check: Entrega 4 - SPRINT 3
 
-Após feedback do cliente e uma breve conversa sobre entrega de valor para essa sprint, decidimos junto ao cliente que seria priorizado o card abaixo:
+Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores _(*exceto materiais do tipo Jogos)_, nessa Sprint focamos na melhoria e refinamento do site, portanto decidimos em alinhamento com o cliente a realização das atividades do card abaixo:
 
 <h1 align="center"> <img src = "/Imagens Geral/card3att.png" width="710" height="420" /></h1>
 
@@ -24,9 +24,40 @@ Após feedback do cliente e uma breve conversa sobre entrega de valor para essa 
 
 <br>
 
+<br>
+ 
+ **Funcionalidades**
+
+* Elaboração de Materiais Didáticos do Tipo Jogos: Concluído :heavy_check_mark:
+* Acessibilidade: Concluído :heavy_check_mark:
+* Refatoração Layout Site Completo: Concluído :heavy_check_mark:
+* Manual / Documentação/ Fluxogramas: Concluído :heavy_check_mark:
+* Fale Conosco: Concluído :heavy_check_mark:
+* Sobre: Concluído :heavy_check_mark:
+* Blog (Notícias): Concluído :heavy_check_mark:
+* Avaliações/Feedback: Concluído :heavy_check_mark:
+* Área ADM - Incluir e Excluir Matérias: Concluído :heavy_check_mark:
+* Área ADM -Cadastro Outros Adm: Concluído :heavy_check_mark:
+* Área ADM - Atualizar Cadastro Adm: Concluído :heavy_check_mark:
+* Área ADM - Gráficos DashBoard: Concluído :heavy_check_mark:
+
+ <br> 
+ 
+ _Nota 1: Visando a simulação mais real do ambiente de compras, a compra por boleto foi refatorada para "aguardar a confirmação do pagamento" antes de liberar o produto para download. A funcionalidade de e-mail se tratava de um bônus e não foi implementada._
+ 
+ <br> 
+ 
+## :video_game: Materiais Didáticos - Jogos:
+
+**Clique no link abaixo para visualizar os materiais didáticos do tipo jogos:**  
+
+> :game_die: [Materiais - Vídeos (playlist)](https://www.youtube.com/watch?v=9DbPImwFvUk&list=PL94iJfytd-50M5jZ52R7rGIdA7n2RwQuC&ab_channel=soseduca)
+
+<br>
+
 ## :chart_with_downwards_trend: Burndown da Equipe
 
-(burndown)
+<img src = "/Imagens Geral/burndown_sprint3.png" width="3000" height="350"/></h1>
 
 <br>
 
