@@ -49,9 +49,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
  
 ## :video_game: Materiais Didáticos - Jogos:
 
-**Clique no link abaixo para visualizar os materiais didáticos do tipo jogos:**  
-
-> :game_die: [Materiais - Vídeos (playlist)](https://www.youtube.com/watch?v=9DbPImwFvUk&list=PL94iJfytd-50M5jZ52R7rGIdA7n2RwQuC&ab_channel=soseduca)
+**:game_die: Os materiais do tipo jogo estão disponíveis diretamente no site, na aba de jogos.**  
 
 <br>
 
