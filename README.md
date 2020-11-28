@@ -33,7 +33,7 @@
 ## :rocket: O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
-> Status do Projeto : Concluído <img src = "/Imagens Geral/concluido.png" width="50" height="10" />
+> Status do Projeto: Concluído <img src = "/Imagens Geral/concluido.png" width="50" height="10" />
 
 <br>
 
