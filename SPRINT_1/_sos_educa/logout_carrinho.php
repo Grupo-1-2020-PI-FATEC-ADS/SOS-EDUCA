@@ -89,9 +89,9 @@
 ?>
   <?php include("navbar.php") ?>
   <?php (include("progresso.php"))(4);?>
-    <div class="conteudo  printable">
+    <div class="conteudo printable">
       <div class="container text-center">
-          <img  src="imagens/logo6.png" alt="placeholder+image" height="40px" width="80px">
+          <img  src="imagens/logo6.png" alt="placeholder+image" height="80px" width="100px">
               <?php
                 $data = date("d/m/Y");
                 $hora = date("H:i:s");
@@ -138,7 +138,7 @@
         </tr>
         <tr>
             <th style="text-align:right">Nº do Cartão</th>
-            <td style="width:75%"><?= $dados_cartao['numero'] ?></td>
+            <td style="width:75%"><?= $dados_cartao['numero'].'.XXXX.XXXX.XXXX' ?></td>
         </tr>
         <tr>
             <th style="text-align:right">Parcelas</th>

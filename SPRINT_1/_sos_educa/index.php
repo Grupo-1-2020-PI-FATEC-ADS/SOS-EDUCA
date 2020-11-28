@@ -95,9 +95,9 @@ https://templatemo.com/tm-516-known-->
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo Da Velha</a>
+                              <a class="dropdown-item" href="./jogo_velha/index.html"target="_blank">Jogo da Velha</a>
                               <a class="dropdown-item" href="./jogo_forca/index.html"target="_blank">Jogo da Forca</a>
-                              <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memoria</a>
+                              <a class="dropdown-item" href="./jogo_memoria/index.html"target="_blank">Jogo da Memória</a>
                             </div>
                         </li>
                          <li><a href="#team" class="smoothScroll">Notícias</a></li>
