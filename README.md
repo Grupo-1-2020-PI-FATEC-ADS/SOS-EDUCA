@@ -33,7 +33,7 @@
 ## :rocket: O Projeto
 O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, com foco em ajudar professores e alunos em seus estudos, disponibilizando o melhor conteúdo didático a um clique de distância.
 
-> Status do Projeto : Em Andamento <img src = "/Imagens Geral/status.png" width="50" height="10" />
+> Status do Projeto : Concluído <img src = "/Imagens Geral/concluido.png" width="50" height="10" />
 
 <br>
 
@@ -44,7 +44,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  > **Conteúdos**
 
  - [x] Português (Concordância e Pontuação)
- - [x] Matemática (Graficos e Lógica)
+ - [x] Matemática (Grafos e Lógica)
  - [x] Inglês
  - [x] Lógica de Programação
  - [x] Laboratório de Hardware
@@ -71,14 +71,13 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 <br>
 
 **Clique no link abaixo para visualizar o site hospedado:**
-
 >  [http://soseduca.site](http://soseduca.site/)
  
   _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
 
 <br>
 
-## :pencil2: Planejamento de Entregas
+## :hourglass_flowing_sand: Planejamento de Entregas
 
 - [x] [SPRINT 0](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0) - 07/09/2020 a 27/09/2020
 
@@ -97,7 +96,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## :ballot_box_with_check: As Sprints
+## :calendar: As Sprints
 
 ☑️ SPRINT 0 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_0)): Concluído :heavy_check_mark:
 
@@ -105,7 +104,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ☑️ SPRINT 2 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_2)): Concluído :heavy_check_mark:
 
-☑️ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Em Andamento :clock8:
+☑️ SPRINT 3 ([Link da Pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3)): Concluído :heavy_check_mark:
 
 <br>
 
@@ -114,7 +113,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## :ticket: Tecnologias Utilizadas
+## :computer: Tecnologias Utilizadas
 
 <h1 align="center"> <img src = "/Imagens Geral/tecnologia.png"/></h1>
 
@@ -131,7 +130,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 <br>
 
-## :pushpin: Backlog do Produto
+## :chart_with_downwards_trend: Backlog do Produto
 
 <h1 align="center"> <img src = "/Imagens Geral/backlog_novo.png" /></h1>
 
