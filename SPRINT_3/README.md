@@ -8,7 +8,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 
 ## :mag_right: Demonstração
 
-(vídeo mostrando site com o novo layout)
+<h1 align="center"> <img src = "/Imagens Geral/video3.gif"/></h1>
 
 <br>
 
@@ -37,7 +37,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 * Blog (Notícias): Concluído :heavy_check_mark:
 * Avaliações/Feedback: Concluído :heavy_check_mark:
 * Área ADM - Incluir e Excluir Matérias: Concluído :heavy_check_mark:
-* Área ADM -Cadastro Outros Adm: Concluído :heavy_check_mark:
+* Área ADM - Cadastro Outros Adm: Concluído :heavy_check_mark:
 * Área ADM - Atualizar Cadastro Adm: Concluído :heavy_check_mark:
 * Área ADM - Gráficos DashBoard: Concluído :heavy_check_mark:
 
