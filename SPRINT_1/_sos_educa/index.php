@@ -132,9 +132,11 @@ https://templatemo.com/tm-516-known-->
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
-                                             <h1>Melhores Conteúdos</h1>
-                                             <h3>Excelência na venda de produtos didáticos e materiais de educação </h3>
-                                             <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
+                                             <h1>Jogos Para Fixação de Conteúdo</h1>
+                                             <h3>Os melhores jogos para praticar o conhecimento obtido com nossos produtos didáticos</h3>
+                                             <a href="jogo_velha/index.html" class="section-btn btn btn-default smoothScroll">Jogo 1</a>
+                                             <a href="jogo_forca/index.html" class="section-btn btn btn-default smoothScroll">Jogo 2</a>
+                                             <a href="jogo_memoria/index.html" class="section-btn btn btn-default smoothScroll">Jogo 3</a>
                                         </div>
                                    </div>
                               </div>
@@ -144,10 +146,10 @@ https://templatemo.com/tm-516-known-->
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
-                                             <h1>Simplicidade e Praticidade</h1>
+                                             <h1>Notícias sobre tecnologia</h1>
                                              <h3>Matérias mais buscadas concentradas em um único lugar
                                              </h3>
-                                             <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
+                                             <a href="blog.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
                                         </div>
                                    </div>
                               </div>
@@ -157,8 +159,8 @@ https://templatemo.com/tm-516-known-->
                               <div class="caption">
                                    <div class="container">
                                         <div class="col-md-6 col-sm-12">
-                                             <h1>Conheça nossos materiais</h1>
-                                             <h3>Resumos, Vídeos e Jogos para fixação de Conteúdo </h3>
+                                             <h1>Melhores Conteúdos</h1>
+                                             <h3>Excelência na venda de produtos didáticos e materiais de educação </h3>
                                              <a href="index_carrinho_cliente.php" class="section-btn btn btn-default smoothScroll">Veja Mais</a>
                                         </div>
                                    </div>
@@ -473,7 +475,7 @@ https://templatemo.com/tm-516-known-->
 
                     <div class="col-md-6 col-sm-12">
                          <div class="contact-image" >
-                              <img src="images/email.gif" class="img-responsive" alt="Smiling Two Girls">
+                              <img src="images/contato5.gif" class="img-responsive" alt="informações contato">
                          </div>
                     </div>
 
