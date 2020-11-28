@@ -13,7 +13,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 <br>
 
 **Clique no link abaixo para visualizar o vídeo completo das funcionalidades:**  
-> :movie_camera: [Vídeo Sprint 3] (link)
+> :movie_camera: [Vídeo Sprint 3] (https://www.youtube.com/watch?v=oG6HDI4yetw&feature=youtu.be&ab_channel=soseduca)
 
 <br>
 
