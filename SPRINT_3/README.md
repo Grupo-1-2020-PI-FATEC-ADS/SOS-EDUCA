@@ -20,7 +20,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 ## :fire: Apresentação Final
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
-> :movie_camera: [Vídeo Final] (https://www.youtube.com/watch?v=oG6HDI4yetw&feature=youtu.be&ab_channel=soseduca)
+> :movie_camera: [Vídeo Final](https://youtu.be/E3xy-Pw58p8)
 
 <br>
 
