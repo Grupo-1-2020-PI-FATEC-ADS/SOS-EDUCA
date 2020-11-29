@@ -8,7 +8,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 
 ## :mag_right: Demonstração
 
-<h1 align="center"> <video src = "/Imagens Geral/video3.mp4"/></h1>
+<h1 align="center"> <img src = "/Imagens Geral/videosprint3.gif"/></h1>
 
 <br>
 
@@ -20,7 +20,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 ## :fire: Apresentação Final
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
-> :movie_camera: [Vídeo Final] (link)
+> :movie_camera: [Vídeo Final] (https://www.youtube.com/watch?v=oG6HDI4yetw&feature=youtu.be&ab_channel=soseduca)
 
 <br>
 
