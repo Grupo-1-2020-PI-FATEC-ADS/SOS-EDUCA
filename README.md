@@ -79,7 +79,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 ## :fire: Apresentação Final do Projeto
 
-**:link: Clique no link abaixo para visualizar o vídeo final do projeto:**  
+**Clique no link abaixo para visualizar o vídeo final do projeto:**  
 > :movie_camera: [Vídeo Final](https://youtu.be/ON1pwAOlUoA)
 
 <br>
