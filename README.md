@@ -71,7 +71,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 <br>
 
 **Clique no link abaixo para visualizar o site hospedado:**
->  [http://soseduca.site](http://soseduca.site/) - Site com layout antigo.
+>  [http://soseduca.site](http://soseduca.site/) - site com layout antigo.
  
   _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
 
