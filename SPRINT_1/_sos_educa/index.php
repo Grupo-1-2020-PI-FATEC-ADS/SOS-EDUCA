@@ -505,7 +505,7 @@ https://templatemo.com/tm-516-known-->
   
           function acceptCookie() {
             document.cookie = "accept=true";
-            close();
+            closeModal();
           }
       </script>
       
