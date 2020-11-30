@@ -55,7 +55,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
   
 ## :video_game: Materiais Didáticos - Jogos:
 
-**:game_die: Os materiais do tipo jogo estão disponíveis diretamente no site, na aba de jogos e também na [pasta] (https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Materiais%20Did%C3%A1ticos/3-%20Jogos) 
+:game_die: Os materiais do tipo jogo estão disponíveis diretamente no site, na aba de jogos e também na [pasta](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/Materiais%20Did%C3%A1ticos/3-%20Jogos) do GitHub
 
 <br>
 
@@ -77,6 +77,8 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 **Fluxograma de Administrador:**
 <h1 align="center"> <img src = "/Imagens Geral/_Fluxograma de Administrador.png" width="800" height="1000" /></h1>
 
+<br>
+
 ## :speech_balloon: Redes Sociais
 
 **Clique no link abaixo para visualizar o Facebook do SOS EDUCA:**  
@@ -92,3 +94,10 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 <img src = "/Imagens Geral/burndown_sprint3.png" width="3000" height="350"/></h1>
 
 <br>
+
+## :space_invader: Programação
+
+A programação (códigos) da elaboração do site estão disponíveis no [link](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_1/_sos_educa)
+
+<br>
+
