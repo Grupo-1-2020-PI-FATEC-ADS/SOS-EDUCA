@@ -94,7 +94,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 - [x] [SPRINT 3](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/tree/master/SPRINT_3) - 09/11/2020 a 29/11/2020
 
-- [ ] Apresentação Final - 30/11/2020 a 06/12/2020
+- [x] Apresentação Final - 30/11/2020 a 06/12/2020
 
 - [ ] Feira de Soluções - 07/12/2020 a 13/12/2020
 
