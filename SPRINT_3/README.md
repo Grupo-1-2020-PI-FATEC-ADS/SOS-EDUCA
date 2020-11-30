@@ -17,7 +17,7 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 
 <br>
 
-## :fire: Apresentação Final
+## :fire: Apresentação Final do Projeto
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
 > :movie_camera: [Vídeo Final](https://youtu.be/ON1pwAOlUoA)
