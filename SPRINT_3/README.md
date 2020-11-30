@@ -1,6 +1,6 @@
 ## :ballot_box_with_check: Entrega 4 - SPRINT 3
 
-Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores _(*exceto materiais do tipo Jogos)_, nessa Sprint focamos na melhoria e refinamento do site, portanto decidimos em alinhamento com o cliente a realização das atividades do card abaixo:
+Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores _(*exceto materiais do tipo Jogos)_, nessa Sprint focamos na melhoria e refinamento do site, portanto decidimos, em alinhamento com o cliente, a realização das atividades do card abaixo:
 
 <h1 align="center"> <img src = "/Imagens Geral/card3att.png" width="710" height="420" /></h1>
 
