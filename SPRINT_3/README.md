@@ -44,6 +44,8 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 
  _Nota 1: Visando a simulação mais real do ambiente de compras, a compra por boleto foi refatorada para "aguardar a confirmação do pagamento" antes de liberar o produto para download. A funcionalidade de e-mail se tratava de um bônus e não foi implementada._
  
+  _Nota 2: A refatoração do Layout foi verificada e teve a aceitação do contratante._
+ 
  <br>
 
 **Complementos**
