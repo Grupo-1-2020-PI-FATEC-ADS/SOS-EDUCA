@@ -60,17 +60,17 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
  - [x]  Relatório de Vendas.<br><br>
 
   
-**Clique no link abaixo para visualizar o modelo do site no Figma.**  
+**:link: Clique no link abaixo para visualizar o modelo do site no Figma.**  
 > [Protótipo do Site](https://www.figma.com/proto/IxIHeo1bBkB5B3z1DoVQIN/PI-Fatec?node-id=1%3A7&scaling=scale-down-width&hide-ui=1)
 
 <br>
 
-**Clique no link abaixo para visualizar os custos do Projeto.** 
+**:link: Clique no link abaixo para visualizar os custos do Projeto.** 
 > [Fatura](https://github.com/Grupo-1-2020-PI-FATEC-ADS/SOS-EDUCA/blob/master/SPRINT_0/Fatura%20SOS%20EDUCA.pdf)
 
 <br>
 
-**Clique no link abaixo para visualizar o site hospedado:**
+**:link: Clique no link abaixo para visualizar o site hospedado:**
 >  [http://soseduca.site](http://soseduca.site/) - site com layout antigo.
  
   _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
