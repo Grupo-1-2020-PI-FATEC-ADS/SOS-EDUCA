@@ -73,7 +73,9 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 **:link: Clique no link abaixo para visualizar o site hospedado:**
 >  [http://soseduca.site](http://soseduca.site/)
  
-  _Nota: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
+  _Nota 1: O presente projeto tem apenas fins didáticos, portanto não cumprirá a [Lei n° 13.853, de 08/07/2019](http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13853.htm) da Lei Geral de Proteção de Dados Pessoais (LGPD) em sua totalidade._
+  
+  _Nota 2: Devido ao tamanho disponível para hospedagem, nem todas as funcionalidades do site puderam ser hospedadas, todavia as principais funcionalidades, tais como compra e área do administrador, estão disponíveis para verificação. O Código do site em LocalHost, no entanto, compreende todas as funcionalidades._
 
 <br>
 
