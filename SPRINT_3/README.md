@@ -84,10 +84,10 @@ Uma vez que todos os requisitos Funcionais foram cumpridos nas Etapas anteriores
 ## :speech_balloon: Redes Sociais
 
 **Clique no link abaixo para visualizar o Facebook do SOS EDUCA:**  
-> :point_right: [FACEBOOK](https://www.facebook.com/Sos-educa-105718538051503)
+> [Facebook](https://www.facebook.com/Sos-educa-105718538051503)
 
 **Clique no link abaixo para visualizar o Linkedin do SOS EDUCA:**  
-> :point_right: [LINKEDIN](https://www.linkedin.com/company/sos-educa)
+> [LinkedIn](https://www.linkedin.com/company/sos-educa)
 
 <br>
 
