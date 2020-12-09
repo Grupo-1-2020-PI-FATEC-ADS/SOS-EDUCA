@@ -149,7 +149,7 @@
               
               
               <div class="col-12">
-                <button type="submit" class="btn btn-primary btn-block text-uppercase">Incluir Novo Produto</button>
+                <button type="submit" class="btn btn-primary btn-block text-uppercase">Incluir Nova Matéria</button>
               </div>
             </form>
             </div>

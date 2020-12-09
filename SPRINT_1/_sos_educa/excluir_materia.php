@@ -11,7 +11,7 @@
    
     
     echo '<meta charset=UTF-8>
-    <script> alert("Produto excluído")</script>';
+    <script> alert("Matéria excluída")</script>';
     echo "<script>
             window.location=\"admin_produto.php\"
           </script>";

@@ -10,7 +10,7 @@
     $cadastraimg=mysqli_query($conexao, $cad);
     mysqli_close($conexao);
     echo "<script language='javascript' type='text/javascript'>
-            alert('PRODUTO CADASTRADO COM SUCESSO');window.location.href='admin_produto.php';
+            alert('MATÉRIA CADASTRADA COM SUCESSO');window.location.href='admin_produto.php';
           </script>"; 
     echo "Inclusão efetuada com sucesso!";
     } else {

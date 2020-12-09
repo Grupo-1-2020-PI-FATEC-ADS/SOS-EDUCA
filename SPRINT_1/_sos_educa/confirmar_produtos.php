@@ -73,13 +73,7 @@
               foreach ($itensVenda as $produto) {
                 $total += (float) $produto['valor_unitario'] * (int) $produto['qtd_item'];
 
-                if (isset($_SESSION)){
-                  if(isset($_SESSION['id_cupom'])){
-                    $total;
-                  }else{
-                    $total = $total- 0.3 * $total;
-                  }
-                }
+                
             ?>
                   <tr>
                     <td>
