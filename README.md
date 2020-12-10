@@ -98,7 +98,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 
 - [x] Apresentação Final - 30/11/2020 a 06/12/2020
 
-- [ ] Feira de Soluções - 07/12/2020 a 13/12/2020
+- [x] Feira de Soluções - 07/12/2020 a 13/12/2020
 
 
 <h1 align="center"> <img src = "/Imagens Geral/datas_3.png"/></h1>
