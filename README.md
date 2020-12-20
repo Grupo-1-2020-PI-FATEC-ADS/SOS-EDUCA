@@ -82,7 +82,7 @@ O objetivo desse projeto é criar um site E-Commerce de materiais didáticos, co
 ## :camera_flash: Apresentação Final do Projeto
 
 **Clique no link abaixo para visualizar o vídeo final do projeto:**  
-> :movie_camera: [Vídeo Final](https://youtu.be/ON1pwAOlUoA)
+> :movie_camera: [Vídeo Final](https://www.youtube.com/watch?v=gqUqGaXipe8&t=20s&ab_channel=fatecsjc)
 
 <br>
 
