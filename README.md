@@ -19,15 +19,6 @@
   <a href ="#mortar_board-equipe"> Equipe </a> 
 </p>
 
-<h4 align="center"> 
- <img src = "https://forthebadge.com/images/badges/built-with-love.svg" />
- <img src = "https://forthebadge.com/images/badges/powered-by-coffee.svg"/>
- <img src = "https://forthebadge.com/images/badges/uses-css.svg"/>
- <img src = "https://forthebadge.com/images/badges/uses-html.svg"/>
- <img src = "https://forthebadge.com/images/badges/uses-js.svg"/>
-</h4>
-
-
 <br>
 
 ## :rocket: O Projeto
